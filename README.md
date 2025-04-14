@@ -1,5 +1,4 @@
-# ES1 - TP1
-## Nome do aplicativo
+# Nome do aplicativo
 ## Proposta
 -
 ## Objetivo
