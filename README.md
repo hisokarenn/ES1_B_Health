@@ -3,7 +3,8 @@
 -
 ## Objetivo
 -
-**Docente:** Andrey Antonio de Oliveira Rodrigues
+## Docente
+- Andrey Antonio de Oliveira Rodrigues
 
 ## Equipe de Desenvolvimento <br/>
 
