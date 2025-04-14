@@ -12,6 +12,7 @@
 - 22400271 - Gustavo de Oliveira Pena          <br/>
 - 22402225 - Karen Vitória Rodrigues Pereira   <br/>
 - 22400266 - Luciano Hugo Caliri Figueiredo    <br/>
+- 22402222 - Sabrina Martins Bezerra <br/>
 
 ## Procedimentos Efetuados
 **Ideação e Especificação** 
