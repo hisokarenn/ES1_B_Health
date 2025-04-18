@@ -16,7 +16,7 @@
 
 ## Procedimentos Efetuados
 **Ideação e Especificação** 
-- [Plano de Trabalho]()
-- [Design Thinking]()
-- [BackLog do Produto]()
-- [BackLog do Sprint]()
+- :speech_balloon: [Plano de Trabalho]()
+- :books: [Design Thinking]()
+- :busts_in_silhouette: [BackLog do Produto]()
+- :ballot_box_with_check: [BackLog do Sprint]()
