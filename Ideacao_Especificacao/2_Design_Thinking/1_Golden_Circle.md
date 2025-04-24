@@ -23,7 +23,7 @@ Esse conjunto de funcionalidades visa garantir a autonomia, organização e segu
 ## 💡 **What?**
 **B Health** é um aplicativo de gestão de saúde com foco em vacinação que disponibiliza:
 - Carteira de vacinação digital segura e atualizada;
-- Lembretes automatizados** para garantir o cumprimento do calendário vacinal; 
+- Lembretes automatizados para garantir o cumprimento do calendário vacinal; 
 - Sistema de agenda pessoal de saúde, com espaço para anotações, documentos e imagens;  
 - Scanner integrado para digitalização rápida de receitas, exames e laudos; 
 - Integração com prontuários eletrônicos, ampliando o vínculo com os sistemas de saúde pública.
