@@ -2,7 +2,7 @@
  B Health ( Be Healthy - Seja Saudável )
  
 ## Proposta
-- Desenvolver uma carteira de vacina digital integrado em um Sistema de Organização e Gestão de Saúde.
+- Desenvolver uma carteira de vacina digital integrada em um Sistema de Organização e Gestão de Saúde.
   
 ## Objetivo
 - Através dele é possível manter a agenda sempre atualizada, acrescentar qualquer tipo de anotação, anexar documentos e imagens para serem usadas quando e onde precisar. Além disso, esse sistema terá a funcionalidade inovadora chamada de “carteira de vacina digital” para ajudar os pacientes a terem acesso fácil e rápido a sua carteira.  Dessa forma, o paciente não precisará tomar vacinas novamente, pois já estará registrado no aplicativo. 
