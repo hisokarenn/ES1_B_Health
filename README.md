@@ -1,5 +1,5 @@
 # B Health
- B Health ( Be Healthy - Seja Saudável)
+ B Health ( Be Healthy - Seja Saudável )
  
 ## Proposta
 - Desenvolver uma carteira de vacina digital integrado em um Sistema de Organização e Gestão de Saúde.
