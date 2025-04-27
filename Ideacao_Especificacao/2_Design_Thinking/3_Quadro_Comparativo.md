@@ -4,7 +4,7 @@
 
 ## 🟢 Primeira Solução
 
-<img src="https://th.bing.com/th/id/OIP.I98L1IP3ZHl8lF3R1IZm_wHaDZ?rs=1&pid=ImgDetMain.png" alt="Exemplo de imagem" width="350">
+<p align="center"> <img src="https://th.bing.com/th/id/OIP.I98L1IP3ZHl8lF3R1IZm_wHaDZ?rs=1&pid=ImgDetMain.png" alt="Exemplo de imagem" width="350">
 
 ◻**Aplicativo**: Meu SUS Digital.  
 ◻**Descrição**: Aplicativo oficial do Sistema Único de Saúde (SUS) que centraliza e digitaliza informações de saúde dos cidadãos brasileiros. Ele permite o acesso a serviços como agendamento de consultas, visualização de exames, carteira de vacinação digital, histórico clínico e notificações de campanhas de saúde.  
@@ -17,7 +17,8 @@ Aplicativo oficial do Ministério da Saúde que oferece acesso ao histórico cl�
 
 ## 🟡 Segunda Solução
 
-<img src="https://assets.apk.live/br.gov.saude.esusaps.vacinacao--128-icon.png" alt="Exemplo de imagem" width="300">
+<p align="center"> <img src="https://assets.apk.live/br.gov.saude.esusaps.vacinacao--128-icon.png" alt="Exemplo de imagem" width="300">
+
 
 ◻**Aplicativo**: e-SUS Vacinação.  
 ◻**Descrição**: Plataforma mobile destinada ao registro e acompanhamento das vacinas aplicadas nos cidadãos, permitindo a digitalização do cartão de vacinação e o controle do histórico vacinal em tempo real por profissionais de saúde.  
@@ -30,7 +31,7 @@ Ferramenta destinada aos profissionais de saúde para registrar imunizações em
 
 ## 🟣 Terceira Solução
 
-<img src="https://agenciagov.ebc.com.br/noticias/202504/app-meu-sus-digital-disponibiliza-caderneta-de-saude-da-crianca/@@images/9e71b93d-7f1c-4c2d-ac9d-b6415eb1a729.jpeg" alt="Exemplo de imagem" width="300">
+<p align="center"> <img src="https://agenciagov.ebc.com.br/noticias/202504/app-meu-sus-digital-disponibiliza-caderneta-de-saude-da-crianca/@@images/9e71b93d-7f1c-4c2d-ac9d-b6415eb1a729.jpeg" alt="Exemplo de imagem" width="300">
 
 ◻**Aplicativo**: Caderneta de Saúde da Criança Digital.  
 ◻**Descrição**: Aplicativo que digitaliza a caderneta física de saúde da criança, reunindo informações sobre crescimento, desenvolvimento, vacinação, aleitamento materno e consultas pediátricas, facilitando o acompanhamento pelos responsáveis e profissionais de saúde.  
@@ -43,7 +44,7 @@ Funcionalidade do app Meu SUS Digital, voltada para pais e responsáveis. Permit
 
 ## ⚪ Quarta Solução
 
-<img src="https://th.bing.com/th/id/OIP.cFFGHNOOwjLlaVLcd12HWgHaB2?rs=1&pid=ImgDetMain.png" alt="Exemplo de imagem" width="450">
+<p align="center"> <img src="https://th.bing.com/th/id/OIP.cFFGHNOOwjLlaVLcd12HWgHaB2?rs=1&pid=ImgDetMain.png" alt="Exemplo de imagem" width="450">
 
 ◻**Aplicativo**: Agendart.  
 ◻**Descrição**: Plataforma mobile que permite o agendamento de consultas e procedimentos em unidades de saúde do SUS, oferecendo praticidade ao usuário e melhor organização da fila de atendimentos.  
@@ -57,7 +58,7 @@ O Agendart é uma plataforma de gestão para profissionais da saúde que oferece
 
 ## 🟠 Quinta Solução
 
-<img src="https://lirp.cdn-website.com/c48d9b48/dms3rep/multi/opt/logos+app+health+e+vizi+sa%C3%BAde-1920w.png" alt="Exemplo de imagem" width="500">
+<p align="center"> <img src="https://lirp.cdn-website.com/c48d9b48/dms3rep/multi/opt/logos+app+health+e+vizi+sa%C3%BAde-1920w.png" alt="Exemplo de imagem" width="500">
 
 ◻**Aplicativo**: App Health.  
 ◻**Descrição**: Aplicativo que integra serviços de saúde, permitindo o acesso a informações médicas, agendamento de consultas, controle de medicamentos e histórico de saúde, promovendo uma gestão de saúde mais prática e organizada.  
