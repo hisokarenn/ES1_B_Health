@@ -20,7 +20,7 @@
 <br> 
 
 ## 1. INTRODUÇÃO
-- Através dele é possível manter a agenda sempre atualizada, acrescentar qualquer tipo de anotação, anexar documentos e imagens para serem usadas quando e onde precisar. Além disso, esse sistema terá a funcionalidade inovadora chamada de “carteira de vacina digital” para ajudar os pacientes a terem acesso fácil e rápido a sua carteira.  Dessa forma, o paciente não precisará tomar vacinas novamente, pois já estará registrado no aplicativo. 
+- O aplicativo desenvolvido permite manter a agenda médica sempre atualizada, acrescentar qualquer tipo de anotação, anexar documentos e imagens para serem usadas quando e onde precisar. Além disso, esse sistema terá a funcionalidade inovadora chamada de “carteira de vacina digital” para ajudar os pacientes a terem acesso fácil e rápido a sua carteira.  Dessa forma, o paciente não precisará tomar vacinas novamente, pois já estará registrado no aplicativo. 
 - Este aplicativo de saúde voltado para a gestão e organização pode conter recursos de scanner, facilitando ainda mais a rotina dos usuários. Além dessas ferramentas extras, esses apps podem conter uma integração com os prontuários digitais dos pacientes, sendo possível exportar as anotações pra lá quando necessário. O aplicativo contará com lembrete para o paciente de quando deve tomar a próxima vacina e o sistema possuirá um mapa de vacinação, no qual vai destacar locais que estão disponibilizando vacinas.
 <br>
 
