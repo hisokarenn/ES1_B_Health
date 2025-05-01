@@ -14,7 +14,7 @@
 
 |Versão|Descrição|Autor|Data|
 |------|---------|-----|----|
-|1.0|Elaboração do Plano de Trabalho|xxx|xxx|
+|1.0|Elaboração do Plano de Trabalho|Karen Vitória|30/04|
 |X|X|X|X|
 |X|X|X|x|
 <br> 
