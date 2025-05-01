@@ -6,9 +6,7 @@
 
 ## Objetivo
 <br>
-
-- O sistema proposto tem como objetivo oferecer uma alternativa digital à tradicional carteira de vacinação física, permitindo que usuários acompanhem seu histórico vacinal por meio de uma carteira virtual segura e acessível. Em caso de perda ou extravio da versão física, o usuário continuará tendo acesso completo às suas informações de vacinação, evitando revacinações desnecessárias e garantindo a integridade de seus dados.
-- A plataforma também enviará lembretes automáticos sobre a data de futuras doses ou reforços, contribuindo para o cumprimento do calendário vacinal. Além disso, contará com um mapa interativo que exibirá, os locais que estão oferecendo vacinas, permitindo ao usuário localizar facilmente o ponto de vacinação mais próximo e verificar as vacinas disponíveis. Com isso, o sistema busca modernizar o controle vacinal da população, promovendo praticidade, segurança da informação e maior adesão às campanhas de imunização.
+- Desenvolver um aplicativo de carteira de vacinação digital que atenda de forma integrada às necessidades de pacientes, médicos, enfermeiros e assistentes sociais, permitindo o acompanhamento completo, seguro e acessível do histórico vacinal. O sistema visa facilitar o acesso à informação, promover o cumprimento do calendário de vacinas, otimizar o trabalho dos profissionais de saúde e ampliar a cobertura vacinal, contribuindo diretamente para a melhoria da saúde pública.
 <br>
 
 ## Docente
