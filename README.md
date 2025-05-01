@@ -6,6 +6,7 @@
 
 ## Objetivo
 <br>
+
 - Desenvolver um aplicativo de carteira de vacinação digital que atenda de forma integrada às necessidades de pacientes, médicos, enfermeiros e assistentes sociais, permitindo o acompanhamento completo, seguro e acessível do histórico vacinal. O sistema visa facilitar o acesso à informação, promover o cumprimento do calendário de vacinas, otimizar o trabalho dos profissionais de saúde e ampliar a cobertura vacinal, contribuindo diretamente para a melhoria da saúde pública.
 <br>
 
