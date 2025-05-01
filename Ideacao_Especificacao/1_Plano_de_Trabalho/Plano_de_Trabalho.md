@@ -6,7 +6,7 @@
 |Versão:|1.0|
 |Status:|Planejamento e Pesquisa|
 |Número de Controle SRBR-M:|22219|
-|Executor Principal:|Discente: x|
+|Executor Principal:|Discente: Karen Vitória|
 |Coodernador do Projeto|Andrey Antonio de Oliveira Rodrigues|
 <br>
 
@@ -175,8 +175,8 @@
 |Papel|Profissional|Responsabilidades|
 |-|-|-|
 |Product Owner (PO)|Prof. Dr. Andrey Rodrigues|Responsável por definir a visão e os objetivos do projeto, priorizar as funcionalidades, gerenciar o backlog e aprovar as entregas. Ele também fornece feedback para a equipe e ajusta o planejamento conforme as necessidades e limitações do projeto.|
-|Scrum Master|x|x|
-|Time Squad|x|x|
+|Scrum Master|Aila Karoline|x|
+|Time Squad|Gustavo, Hugo, Karen, Sabrina|x|
 <br>
 
 ### 3.3 Backlog do Sprint
