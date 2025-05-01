@@ -11,7 +11,7 @@
 
 ## Quadro SWOT elaborado
 <br>
-<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/771f6345529f973a0bf56098bc89e0e6e711eae9/Ideacao_Especificacao/Imagens/SWOT/SWOT.png" alt="" width="800" /></p>
+<p align="center"> <img src="g" alt="" width="800" /></p>
 <br>
 
 ## Quadro SWOT em formato de tabela
