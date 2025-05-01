@@ -1,12 +1,12 @@
 # Plano de Trabalho
 <br>
 
-|Nome do Projeto:|x|
+|Nome do Projeto:|B Health|
 |-|-|
 |Versão:|1.0|
 |Status:|Planejamento e Pesquisa|
 |Número de Controle SRBR-M:|22219|
-|Executor Principal:|Discente: Karen Vitória|
+|Executor Principal:|Discente: Karen Vitória Rodrigues Pereira|
 |Coodernador do Projeto|Andrey Antonio de Oliveira Rodrigues|
 <br>
 
@@ -20,26 +20,28 @@
 <br> 
 
 ## 1. INTRODUÇÃO
-- O aplicativo desenvolvido permite manter a agenda médica sempre atualizada, acrescentar qualquer tipo de anotação, anexar documentos e imagens para serem usadas quando e onde precisar. Além disso, esse sistema terá a funcionalidade inovadora chamada de “carteira de vacina digital” para ajudar os pacientes a terem acesso fácil e rápido a sua carteira.  Dessa forma, o paciente não precisará tomar vacinas novamente, pois já estará registrado no aplicativo. 
-- Este aplicativo de saúde voltado para a gestão e organização pode conter recursos de scanner, facilitando ainda mais a rotina dos usuários. Além dessas ferramentas extras, esses apps podem conter uma integração com os prontuários digitais dos pacientes, sendo possível exportar as anotações pra lá quando necessário. O aplicativo contará com lembrete para o paciente de quando deve tomar a próxima vacina e o sistema possuirá um mapa de vacinação, no qual vai destacar locais que estão disponibilizando vacinas.
+- O sistema proposto tem como objetivo oferecer uma alternativa digital à tradicional carteira de vacinação física, permitindo que qualquer cidadão registre e acompanhe seu histórico vacinal por meio de uma carteira virtual segura e acessível. Em caso de perda ou extravio da versão física, o usuário continuará tendo acesso completo às suas informações de vacinação, evitando revacinações desnecessárias e garantindo a integridade de seus dados.
+- A plataforma também enviará lembretes automáticos sobre a data de futuras doses ou reforços, contribuindo para o cumprimento do calendário vacinal. Além disso, contará com um mapa interativo que exibirá, os locais que estão oferecendo vacinas, permitindo ao usuário localizar facilmente o ponto de vacinação mais próximo e verificar as vacinas disponíveis. Com isso, o sistema busca modernizar o controle vacinal da população, promovendo praticidade, segurança da informação e maior adesão às campanhas de imunização.
 <br>
 
 ### 1.1 Objeto
-- O projeto consiste no desenvolvimento de uma aplicação para gestão de alguns recursos gerais da área da saúde, dando prioridade para uma função inovadora de carteira de vacina digital.
+- O sistema de Carteira de Vacinação Digital tem como objetivo  oferecer uma solução prática e acessível para o registro e o acompanhamento do histórico vacinal da população, por meio de um aplicativo móvel, priorizando a portabilidade e a facilidade de uso.
 <br>
 
 ### 1.2 Motivação, Justificativa e Oportunidade
-- Atualmente, pacientes enfrentam dificuldades no controle de seu histórico vacinal, sendo comum a perda de comprovantes, esquecimento de datas e até a repetição desnecessária de imunizações. Além disso, muitos usuários buscam soluções práticas para armazenar informações médicas e acompanhar sua saúde de forma autônoma.
-- A proposta deste sistema surge como resposta a esses desafios, oferecendo uma solução moderna e acessível. A crescente digitalização dos serviços de saúde e o incentivo ao uso de prontuários eletrônicos ampliam ainda mais as oportunidades de aplicação do aplicativo. O projeto também se alinha com estratégias de saúde pública, facilitando campanhas de vacinação.
+- O modelo atual, baseado em carteiras físicas de papel, apresenta fragilidades como o risco de extravio, dificuldade de atualização e limitação no acesso às informações em momentos críticos, como atendimentos médicos emergenciais. Além disso, muitos usuários têm dificuldades em acompanhar o calendário vacinal e identificar onde buscar as próximas doses.
+
+Este aplicativo surge como uma resposta a essas limitações, buscando:
+- Preservar o histórico vacinal mesmo em caso de perda da carteira física;
+- Aumentar a adesão à vacinação por meio de lembretes automáticos;
+- Oferecer uma solução prática, segura e portátil para diversos perfis de usuários, inclusive os que possuem acesso limitado à internet.
 <br>
 
 ### 1.3 Caracterização do Projeto
-- Este projeto se enquadra na categoria de sistemas de informação em saúde. É um software do tipo aplicativo mobile, com funcionalidades centradas na gestão pessoal da saúde do paciente, apoio à decisão, armazenamento de dados pessoais e integração com outros sistemas médicos, como prontuários eletrônicos.
+- Este projeto se enquadra na categoria de sistemas de informação em saúde. Trata-se de um software do tipo aplicativo mobile, com foco na gestão pessoal do histórico vacinal do paciente. Suas funcionalidades incluem o registro manual de vacinas, lembretes sobre próximas doses e exibição de locais de vacinação previamente cadastrados. O sistema é projetado para funcionar offline, com armazenamento local dos dados, priorizando a acessibilidade e a usabilidade em contextos com acesso limitado à internet.
 <br>
 
 ### 1.3.1 Classe
-- O projeto se enquadra na classe de Sistemas de Informação em Saúde (SIS), mais especificamente em uma categoria híbrida que abrange tanto Sistemas de Apoio à Gestão Pessoal da Saúde quanto Sistemas de Apoio à Prática Clínica.
-
 |Classe|Detalhamento|
 |-|-|
 |Aplicativo Móvel|Trata-se de um aplicativo mobile de saúde preventiva e gestão médica, com foco na carteira de vacinação digital.|
@@ -48,10 +50,8 @@
 ### 1.3.2 Enquadrabilidade
 |Enquadrabilidade|Detalhamento|
 |-|-|
-|Software de Aplicação (Application Software)|Criado para atender a necessidades específicas dos usuários (paciente, médico, enfermeiro) no domínio da saúde, com funcionalidades práticas como controle vacinal, agendamento e armazenamento de documentos.|
-|Software Multiplataforma Mobile|Projetado para dispositivos móveis (Android/iOS), com foco em usabilidade, portabilidade e acesso remoto.|
-|Software com Suporte à Saúde Preventiva|voltado à promoção da saúde, com foco em prevenção, lembretes vacinais e acesso ao histórico médico do paciente.|
-|Software Colaborativo|Permite a interação entre diferentes perfis (paciente, médico e enfermeiro), possibilitando compartilhamento e atualização de dados.|
+|Software Educacional|Desenvolvido por um grupo de estudantes que estão trabalhando em projetos dentro da universidade.|
+|Software Livre|Está sendo desenvolvido por uma  organização sem fins lucrativos, com o objetivo de ser acessível para todos e sem custos.|
 <br>
 
 ### 1.3.3 Tipo
@@ -61,12 +61,17 @@
 <br>
 
 ## 2. INFORMAÇÕES GERAIS
-- O projeto propõe o desenvolvimento de um aplicativo mobile de saúde voltado para a gestão pessoal e profissional de informações médicas, com ênfase em uma funcionalidade inovadora: a carteira de vacinação digital. O sistema será utilizado por três tipos de usuários — pacientes, médicos e enfermeiros — permitindo a centralização, atualização e consulta de dados de forma prática, segura e acessível.
+- O projeto tem como objetivo o desenvolvimento de uma carteira de vacinação digital que permite a cidadãos, profissionais de saúde e assistentes sociais gerenciar, monitorar e registrar o histórico vacinal de forma segura e acessível. O sistema será usado para fornecer acesso à carteira de vacinação de diferentes tipos de usuários, incluindo pacientes, médicos, enfermeiros e assistentes sociais, com funcionalidades específicas para cada perfil de usuário. A plataforma permitirá a substituição da tradicional carteira de vacinação física, a visualização de vacinas aplicadas, alertas de vacinas futuras, localização de pontos de vacinação e o acompanhamento contínuo do status vacinal.
 <br>
 
 ### Limitações do Projeto
-- O aplicativo depende de conexão com a internet para sincronização de dados entre diferentes usuários e dispositivos.
-- A integração com sistemas de saúde públicos ou privados está condicionada à autorização e à compatibilidade com os respectivos padrões tecnológicos.
+- Adoção e Inclusão Digital: O sistema depende de acesso à internet e familiaridade com dispositivos digitais. Pode haver desafios de adoção por parte de usuários menos familiarizados com tecnologia, especialmente a população mais idosa.
+
+- Integração com Sistemas Locais de Saúde: A plataforma pode ter dificuldades em se integrar com todos os sistemas de saúde públicos ou privados existentes, especialmente se não houver uma padronização no gerenciamento de dados vacinais entre diferentes municípios ou estados.
+
+- Segurança e Privacidade: Garantir a segurança e privacidade das informações de saúde será um desafio contínuo, exigindo conformidade com regulamentações como a LGPD e implementação de medidas de segurança robustas.
+
+- Atualizações de Dados: O sistema pode não ser capaz de atualizar os dados de vacinação de maneira instantânea em locais com infraestrutura de saúde menos avançada, impactando a precisão dos registros em tempo real.
 <br>
 
 ### Tecnologias utilizadas
