@@ -80,9 +80,8 @@
 <br>
 
 ### 2.1 Escopo Geral
-- O escopo geral descreve, de forma ampla, as funcionalidades e objetivos principais do sistema, delimitando o que será entregue no projeto.
-- Exemplo:
-- O projeto visa desenvolver um sistema web para gestão de eventos acadêmicos, permitindo o cadastro de eventos, inscrição de participantes, submissão de trabalhos e emissão de certificados digitais.
+- O projeto visa desenvolver um aplicativo mobile de saúde que permita a gestão pessoal e profissional de informações médicas, com ênfase na carteira de vacinação digital. O sistema permitirá que pacientes registrem e acompanhem seu histórico vacinal, recebam lembretes automáticos, armazenem documentos.
+- Além disso, médicos e enfermeiros poderão acessar e atualizar os dados vacinais dos pacientes, validar aplicações e colaborar na organização das informações de saúde. O aplicativo também permitirá anotações personalizadas, upload de arquivos e integração com prontuários digitais, quando autorizado.
 <br>
 
 ### 2.1.1 Escopo Específico
@@ -105,8 +104,6 @@
 <br>
 
 ### 2.2 Ambiente de Desenvolvimento
-- Aqui são descritas as tecnologias e ferramentas que serão utilizadas no desenvolvimento do projeto. Pode ser representado em uma tabela.
-
 |Componente|Tecnologia/Ferramenta|
 |-|-|
 |Metogologia|Scrum com sprints|
@@ -126,11 +123,11 @@
 
 ### 2.4 Resultados Esperados
 - Aqui são listados os principais resultados esperados após a conclusão do projeto.
-- Exemplo:
-- Um sistema funcional para gestão de eventos acadêmicos, permitindo a organização de conferências e simpósios.
-- Redução do tempo gasto pelos organizadores na emissão de certificados e controle de inscrições.
-- Interface intuitiva que melhora a experiência dos usuários ao se inscreverem e enviarem trabalhos.
-- Relatórios de participação detalhados, facilitando a análise do evento.
+- Sistema funcional de gestão de saúde que permite o controle eficiente de vacinação e o acompanhamento de dados médicos por pacientes, médicos e enfermeiros.
+- Carteira de vacinação digital acessível e sempre atualizada, evitando falhas no controle de vacinas e revacinações desnecessárias.
+- Interface intuitiva e de fácil navegação para todos os tipos de usuários (pacientes, médicos e enfermeiros), promovendo uma experiência simples e eficiente.
+- Notificações automáticas de lembretes de vacinas e agendamentos, facilitando o acompanhamento pelo paciente e evitando esquecimentos.
+- Melhoria na organização da saúde pessoal, promovendo o autocuidado e uma abordagem mais eficaz para a gestão de vacinas e outras informações de saúde.
 <br>
 
 ## 3. METODOLOGIA DE PROJETO
@@ -176,13 +173,11 @@
 ### 3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes
 - A equipe do projeto será composta por até 5 alunos, com papéis definidos para otimizar o desenvolvimento.
 
-|Papel|Responsabilidades|
-|-|-|
-|x|x|
-|x|x|
-|x|x|
-|x|x|
-|x|x|
+|Papel|Profissional|Responsabilidades|
+|-|-|-|
+|Product Owner (PO)|Prof. Dr. Andrey Rodrigues|Responsável por definir a visão e os objetivos do projeto, priorizar as funcionalidades, gerenciar o backlog e aprovar as entregas. Ele também fornece feedback para a equipe e ajusta o planejamento conforme as necessidades e limitações do projeto.|
+|Scrum Master|x|x|
+|Time Squad|x|x|
 <br>
 
 ### 3.3 Backlog do Sprint
