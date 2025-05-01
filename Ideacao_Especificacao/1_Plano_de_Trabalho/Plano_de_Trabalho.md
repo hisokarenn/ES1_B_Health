@@ -4,7 +4,7 @@
 |Nome do Projeto:|x|
 |-|-|
 |Versão:|1.0|
-|Status:|Planejamneto e Pesquisa|
+|Status:|Planejamento e Pesquisa|
 |Número de Controle SRBR-M:|22219|
 |Executor Principal:|Discente: x|
 |Coodernador do Projeto|Andrey Antonio de Oliveira Rodrigues|
