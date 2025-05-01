@@ -122,7 +122,6 @@
 <br>
 
 ### 2.4 Resultados Esperados
-- Aqui são listados os principais resultados esperados após a conclusão do projeto.
 - Sistema funcional de gestão de saúde que permite o controle eficiente de vacinação e o acompanhamento de dados médicos por pacientes, médicos e enfermeiros.
 - Carteira de vacinação digital acessível e sempre atualizada, evitando falhas no controle de vacinas e revacinações desnecessárias.
 - Interface intuitiva e de fácil navegação para todos os tipos de usuários (pacientes, médicos e enfermeiros), promovendo uma experiência simples e eficiente.
