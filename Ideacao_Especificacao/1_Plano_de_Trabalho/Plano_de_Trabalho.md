@@ -14,7 +14,7 @@
 
 |Versão|Descrição|Autor|Data|
 |------|---------|-----|----|
-|1.0|Elaboração do Plano de Trabalho|Karen Vitória|30/04|
+|1.0|Elaboração do Plano de Trabalho|Karen Vitória e Sabrina Martins|30/04|
 |X|X|X|X|
 |X|X|X|x|
 <br> 
@@ -66,11 +66,8 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 
 ### Limitações do Projeto
 - Adoção e Inclusão Digital: O sistema depende de acesso à internet e familiaridade com dispositivos digitais. Pode haver desafios de adoção por parte de usuários menos familiarizados com tecnologia, especialmente a população mais idosa.
-
 - Integração com Sistemas Locais de Saúde: A plataforma pode ter dificuldades em se integrar com todos os sistemas de saúde públicos ou privados existentes, especialmente se não houver uma padronização no gerenciamento de dados vacinais entre diferentes municípios ou estados.
-
 - Segurança e Privacidade: Garantir a segurança e privacidade das informações de saúde será um desafio contínuo, exigindo conformidade com regulamentações como a LGPD e implementação de medidas de segurança robustas.
-
 - Atualizações de Dados: O sistema pode não ser capaz de atualizar os dados de vacinação de maneira instantânea em locais com infraestrutura de saúde menos avançada, impactando a precisão dos registros em tempo real.
 <br>
 
@@ -84,12 +81,16 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 - O grande diferencial do projeto é a carteira de vacina digital integrada a lembretes inteligentes e mapeamento de locais de vacinação, permitindo que o paciente tenha controle completo e proativo sobre seu histórico vacinal.
 <br>
 
-### 2.1 Escopo Geral
-- O projeto visa desenvolver um aplicativo mobile de saúde que permita a gestão pessoal e profissional de informações médicas, com ênfase na carteira de vacinação digital. O sistema permitirá que pacientes registrem e acompanhem seu histórico vacinal, recebam lembretes automáticos, armazenem documentos.
-- Além disso, médicos e enfermeiros poderão acessar e atualizar os dados vacinais dos pacientes, validar aplicações e colaborar na organização das informações de saúde. O aplicativo também permitirá anotações personalizadas, upload de arquivos e integração com prontuários digitais, quando autorizado.
+###  SABRINA 2.1 Escopo Geral
+O escopo geral descreve, de forma ampla, as funcionalidades e objetivos principais do
+sistema, delimitando o que será entregue no projeto.
+Exemplo:
+O projeto visa desenvolver um sistema web para gestão de eventos acadêmicos,
+permitindo o cadastro de eventos, inscrição de participantes, submissão de trabalhos e emissão de
+certificados digitais.
 <br>
 
-### 2.1.1 Escopo Específico
+### SABRINA 2.1.1 Escopo Específico
 - O escopo específico detalha as funcionalidades e requisitos que serão implementados. Aqui, é importante listar as principais entregas do sistema.
 - Exemplo:
 - Cadastro e gerenciamento de eventos.
@@ -100,7 +101,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 - Isso garante que todos saibam exatamente o que será desenvolvido dentro do projeto.
 <br>
 
-### 2.1.2 Escopo Negativo
+### SABRINA 2.1.2 Escopo Negativo
 - O escopo negativo define o que não será desenvolvido, evitando expectativas erradas sobre funcionalidades que não fazem parte do projeto.
 - Exemplo:
 - Não haverá integração com redes sociais para login.
@@ -118,7 +119,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 |Desenvolvimento do MVP|xxx|
 <br>
 
-### 2.3 Características Inovadoras do Projeto
+### SABRINA 2.3 Características Inovadoras do Projeto
 - Aqui são descritas as inovações do projeto, ou seja, o que o torna diferente de soluções já existentes.
 - Exemplo:
 - Automação na emissão de certificados: O sistema gera certificados digitais automaticamente, eliminando processos manuais.
@@ -127,14 +128,16 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ### 2.4 Resultados Esperados
-- Sistema funcional de gestão de saúde que permite o controle eficiente de vacinação e o acompanhamento de dados médicos por pacientes, médicos e enfermeiros.
-- Carteira de vacinação digital acessível e sempre atualizada, evitando falhas no controle de vacinas e revacinações desnecessárias.
-- Interface intuitiva e de fácil navegação para todos os tipos de usuários (pacientes, médicos e enfermeiros), promovendo uma experiência simples e eficiente.
-- Notificações automáticas de lembretes de vacinas e agendamentos, facilitando o acompanhamento pelo paciente e evitando esquecimentos.
-- Melhoria na organização da saúde pessoal, promovendo o autocuidado e uma abordagem mais eficaz para a gestão de vacinas e outras informações de saúde.
+- Sistema Funcional: Plataforma digital eficiente para gerenciamento do histórico vacinal de pacientes.
+- Acesso Rápido e Seguro: Usuários poderão acessar e atualizar suas informações de vacinação de forma fácil e segura.
+-Maior Adesão ao Calendário Vacinal: Envio de lembretes automáticos para vacinas futuras e reforços, evitando revacinações desnecessárias.
+- Facilidade na Localização de Pontos de Vacinação: Mapa interativo para encontrar pontos de vacinação próximos.
+- Eficiência nas Visitas: Assistentes sociais poderão priorizar e monitorar visitas a pacientes, melhorando o acompanhamento.
+- Interface Intuitiva: Plataforma fácil de usar para pacientes e profissionais de saúde.
+- Melhoria na Gestão de Saúde Pública: Maior controle e agilidade nas campanhas de vacinação e respostas a surtos de doenças.
 <br>
 
-## 3. METODOLOGIA DE PROJETO
+## SABRINA 3. METODOLOGIA DE PROJETO
 - Esta seção descreve como o projeto será conduzido, desde a concepção até a entrega do MVP (Produto Mínimo Viável), detalhando as fases, equipe e cronograma.
 <br>
 
@@ -180,13 +183,13 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 |Papel|Profissional|Responsabilidades|
 |-|-|-|
 |Product Owner (PO)|Prof. Dr. Andrey Rodrigues|Responsável por definir a visão e os objetivos do projeto, priorizar as funcionalidades, gerenciar o backlog e aprovar as entregas. Ele também fornece feedback para a equipe e ajusta o planejamento conforme as necessidades e limitações do projeto.|
-|Scrum Master|Aila Karoline|x|
-|Time Squad|Gustavo, Hugo, Karen, Sabrina|x|
+|Scrum Master|Aila Karoline|É a responsável por garantir que o time Scrum siga os princípios e práticas do Scrum, facilitando a comunicação e colaboração, removendo obstáculos e promovendo a melhoria contínua do processo.|
+|Time Squad|Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|É a equipe multidisciplinar e autônoma que tem como responsabilidades trabalhar em conjunto para alcançar o objetivo em comum.|
 <br>
 
 ### 3.3 Backlog do Sprint
 - O backlog do sprint é uma lista de tarefas e funcionalidades que a equipe se compromete a entregar dentro de uma sprint (período de trabalho, geralmente de 1 a 2 semanas). Ele é derivado do backlog do produto, que contém todas as funcionalidades desejadas para o sistema.
-- <br>
+<br>
 
 ### 3.4 Controle de Mudanças
 - O controle de mudanças define como serão tratadas solicitações de alteração no projeto após o início do desenvolvimento. Ele evita mudanças desorganizadas que podem atrasar o cronograma e comprometer a qualidade do software.
@@ -203,4 +206,4 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 - Toda segunda-feira, a equipe faz o Sprint Planning para definir o que será desenvolvido na semana.
 - Todos os dias, às 9h, há um Daily Stand-up onde cada membro responde: "O que fiz ontem? O que farei hoje? Tenho algum impedimento?".
 - No final da sprint, a equipe realiza uma Sprint Review para demonstrar o que foi entregue e uma Sprint Retrospective para discutir melhorias.
-- <br>
+<br>
