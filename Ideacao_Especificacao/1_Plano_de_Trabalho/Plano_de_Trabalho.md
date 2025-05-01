@@ -61,7 +61,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ## 2. INFORMAÇÕES GERAIS
-- O projeto tem como objetivo o desenvolvimento de uma carteira de vacinação digital que permite a cidadãos, profissionais de saúde e assistentes sociais gerenciar, monitorar e registrar o histórico vacinal de forma segura e acessível. O sistema será usado para fornecer acesso à carteira de vacinação de diferentes tipos de usuários, incluindo pacientes, médicos, enfermeiros e assistentes sociais, com funcionalidades específicas para cada perfil de usuário. A plataforma permitirá a substituição da tradicional carteira de vacinação física, a visualização de vacinas aplicadas, alertas de vacinas futuras, localização de pontos de vacinação e o acompanhamento contínuo do status vacinal.
+- O projeto busca o desenvolvimento de uma carteira de vacinação digital que permite a cidadãos visualizar sua carteira de vacinação e a profissionais de saúde e assistentes sociais gerenciar, monitorar e registrar o histórico vacinal de forma segura e acessível. O sistema será usado para fornecer acesso à carteira de vacinação de diferentes tipos de usuários, incluindo pacientes, médicos, enfermeiros e assistentes sociais, com funcionalidades específicas para cada perfil de usuário. A plataforma permitirá a substituição da tradicional carteira de vacinação física, a visualização de vacinas aplicadas, alertas de vacinas futuras, localização de pontos de vacinação e o acompanhamento contínuo do status vacinal.
 <br>
 
 ### Limitações do Projeto
