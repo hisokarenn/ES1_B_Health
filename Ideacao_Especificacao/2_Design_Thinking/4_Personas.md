@@ -16,7 +16,7 @@
 <p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/040d4e76339faee74881f759c5e91bfade6b17d5/Ideacao_Especificacao/Imagens/Personas/Persona%20Rafael%20Andrade.png" alt="" width="600" /></p>
 <br>
 
-## Usuário Enfermeiro
+## Usuário Enfermeiro (Equipe de Enfermagem)
 <br>
 <p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/040d4e76339faee74881f759c5e91bfade6b17d5/Ideacao_Especificacao/Imagens/Personas/Persona%20Camila%20Souza.png" alt="" width="600" /></p>
 <br>
