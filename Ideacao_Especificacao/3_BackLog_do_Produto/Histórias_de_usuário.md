@@ -14,10 +14,18 @@ Obs.: Só há as histórias de usuários, não há especificação aqui.
 - Como paciente, eu gostaria de acessar as informações sobre as vacinas para que eu saiba o que essa vacina faz;
 - Como paciente, gostaria de acessar meus dados pessoais para que eu tenha controle dos registros vacinais;
 - Como usuário, gostaria de acessar informações sobre as vacinas em seções por faixa etária para que eu veja vacinas relevantes;
-- Como paciente, gostaria de acessar a minha carteira de vacinação sem internet para que eu acesse em áreas remotas;
+- Como paciente, gostaria de acessar a minha carteira de vacinação sem internet para que eu acesse em áreas remotas.
 
 
 ## Persona: Assistente Social
+- Como assistente social, gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health;
+- Como assistente social, gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo;
+- Como assistente social, quero agendar visitas no aplicativo, para que os pacientes sejam notificados.
+- Como assistente social, eu gostaria de visualizar a carteira de vacina de cada paciente, para verificar quais vacinas estão em dia ou atrasadas.
+- Como assistente social, eu gostaria de acessar informações dos pacientes mesmo sem internet, para poder realizar visitas domiciliares em locais sem conexão com a internet.
+- Como assistente social, eu gostaria de visualizar uma lista de pacientes prioritários (idosos, gestantes, crianças), para planejar visitas de acordo com a prioridade.
+- Como assistente social, eu gostaria de visualizar o endereço dos pacientes da Unidade, para encontrar os locais das visitas programadas.
+- Como assistente social, eu gostaria de acessar o perfil completo de um paciente, para visualizar seus dados pessoais antes de uma visita.
 
 ## Persona: Enfermeira
 
