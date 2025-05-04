@@ -81,32 +81,32 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 - O grande diferencial do projeto é a carteira de vacina digital integrada a lembretes inteligentes e mapeamento de locais de vacinação, permitindo que o paciente tenha controle completo e proativo sobre seu histórico vacinal.
 <br>
 
-###  SABRINA 2.1 Escopo Geral
-O escopo geral descreve, de forma ampla, as funcionalidades e objetivos principais do
-sistema, delimitando o que será entregue no projeto.
-Exemplo:
-O projeto visa desenvolver um sistema web para gestão de eventos acadêmicos,
-permitindo o cadastro de eventos, inscrição de participantes, submissão de trabalhos e emissão de
-certificados digitais.
+### 2.1 Escopo Geral
+- O projeto B Health tem como objetivo desenvolver um aplicativo digital multiplataforma (mobile e web) voltado à gestão de vacinação da população, proporcionando praticidade, segurança e acessibilidade para usuários e profissionais da saúde. O sistema substituirá a dependência da carteira física de vacinação, oferecendo funcionalidades como visualização de histórico vacinal, alertas de doses pendentes, campanhas de vacinação, mapa de unidades de saúde e recursos offline, promovendo a integração entre pacientes, agentes comunitários, enfermeiros e médicos.
 <br>
 
-### SABRINA 2.1.1 Escopo Específico
-- O escopo específico detalha as funcionalidades e requisitos que serão implementados. Aqui, é importante listar as principais entregas do sistema.
-- Exemplo:
-- Cadastro e gerenciamento de eventos.
-- Inscrição de participantes e controle de presença.
-- Submissão e avaliação de trabalhos científicos.
-- Geração e envio de certificados digitais.
-- Painel administrativo para organizadores de eventos.
-- Isso garante que todos saibam exatamente o que será desenvolvido dentro do projeto.
+### 2.1.1 Escopo Específico
+- O escopo específico abrange as seguintes funcionalidades:
+1. Cadastro e login de usuários (pacientes, assistentes sociais, médicos e enfermeiros).
+2. Visualização e atualização do histórico de vacinação.
+3. Geração e envio de alertas e notificações sobre doses pendentes.
+4. Visualização de campanhas de vacinação ativas e seus locais.
+5. Mapa interativo com unidades de saúde e campanhas.
+6. Consulta de informações sobre vacinas, segmentadas por faixa etária.
+7. Acesso offline ao calendário, carteira vacinal e perfis.
+8. Ferramentas de planejamento e agendamento para assistentes sociais.
+9. Registro de vacinação por enfermeiros e médicos.
+10. Geração de relatórios por bairro/unidade de saúde.
+11. Integração com prontuários eletrônicos.
 <br>
 
-### SABRINA 2.1.2 Escopo Negativo
-- O escopo negativo define o que não será desenvolvido, evitando expectativas erradas sobre funcionalidades que não fazem parte do projeto.
-- Exemplo:
-- Não haverá integração com redes sociais para login.
-- O sistema não incluirá um aplicativo móvel, apenas uma versão web responsiva.
-- Não serão implementadas funcionalidades avançadas de inteligência artificial para análise de dados.
+### 2.1.2 Escopo Negativo
+- O projeto não contempla:
+1. Integração com redes sociais para login.
+2. Funcionalidades de telemedicina ou agendamento de consultas.
+3. Implementação de recursos avançados de inteligência artificial ou predição.
+4. Sistema de pagamento ou compra de vacinas.
+5. Registro manual de vacinação por parte dos pacientes (somente profissionais podem registrar).
 <br>
 
 ### 2.2 Ambiente de Desenvolvimento
@@ -119,12 +119,14 @@ certificados digitais.
 |Desenvolvimento do MVP|xxx|
 <br>
 
-### SABRINA 2.3 Características Inovadoras do Projeto
-- Aqui são descritas as inovações do projeto, ou seja, o que o torna diferente de soluções já existentes.
-- Exemplo:
-- Automação na emissão de certificados: O sistema gera certificados digitais automaticamente, eliminando processos manuais.
-- Interface intuitiva e responsiva: O design prioriza usabilidade, permitindo acesso fácil via celular e computador.
-- Plataforma unificada: Diferente de soluções existentes, que exigem múltiplas ferramentas, este sistema reúne todas as funções em um só ambiente
+### 2.3 Características Inovadoras do Projeto
+- Modo offline completo: acesso à carteira, campanhas, calendário e dados mesmo sem conexão.
+- Integração entre pacientes e profissionais em uma única plataforma, com permissões específicas.
+- Digitalização profissional da carteira física com validação médica ou de enfermagem.
+- Alertas personalizados com base em faixa etária, condição clínica e calendário nacional.
+- Mapeamento com fotos das unidades de vacinação e campanhas ativas.
+- Gestão domiciliar e territorial por agentes de saúde, com filtros de prioridade e localização.
+- Interface inclusiva e acessível com foco em crianças, idosos e pessoas em áreas remotas.
 <br>
 
 ### 2.4 Resultados Esperados
@@ -137,8 +139,8 @@ certificados digitais.
 - Melhoria na Gestão de Saúde Pública: Maior controle e agilidade nas campanhas de vacinação e respostas a surtos de doenças.
 <br>
 
-## SABRINA 3. METODOLOGIA DE PROJETO
-- Esta seção descreve como o projeto será conduzido, desde a concepção até a entrega do MVP (Produto Mínimo Viável), detalhando as fases, equipe e cronograma.
+## 3. METODOLOGIA DE PROJETO
+- O desenvolvimento do B Health será orientado por metodologias ágeis, utilizando Scrum, com foco em entregas rápidas, iterativas e em constante alinhamento com o feedback dos usuários. O projeto será dividido em fases estratégicas, garantindo uma evolução controlada até o MVP (Produto Mínimo Viável). Cada fase se concentrará na implementação e validação das funcionalidades essenciais, permitindo ajustes contínuos conforme as necessidades reais dos usuários. Essa abordagem ágil permitirá flexibilidade e adaptação, garantindo que o B Health acompanhe as mudanças e evolua conforme as demandas.
 <br>
 
 ### 3.1 Estrutura do Projeto
