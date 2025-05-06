@@ -14,9 +14,20 @@
 
 |Versão|Descrição|Autor|Data|
 |------|---------|-----|----|
-|1.0|Elaboração do Plano de Trabalho|Karen Vitória e Sabrina Martins|30/04|
-|X|X|X|X|
-|X|X|X|x|
+|1.0|Elaboração do Plano de Trabalho|Karen Vitória e Sabrina Martins|14/04|
+||Ideação|Aila Karoline, Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|14/04|
+||Inicialização do BackLog do Sprint|Aila Karoline, Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|17/04|
+||Criação do quadro comparativo|Sabrina Martins|19/04|
+||Elaboração do Golden Circle|Sabrina Martins|19/04|
+||Criação das personas|Karen Vitória|24/04|
+||Elaboração da análise SWOT|Karen Vitória|24/04|
+||Criação das historias de usuário (Paciente)|Aila Karoline|02/05|
+||Criação das histórias de usuário (Enfermeiro)|Luciano Hugo|03/05|
+||Criação das histórias de usuário (Médico)|Gustavo Pena|04/05|
+||Criação das histórias de usuário (Assistente Social)|Aila Karoline e Gustavo Pena|04/05|
+||Finalização dos BackLogs|Aila Karoline, Gustavo Pena, Luciano Hugo||
+
+
 <br> 
 
 ## 1. INTRODUÇÃO
