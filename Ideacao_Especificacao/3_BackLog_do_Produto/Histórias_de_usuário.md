@@ -30,3 +30,10 @@ Obs.: Só há as histórias de usuários, não há especificação aqui.
 ## Persona: Enfermeira
 
 ## Persona: Médico
+- Como médico, eu gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health;
+- Como médico, eu gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo;
+- Como médico, eu gostaria de acessar uma lista de pacientes, para que eu possa acessar o seu perfil e carteira de vacina;
+- Como médico, eu gostaria de acessar a carteira de vacinação dos pacientes, para verificar sua caderneta de vacinas e ver quais vacinas ele já tomou e quais estão pendentes;
+- Como médico, eu gostaria de registrar uma vacina que foi aplicada, para manter a carteira de vacinação do paciente atualizada;
+- Como usuário do aplicativo de Carteira de Vacina Digital, eu gostaria de visualizar avisos sobre campanhas de vacinação, para informar sobre elas ao paciente durante uma consulta.
+- Como médico, eu gostaria de saber os locais onde as campanhas de vacinação estão ocorrendo, para que eu possa orientar o paciente a ir até esse lugar se vacinar.
