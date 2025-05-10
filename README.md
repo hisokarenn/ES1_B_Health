@@ -30,7 +30,7 @@
 ### Design Thinking
 - :mag: [Golden Circle](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/2_Design_Thinking/1_Golden_Circle.md)
 
-- :chart_with_upwards_trend: [SWOT](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/2_Design_Thinking/2_SWOT.md)
+- :chart_with_upwards_trend: [SWOT](https://github.com/hisokarenn/ES1-TP1/blob/0a060202032f5070a14d8f3f0acd199e28d37678/Ideacao_Especificacao/2_Design_Thinking/2_SWOT.md)
 
 - :twisted_rightwards_arrows: [Quadro Comparativo](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/2_Design_Thinking/3_Quadro_Comparativo.md)
 
