@@ -15,17 +15,17 @@
 |Versão|Descrição|Autor|Data|
 |------|---------|-----|----|
 |1.0|Elaboração do Plano de Trabalho|Karen Vitória e Sabrina Martins|14/04|
-||Ideação|Aila Karoline, Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|14/04|
-||Inicialização do BackLog do Sprint|Aila Karoline, Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|17/04|
-||Criação do quadro comparativo|Sabrina Martins|19/04|
-||Elaboração do Golden Circle|Sabrina Martins|19/04|
-||Criação das personas|Karen Vitória|24/04|
-||Elaboração da análise SWOT|Karen Vitória|24/04|
-||Criação das historias de usuário (Paciente)|Aila Karoline|02/05|
-||Criação das histórias de usuário (Enfermeiro)|Luciano Hugo|03/05|
-||Criação das histórias de usuário (Médico)|Gustavo Pena|04/05|
-||Criação das histórias de usuário (Assistente Social)|Aila Karoline e Gustavo Pena|04/05|
-||Finalização dos BackLogs|Aila Karoline, Gustavo Pena, Luciano Hugo||
+|1.1|Ideação|Aila Karoline, Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|14/04|
+|1.2|Inicialização do BackLog do Sprint|Aila Karoline, Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|17/04|
+|1.3|Criação do quadro comparativo|Sabrina Martins|19/04|
+|1.4|Elaboração do Golden Circle|Sabrina Martins|19/04|
+|1.5|Criação das personas|Karen Vitória|24/04|
+|1.6|Elaboração da análise SWOT|Karen Vitória|24/04|
+|1.7|Criação das historias de usuário (Paciente)|Aila Karoline|02/05|
+|1.8|Criação das histórias de usuário (Enfermeiro)|Luciano Hugo|03/05|
+|1.9|Criação das histórias de usuário (Médico)|Gustavo Pena|04/05|
+|2.0|Criação das histórias de usuário (Assistente Social)|Aila Karoline e Gustavo Pena|04/05|
+|2.1|Finalização dos BackLogs|Aila Karoline, Gustavo Pena, Luciano Hugo|09/05|
 
 
 <br> 
