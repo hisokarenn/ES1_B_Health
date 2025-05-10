@@ -9,12 +9,12 @@
 
 ## Persona: Paciente
 <br>
-<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/28843e55ace3595e3632cec5ae3902a741d09e97/Ideacao_Especificacao/Imagens/Backlog_do_produto/paciente.png" alt= "Exemplo da img" alt= "Exemplo da img" alt="" width="700" /></p>
+<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/f5d5c55b3e18aabb77748d4a94dc67fc943a0e1c/Ideacao_Especificacao/Imagens/Backlog_do_produto/paciente.png" alt= "Exemplo da img" alt= "Exemplo da img" alt="" width="700" /></p>
 <br>
 
 ## Persona: Assistente Social
 <br>
-<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/28843e55ace3595e3632cec5ae3902a741d09e97/Ideacao_Especificacao/Imagens/Backlog_do_produto/assistente_social.png" alt= "Exemplo da img" alt="" width="700" /></p>
+<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/f5d5c55b3e18aabb77748d4a94dc67fc943a0e1c/Ideacao_Especificacao/Imagens/Backlog_do_produto/assistente_social.png" alt= "Exemplo da img" alt="" width="700" /></p>
 <br>
 
 ## Persona: Enfermeira
