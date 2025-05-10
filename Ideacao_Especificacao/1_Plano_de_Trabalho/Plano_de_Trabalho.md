@@ -126,6 +126,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 |Metogologia|Scrum com sprints|
 |Gerenciamento de Backlog|GitHub|
 |Repositório de Código|GitHub|
+|Ferramenta de Design|Canva|
 |Modelagem de Software|x|
 |Desenvolvimento do MVP|xxx|
 <br>
@@ -202,10 +203,19 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 
 ### 3.3 Backlog do Sprint
 - O backlog do sprint é uma lista de tarefas e funcionalidades que a equipe se compromete a entregar dentro de uma sprint (período de trabalho, geralmente de 1 a 2 semanas). Ele é derivado do backlog do produto, que contém todas as funcionalidades desejadas para o sistema.
+
+|Fase|Mês|Entregável|
+|-|-|-|
+|I - Ideação e Especificação|Maio|Plano de Trabalho, Criação de Personas, Elaboração de User Story e Especificação dos requisitos.|
 <br>
 
 ### 3.4 Controle de Mudanças
-- O controle de mudanças define como serão tratadas solicitações de alteração no projeto após o início do desenvolvimento. Ele evita mudanças desorganizadas que podem atrasar o cronograma e comprometer a qualidade do software.
+O monitramento de controle de mudanças será feito das seguintes formas:
+- O plano de trabalho deve ser entendido por todos da equipe.
+- Todas as dúvidas serão sanadas no Daily Scrum ou por outras reuniões presenciais.
+- Todas as entregas devem ser verificadas antes pela equipe.
+- Requisitos devem ser acordados por todos os membros da equipe antes de serem confirmados.
+- Mudanças no escopo do trabalho devem ser comunicadas a equipe para serem realizadas ou recusadas.
 <br>
 
 ### 3.5 Gerenciamento de Comunicação
