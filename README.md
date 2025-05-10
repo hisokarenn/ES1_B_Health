@@ -37,7 +37,7 @@
 - :bust_in_silhouette: [Personas](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/2_Design_Thinking/4_Personas.md)
   
 ### Backlog do Produto
-- :busts_in_silhouette: [BackLog do Produto](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/3_BackLog_do_Produto/BackLog_do_Produto.md)
+- :busts_in_silhouette: [BackLog do Produto](https://github.com/hisokarenn/ES1-TP1/blob/3c7cdc2df9208b37f6b2d58faed286d33cebb316/Ideacao_Especificacao/3_BackLog_do_Produto/BackLog_do_Produto.md)
 
 - :books: [Histórias de Usuário Geral](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/3_BackLog_do_Produto/Hist%C3%B3rias_de_usu%C3%A1rio.md)
 
