@@ -24,7 +24,7 @@
 
 ## Procedimentos Efetuados
 **Ideação e Especificação** 
-- :speech_balloon: [Plano de Trabalho](https://github.com/hisokarenn/ES1-TP1/tree/3024e4547f1b4d19a0e6e4d1fa4128f276cb2b77/Ideacao_Especificacao/2_Design_Thinking)
-- :books: [Design Thinking](https://github.com/hisokarenn/ES1-TP1/blob/3024e4547f1b4d19a0e6e4d1fa4128f276cb2b77/Ideacao_Especificacao/1_Plano_de_Trabalho/Plano_de_Trabalho.md)
+- :speech_balloon: [Plano de Trabalho](https://github.com/hisokarenn/ES1-TP1/blob/3024e4547f1b4d19a0e6e4d1fa4128f276cb2b77/Ideacao_Especificacao/1_Plano_de_Trabalho/Plano_de_Trabalho.md)
+- :books: [Design Thinking](https://github.com/hisokarenn/ES1-TP1/tree/3024e4547f1b4d19a0e6e4d1fa4128f276cb2b77/Ideacao_Especificacao/2_Design_Thinking)
 - :busts_in_silhouette: [BackLog do Produto](https://github.com/hisokarenn/ES1-TP1/tree/3024e4547f1b4d19a0e6e4d1fa4128f276cb2b77/Ideacao_Especificacao/3_BackLog_do_Produto)
 - :ballot_box_with_check: [BackLog do Sprint]()
