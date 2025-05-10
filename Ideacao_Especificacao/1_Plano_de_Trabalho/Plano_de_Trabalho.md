@@ -91,8 +91,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 7. Acesso offline ao calendário, carteira vacinal e perfis.
 8. Ferramentas de planejamento e agendamento para assistentes sociais.
 9. Registro de vacinação por enfermeiros e médicos.
-10. Geração de relatórios por bairro/unidade de saúde.
-11. Integração com prontuários eletrônicos.
+10. Integração com prontuários eletrônicos.
 <br>
 
 ### 2.1.2 Escopo Negativo
