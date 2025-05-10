@@ -19,7 +19,7 @@
 - 22400271 - Gustavo de Oliveira Pena        
 - 22402225 - Karen Vitória Rodrigues Pereira   
 - 22400266 - Luciano Hugo Caliri Figueiredo    
-- 22402222 - Sabrina Martins Bezerra 
+- 22402235 - Sabrina Martins Bezerra 
 <br>
 
 ## Procedimentos Efetuados
