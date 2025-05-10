@@ -82,12 +82,6 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 - Atualizações de Dados: O sistema pode não ser capaz de atualizar os dados de vacinação de maneira instantânea em locais com infraestrutura de saúde menos avançada, impactando a precisão dos registros em tempo real.
 <br>
 
-### Tecnologias utilizadas
-- Notion para ideação
-- Canva para edição geral
-- GitHub para organização de informações em relação ao projeto
-<br>
-
 ### Inovação
 - O grande diferencial do projeto é a carteira de vacina digital integrada a lembretes inteligentes e mapeamento de locais de vacinação, permitindo que o paciente tenha controle completo e proativo sobre seu histórico vacinal.
 <br>
