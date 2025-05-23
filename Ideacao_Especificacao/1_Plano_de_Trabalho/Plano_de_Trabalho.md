@@ -23,37 +23,26 @@
 
 [1. INTRODUÇÃO](#1-introdução)
    - [1.1. Objeto](#11-objeto)
-   - [1.2 Motivação, Justificativa e Oportunidade](#12-Motivação,JustificativaeOportunidade)
-   - [1.3 Caracterização do Projeto](#13-CaracterizaçãodoProjeto)
-   - [1.3.1 Classe](#131-Classe)
-   - [1.3.2 Enquadrabilidade](#132-Enquadrabilidade) 
-   - [1.3.3 Tipo](#133-Tipo)
+   - [1.2 Motivação, Justificativa e Oportunidade](#12-Motivação-Justificativa-e-Oportunidade)
+   - [1.3 Caracterização do Projeto](#13-Caracterização-do-Projeto)
+      - [1.3.1 Classe](#131-Classe)
+      - [1.3.2 Enquadrabilidade](#132-Enquadrabilidade) 
+      - [1.3.3 Tipo](#133-Tipo)
 
-3. INFORMAÇÕES GERAIS
-   
-2.1 Escopo Geral
+[2. INFORMAÇÕES GERAIS](#2-informações-gerais)
+   - [2.1 Escopo Geral](#21-escopo-geral)
+      - [2.1.1 Escopo Específico](#211-escopo-específico)
+      - [2.1.2 Escopo Negativo](#212-escopo-negativo)
+   - [2.2 Ambiente de Desenvolvimento](#22-ambiente-de-desenvolvimento)
+   - [2.3 Características Inovadoras do Projeto](#23-características-inovadoras-do-projeto)
+   - [2.4 Resultados Esperados](#24-resultados-esperados)
 
-2.1.1 Escopo Específico
-
-2.1.2 Escopo Negativo
-
-2.2 Ambiente de Desenvolvimento
-
-2.3 Características Inovadoras do Projeto
-
-2.4 Resultados Esperados
-
-5. METODOLOGIA DE PROJETO
-   
-3.1 Estrutura do Projeto 
-
-3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes
-
-3.3 Backlog do Sprint
-
-3.4 Controle de Mudanças
-
-3.5 Gerenciamento de Comunicação 
+[3. METODOLOGIA DE PROJETO](#3-metodologia-de-projeto)
+   - [3.1 Estrutura do Projeto](#31-estrutura-do-projeto) 
+   - [3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes](#32-esquipe-de-projeto-papéis-e-responsabilidades-dos-integrantes)
+   - [3.3 Backlog do Sprint](#33-backlog-do-sprint)
+   - [3.4 Controle de Mudanças](#34-controle-de-mudanças)
+   - [3.5 Gerenciamento de Comunicação](#35-gerenciamente-de-comunicação)
 
 <br> 
 
