@@ -28,4 +28,4 @@ Obs.: Foi colocada uma história de usuário para cada persona, somente para apr
 <br>
 
 ## Link para o BackLog do Produto Detalhado
-- [BackLog do Produto Detalhado](https://github.com/users/hisokarenn/projects/7)
+- [BackLog do Produto Detalhado](https://github.com/users/hisokarenn/projects/4)
