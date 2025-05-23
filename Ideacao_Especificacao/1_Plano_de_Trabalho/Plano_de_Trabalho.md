@@ -40,13 +40,13 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ### 1.3 Caracterização do Projeto
-Este projeto se enquadra na categoria de sistemas de informação em saúde. Trata-se de um software do tipo aplicativo mobile, com foco na gestão pessoal do histórico vacinal do paciente. Suas funcionalidades incluem o registro manual de vacinas, lembretes sobre próximas doses e exibição de locais de vacinação previamente cadastrados. O sistema é projetado para funcionar offline, com armazenamento local dos dados, priorizando a acessibilidade e a usabilidade em contextos com acesso limitado à internet.
+Este projeto se enquadra na categoria de sistemas de informação em saúde. Trata-se de um software do tipo aplicativo móvel, com foco na gestão pessoal do histórico vacinal do paciente. Suas funcionalidades incluem o registro manual de vacinas, lembretes sobre próximas doses e exibição de locais de vacinação previamente cadastrados. O sistema é projetado para funcionar offline, com armazenamento local dos dados, priorizando a acessibilidade e a usabilidade em contextos com acesso limitado à internet.
 <br>
 
 ### 1.3.1 Classe
 |Classe|Detalhamento|
 |-|-|
-|Aplicativo Móvel|Trata-se de um aplicativo mobile de saúde preventiva e gestão médica, com foco na carteira de vacinação digital.|
+|Aplicativo Móvel|Trata-se de um aplicativo móvel de saúde preventiva e gestão médica, com foco na carteira de vacinação digital.|
 <br>
 
 ### 1.3.2 Enquadrabilidade
@@ -69,7 +69,7 @@ O projeto busca o desenvolvimento de uma carteira de vacinação digital que per
 ### Limitações do Projeto
 - Adoção e Inclusão Digital: O sistema depende de acesso à internet e familiaridade com dispositivos digitais. Pode haver desafios de adoção por parte de usuários menos familiarizados com tecnologia, especialmente a população mais idosa.
 - Integração com Sistemas Locais de Saúde: A plataforma pode ter dificuldades em se integrar com todos os sistemas de saúde públicos ou privados existentes, especialmente se não houver uma padronização no gerenciamento de dados vacinais entre diferentes municípios ou estados.
-- Segurança e Privacidade: Garantir a segurança e privacidade das informações de saúde será um desafio contínuo, exigindo conformidade com regulamentações como a LGPD(Lei Geral de Proteção de Dados) e implementação de medidas de segurança robustas.
+- Segurança e Privacidade: Garantir a segurança e privacidade das informações de saúde será um desafio contínuo, exigindo conformidade com regulamentações como a LGPD (Lei Geral de Proteção de Dados) e implementação de medidas de segurança robustas.
 - Atualizações de Dados: O sistema pode não ser capaz de atualizar os dados de vacinação de maneira instantânea em locais com infraestrutura de saúde menos avançada, impactando a precisão dos registros em tempo real.
 <br>
 
@@ -78,7 +78,7 @@ O grande diferencial do projeto é a carteira de vacina digital integrada a lemb
 <br>
 
 ### 2.1 Escopo Geral
-O projeto B Health tem como objetivo desenvolver um aplicativo digital móvel voltado à gestão de vacinação da população, proporcionando praticidade, segurança e acessibilidade para usuários e profissionais da saúde. O sistema substituirá a dependência da carteira física de vacinação, oferecendo funcionalidades como visualização de histórico vacinal, alertas de doses pendentes, campanhas de vacinação, mapa de unidades de saúde e recursos offline, promovendo a integração entre pacientes, agentes comunitários, enfermeiros e médicos.
+O projeto B Health tem como objetivo desenvolver um aplicativo móvel voltado à gestão de vacinação da população, proporcionando praticidade, segurança e acessibilidade para usuários e profissionais da saúde. O sistema substituirá a dependência da carteira física de vacinação, oferecendo funcionalidades como visualização de histórico vacinal, alertas de doses pendentes, campanhas de vacinação, mapa de unidades de saúde e recursos offline, promovendo a integração entre pacientes, agentes comunitários, enfermeiros e médicos.
 <br>
 
 ### 2.1.1 Escopo Específico
@@ -128,7 +128,7 @@ O projeto não contempla:
 ### 2.4 Resultados Esperados
 - Sistema Funcional: Plataforma digital eficiente para gerenciamento do histórico vacinal de pacientes.
 - Acesso Rápido e Seguro: Usuários poderão acessar e atualizar suas informações de vacinação de forma fácil e segura.
--Maior Adesão ao Calendário Vacinal: Envio de lembretes automáticos para vacinas futuras e reforços, evitando revacinações desnecessárias.
+- Maior Adesão ao Calendário Vacinal: Envio de lembretes automáticos para vacinas futuras e reforços, evitando revacinações desnecessárias.
 - Facilidade na Localização de Pontos de Vacinação: Mapa interativo para encontrar pontos de vacinação próximos.
 - Eficiência nas Visitas: Assistentes sociais poderão priorizar e monitorar visitas a pacientes, melhorando o acompanhamento.
 - Interface Intuitiva: Plataforma fácil de usar para pacientes e profissionais de saúde.
@@ -176,7 +176,6 @@ O desenvolvimento do projeto será dividido em cinco fases principais, seguindo 
 <br>
 
 ### 3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes
-A equipe do projeto será composta por até 5 alunos, com papéis definidos para otimizar o desenvolvimento.
 
 |Papel|Profissional|Responsabilidades|
 |-|-|-|
