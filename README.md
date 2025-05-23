@@ -14,6 +14,7 @@
 - Andrey Antonio de Oliveira Rodrigues
 
 ## Equipe de Desenvolvimento 
+<br>
 
 - 22402231 - Aila Karoline Santana Moreira     
 - 22400271 - Gustavo de Oliveira Pena        
