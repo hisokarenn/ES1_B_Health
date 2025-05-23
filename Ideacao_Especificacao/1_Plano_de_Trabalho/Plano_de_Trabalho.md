@@ -1,13 +1,14 @@
 # Plano de Trabalho
 <br>
 
-|Nome do Projeto:|B Health|
+|Requisição|Contexto|
 |-|-|
+|Nome do Projeto:|B Health|
 |Versão:|1.0|
 |Status:|Planejamento e Pesquisa|
 |Número de Controle SRBR-M:|22219|
 |Executor Principal:|Discente: Karen Vitória Rodrigues Pereira|
-|Coodernador do Projeto|Andrey Antonio de Oliveira Rodrigues|
+|Coordernador do Projeto|Andrey Antonio de Oliveira Rodrigues|
 <br>
 
 ## Histórico de Versões
@@ -21,16 +22,16 @@
 <br> 
 
 ## 1. INTRODUÇÃO
-- O sistema proposto tem como objetivo oferecer uma alternativa digital à tradicional carteira de vacinação física, permitindo que o usuário acompanhe seu histórico vacinal por meio de uma carteira virtual segura e acessível. Em caso de perda ou extravio da versão física, o usuário continuará tendo acesso completo às suas informações de vacinação, evitando revacinações desnecessárias e garantindo a integridade de seus dados.
-- A plataforma também enviará lembretes automáticos sobre a data de futuras doses ou reforços, contribuindo para o cumprimento do calendário vacinal. Além disso, contará com um mapa interativo que exibirá, os locais que estão oferecendo vacinas, permitindo ao usuário localizar facilmente o ponto de vacinação mais próximo e verificar as vacinas disponíveis. Com isso, o sistema busca modernizar o controle vacinal da população, promovendo praticidade, segurança da informação e maior adesão às campanhas de imunização.
+O sistema proposto tem como objetivo oferecer uma alternativa digital à tradicional carteira de vacinação física, permitindo que o usuário acompanhe seu histórico vacinal por meio de uma carteira virtual segura e acessível. Em caso de perda ou extravio da versão física, o usuário continuará tendo acesso completo às suas informações de vacinação, evitando revacinações desnecessárias e garantindo a integridade de seus dados.
+A plataforma também enviará lembretes automáticos sobre a data de futuras doses ou reforços, contribuindo para o cumprimento do calendário vacinal. Além disso, contará com um mapa interativo que exibirá os locais que estão oferecendo vacinas, permitindo ao usuário localizar facilmente o ponto de vacinação mais próximo e verificar as vacinas disponíveis. Com isso, o sistema busca modernizar o controle vacinal da população, promovendo praticidade, segurança da informação e maior adesão às campanhas de imunização.
 <br>
 
 ### 1.1 Objeto
-- O sistema de Carteira de Vacinação Digital tem como objetivo  oferecer uma solução prática e acessível para o registro e o acompanhamento do histórico vacinal da população, por meio de um aplicativo móvel, priorizando a portabilidade e a facilidade de uso.
+O sistema de Carteira de Vacinação Digital tem como objetivo  oferecer uma solução prática e acessível para o registro e o acompanhamento do histórico vacinal da população, por meio de um aplicativo móvel, priorizando a portabilidade e a facilidade de uso.
 <br>
 
 ### 1.2 Motivação, Justificativa e Oportunidade
-- O modelo atual, baseado em carteiras físicas de papel, apresenta fragilidades como o risco de extravio, dificuldade de atualização e limitação no acesso às informações em momentos críticos, como atendimentos médicos emergenciais. Além disso, muitos usuários têm dificuldades em acompanhar o calendário vacinal e identificar onde buscar as próximas doses.
+O modelo atual, baseado em carteiras físicas de papel, apresenta fragilidades como o risco de extravio, dificuldade de atualização e limitação no acesso às informações em momentos críticos, como atendimentos médicos emergenciais. Além disso, muitos usuários têm dificuldades em acompanhar o calendário vacinal e identificar onde buscar as próximas doses.
 
 Este aplicativo surge como uma resposta a essas limitações, buscando:
 - Preservar o histórico vacinal mesmo em caso de perda da carteira física;
@@ -39,7 +40,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ### 1.3 Caracterização do Projeto
-- Este projeto se enquadra na categoria de sistemas de informação em saúde. Trata-se de um software do tipo aplicativo mobile, com foco na gestão pessoal do histórico vacinal do paciente. Suas funcionalidades incluem o registro manual de vacinas, lembretes sobre próximas doses e exibição de locais de vacinação previamente cadastrados. O sistema é projetado para funcionar offline, com armazenamento local dos dados, priorizando a acessibilidade e a usabilidade em contextos com acesso limitado à internet.
+Este projeto se enquadra na categoria de sistemas de informação em saúde. Trata-se de um software do tipo aplicativo mobile, com foco na gestão pessoal do histórico vacinal do paciente. Suas funcionalidades incluem o registro manual de vacinas, lembretes sobre próximas doses e exibição de locais de vacinação previamente cadastrados. O sistema é projetado para funcionar offline, com armazenamento local dos dados, priorizando a acessibilidade e a usabilidade em contextos com acesso limitado à internet.
 <br>
 
 ### 1.3.1 Classe
@@ -62,7 +63,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ## 2. INFORMAÇÕES GERAIS
-- O projeto busca o desenvolvimento de uma carteira de vacinação digital que permite a cidadãos visualizar sua carteira de vacinação e a profissionais de saúde e assistentes sociais gerenciar, monitorar e registrar o histórico vacinal de forma segura e acessível. O sistema será usado para fornecer acesso à carteira de vacinação de diferentes tipos de usuários, incluindo pacientes, médicos, enfermeiros e assistentes sociais, com funcionalidades específicas para cada perfil de usuário. A plataforma permitirá a substituição da tradicional carteira de vacinação física, a visualização de vacinas aplicadas, alertas de vacinas futuras, localização de pontos de vacinação e o acompanhamento contínuo do status vacinal.
+O projeto busca o desenvolvimento de uma carteira de vacinação digital que permite a cidadãos visualizar sua carteira de vacinação e a profissionais de saúde e assistentes sociais gerenciar, monitorar e registrar o histórico vacinal de forma segura e acessível. O sistema será usado para fornecer acesso à carteira de vacinação de diferentes tipos de usuários, incluindo pacientes, médicos, enfermeiros e assistentes sociais, com funcionalidades específicas para cada perfil de usuário. A plataforma permitirá a substituição da tradicional carteira de vacinação física, a visualização de vacinas aplicadas, alertas de vacinas futuras, localização de pontos de vacinação e o acompanhamento contínuo do status vacinal.
 <br>
 
 ### Limitações do Projeto
@@ -73,15 +74,15 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ### Inovação
-- O grande diferencial do projeto é a carteira de vacina digital integrada a lembretes inteligentes e mapeamento de locais de vacinação, permitindo que o paciente tenha controle completo e proativo sobre seu histórico vacinal.
+O grande diferencial do projeto é a carteira de vacina digital integrada a lembretes inteligentes e mapeamento de locais de vacinação, permitindo que o paciente tenha controle completo e proativo sobre seu histórico vacinal.
 <br>
 
 ### 2.1 Escopo Geral
-- O projeto B Health tem como objetivo desenvolver um aplicativo digital multiplataforma (mobile e web) voltado à gestão de vacinação da população, proporcionando praticidade, segurança e acessibilidade para usuários e profissionais da saúde. O sistema substituirá a dependência da carteira física de vacinação, oferecendo funcionalidades como visualização de histórico vacinal, alertas de doses pendentes, campanhas de vacinação, mapa de unidades de saúde e recursos offline, promovendo a integração entre pacientes, agentes comunitários, enfermeiros e médicos.
+O projeto B Health tem como objetivo desenvolver um aplicativo digital multiplataforma (mobile e web) voltado à gestão de vacinação da população, proporcionando praticidade, segurança e acessibilidade para usuários e profissionais da saúde. O sistema substituirá a dependência da carteira física de vacinação, oferecendo funcionalidades como visualização de histórico vacinal, alertas de doses pendentes, campanhas de vacinação, mapa de unidades de saúde e recursos offline, promovendo a integração entre pacientes, agentes comunitários, enfermeiros e médicos.
 <br>
 
 ### 2.1.1 Escopo Específico
-- O escopo específico abrange as seguintes funcionalidades:
+O escopo específico abrange as seguintes funcionalidades:
 1. Cadastro e login de usuários (pacientes, assistentes sociais, médicos e enfermeiros).
 2. Visualização e atualização do histórico de vacinação.
 3. Geração e envio de alertas e notificações sobre doses pendentes.
@@ -95,7 +96,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ### 2.1.2 Escopo Negativo
-- O projeto não contempla:
+O projeto não contempla:
 1. Integração com redes sociais para login.
 2. Funcionalidades de telemedicina ou agendamento de consultas.
 3. Implementação de recursos avançados de inteligência artificial ou predição.
@@ -106,12 +107,12 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 ### 2.2 Ambiente de Desenvolvimento
 |Componente|Tecnologia/Ferramenta|
 |-|-|
-|Metogologia|Scrum com sprints|
+|Metodologia|Scrum com sprints|
 |Gerenciamento de Backlog|GitHub|
 |Repositório de Código|GitHub|
 |Ferramenta de Design|Canva|
-|Modelagem de Software|x|
-|Desenvolvimento do MVP|xxx|
+|Modelagem de Software|Draw.io|
+|Desenvolvimento do MVP|Thunkable|
 <br>
 
 ### 2.3 Características Inovadoras do Projeto
@@ -135,11 +136,11 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ## 3. METODOLOGIA DE PROJETO
-- O desenvolvimento do B Health será orientado por metodologias ágeis, utilizando Scrum, com foco em entregas rápidas, iterativas e em constante alinhamento com o feedback dos usuários. O projeto será dividido em fases estratégicas, garantindo uma evolução controlada até o MVP (Produto Mínimo Viável). Cada fase se concentrará na implementação e validação das funcionalidades essenciais, permitindo ajustes contínuos conforme as necessidades reais dos usuários. Essa abordagem ágil permitirá flexibilidade e adaptação, garantindo que o B Health acompanhe as mudanças e evolua conforme as demandas.
+O desenvolvimento do B Health será orientado por metodologias ágeis, utilizando Scrum, com foco em entregas rápidas, iterativas e em constante alinhamento com o feedback dos usuários. O projeto será dividido em fases estratégicas, garantindo uma evolução controlada até o MVP (Produto Mínimo Viável). Cada fase se concentrará na implementação e validação das funcionalidades essenciais, permitindo ajustes contínuos conforme as necessidades reais dos usuários. Essa abordagem ágil permitirá flexibilidade e adaptação, garantindo que o B Health acompanhe as mudanças e evolua conforme as demandas.
 <br>
 
 ### 3.1 Estrutura do Projeto
-- O desenvolvimento do projeto será dividido em cinco fases principais, seguindo a abordagem ágil com Scrum, utilizando sprints curtas para entregas iterativas.
+O desenvolvimento do projeto será dividido em cinco fases principais, seguindo a abordagem ágil com Scrum, utilizando sprints curtas para entregas iterativas.
 - Fases do Projeto
 1. Conceito/Ideia
 - Definição do problema e do público-alvo.
@@ -175,7 +176,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ### 3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes
-- A equipe do projeto será composta por até 5 alunos, com papéis definidos para otimizar o desenvolvimento.
+A equipe do projeto será composta por até 5 alunos, com papéis definidos para otimizar o desenvolvimento.
 
 |Papel|Profissional|Responsabilidades|
 |-|-|-|
@@ -185,7 +186,7 @@ Este aplicativo surge como uma resposta a essas limitações, buscando:
 <br>
 
 ### 3.3 Backlog do Sprint
-- O backlog do sprint é uma lista de tarefas e funcionalidades que a equipe se compromete a entregar dentro de uma sprint (período de trabalho, geralmente de 1 a 2 semanas). Ele é derivado do backlog do produto, que contém todas as funcionalidades desejadas para o sistema.
+O backlog do sprint é uma lista de tarefas e funcionalidades que a equipe se compromete a entregar dentro de uma sprint (período de trabalho, geralmente de 1 a 2 semanas). Ele é derivado do backlog do produto, que contém todas as funcionalidades desejadas para o sistema.
 
 |Fase|Mês|Entregável|
 |-|-|-|
@@ -202,7 +203,7 @@ O monitramento de controle de mudanças será feito das seguintes formas:
 <br>
 
 ### 3.5 Gerenciamento de Comunicação
-- O gerenciamento de comunicação define como a equipe interage durante o projeto para garantir alinhamento e produtividade. Isso inclui reuniões, canais de comunicação e ferramentas utilizadas. Principais elementos do gerenciamento de comunicação:
+O gerenciamento de comunicação define como a equipe interage durante o projeto para garantir alinhamento e produtividade. Isso inclui reuniões, canais de comunicação e ferramentas utilizadas. Principais elementos do gerenciamento de comunicação:
 - Reuniões de Planejamento (Sprint Planning) – No início de cada sprint, a equipe define as tarefas e prioridades.
 - Daily Stand-ups (Reuniões Diárias) – Curtas reuniões diárias (5 a 10 min) para sincronizar o progresso e remover impedimentos.
 - Sprint Review (Revisão da Sprint) – No final da sprint, a equipe apresenta o que foi feito.
