@@ -22,7 +22,8 @@
 - 22402235 - Sabrina Martins Bezerra 
 <br>
 
-## Procedimentos Efetuados
+# Procedimentos Efetuados
+## Ideação e Especificação
 
 ### Plano de Trabalho
 - :speech_balloon: [Plano de Trabalho](https://github.com/hisokarenn/ES1-TP1/blob/3024e4547f1b4d19a0e6e4d1fa4128f276cb2b77/Ideacao_Especificacao/1_Plano_de_Trabalho/Plano_de_Trabalho.md)
@@ -41,5 +42,25 @@
 
 - :books: [Histórias de Usuário Geral](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/3_BackLog_do_Produto/Hist%C3%B3rias_de_usu%C3%A1rio.md)
 
-### BackLog do Sprint
+### BackLog do Sprint (TP1)
 - :ballot_box_with_check: [BackLog do Sprint](https://github.com/hisokarenn/ES1-TP1/blob/0b3146d585bfd504fdefc0dddedc8519fd822b6d/Ideacao_Especificacao/4_BackLog_do_Sprint/BackLog_do_Sprint.md)
+<br>
+
+## Arquitetura do Software
+### Padrão Arquitetrual
+- [Padrão Arquitetural]()
+
+### Tecnologias e Ferramentas
+- [Tecnologias e Ferramentas]()
+
+### Representação Arquitetural com o Modelo C4
+- [Diagrama de Contexto]()
+- [Diagrama de Conatiners]()
+- [Diagrama de Componentes]()
+- [Diagrama de Código]()
+
+### Rastreabilidade com Histórias do Usuário
+- [Rastreabilidade com Histórias do Usuário]()
+
+### BackLog do Sprint (TP2)
+- :ballot_box_with_check: [BackLog do Sprint]()
