@@ -43,6 +43,7 @@ Obs.: Só há as histórias de usuários, não há especificação aqui.
 - H30 - Como médico, eu gostaria de registrar uma vacina que foi aplicada, para manter a carteira de vacinação do paciente atualizada;
 - H31 - Como usuário do aplicativo de Carteira de Vacina Digital, eu gostaria de visualizar avisos sobre campanhas de vacinação, para informar sobre elas ao paciente durante uma consulta.
 - H32 - Como médico, eu gostaria de saber os locais onde as campanhas de vacinação estão ocorrendo, para que eu possa orientar o paciente a ir até esse lugar se vacinar.
+<br>
 
 ## Link para o BackLog do Produto Detalhado
 - [BackLog do Produto Detalhado](https://github.com/users/hisokarenn/projects/4)
