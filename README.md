@@ -48,19 +48,22 @@
 
 ## Arquitetura do Software
 ### Padrão Arquitetrual
-- [Padrão Arquitetural]()
+- :triangular_ruler: [Padrão Arquitetural]()
 
 ### Tecnologias e Ferramentas
-- [Tecnologias e Ferramentas]()
+- :hammer: [Tecnologias e Ferramentas]()
 
 ### Representação Arquitetural com o Modelo C4
-- [Diagrama de Contexto]()
-- [Diagrama de Conatiners]()
-- [Diagrama de Componentes]()
-- [Diagrama de Código]()
+- :diamonds: [Diagrama de Contexto]()
+  
+- :clubs: [Diagrama de Conatiners]()
+  
+- :hearts: [Diagrama de Componentes]()
+  
+- :spades: [Diagrama de Código]()
 
 ### Rastreabilidade com Histórias do Usuário
-- [Rastreabilidade com Histórias do Usuário]()
+- :pushpin: [Rastreabilidade com Histórias do Usuário]()
 
 ### BackLog do Sprint (TP2)
 - :ballot_box_with_check: [BackLog do Sprint]()
