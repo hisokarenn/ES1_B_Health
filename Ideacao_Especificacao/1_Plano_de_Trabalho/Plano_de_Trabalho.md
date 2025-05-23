@@ -39,10 +39,10 @@
 
 [3. METODOLOGIA DE PROJETO](#3-metodologia-de-projeto)
    - [3.1 Estrutura do Projeto](#31-estrutura-do-projeto) 
-   - [3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes](#32-esquipe-de-projeto-papéis-e-responsabilidades-dos-integrantes)
+   - [3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes](#32-esquipe-de-projeto-:-papéis-e-responsabilidades-dos-integrantes)
    - [3.3 Backlog do Sprint](#33-backlog-do-sprint)
    - [3.4 Controle de Mudanças](#34-controle-de-mudanças)
-   - [3.5 Gerenciamento de Comunicação](#35-gerenciamente-de-comunicação)
+   - [3.5 Gerenciamento de Comunicação](#35-gerenciamento-de-comunicação)
 
 <br> 
 
