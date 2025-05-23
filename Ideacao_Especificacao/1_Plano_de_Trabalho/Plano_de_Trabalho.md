@@ -17,6 +17,7 @@
 |------|---------|-----|----|
 |1.0|Elaboração do Plano de Trabalho|Aila Karoline, Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|14/04/2025|
 |1.1|Alteração da estrutura do Plano de Trabalho|Karen Vitória e Sabrina Martins|09/05/2025|
+|1.2|Correção de alguns tópicos no Plano de Trabalho|Karen Vitória|23/05/2025|
 <br>
 
 ## Sumário
@@ -39,7 +40,7 @@
 
 [3. METODOLOGIA DE PROJETO](#3-metodologia-de-projeto)
    - [3.1 Estrutura do Projeto](#31-estrutura-do-projeto) 
-   - [3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes](#32-esquipe-de-projeto-:-papéis-e-responsabilidades-dos-integrantes)
+   - [3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes](#32-equipe-de-projeto-papéis-e-responsabilidades-dos-integrantes)
    - [3.3 Backlog do Sprint](#33-backlog-do-sprint)
    - [3.4 Controle de Mudanças](#34-controle-de-mudanças)
    - [3.5 Gerenciamento de Comunicação](#35-gerenciamento-de-comunicação)
