@@ -17,7 +17,48 @@
 |------|---------|-----|----|
 |1.0|Elaboração do Plano de Trabalho|Aila Karoline, Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|14/04/2025|
 |1.1|Alteração da estrutura do Plano de Trabalho|Karen Vitória e Sabrina Martins|09/05/2025|
+<br>
 
+## Sumário
+
+[1. INTRODUÇÃO](#introdução)
+- [1.1. Objeto](#11-objeto)
+
+1.2 Motivação, Justificativa e Oportunidade
+
+1.3 Caracterização do Projeto
+
+1.3.1 Classe 
+
+1.3.2 Enquadrabilidade 
+
+1.3.3 Tipo
+
+3. INFORMAÇÕES GERAIS
+   
+2.1 Escopo Geral
+
+2.1.1 Escopo Específico
+
+2.1.2 Escopo Negativo
+
+2.2 Ambiente de Desenvolvimento
+
+2.3 Características Inovadoras do Projeto
+
+2.4 Resultados Esperados
+
+5. METODOLOGIA DE PROJETO
+   
+3.1 Estrutura do Projeto 
+
+3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes
+
+3.3 Backlog do Sprint
+
+3.4 Controle de Mudanças
+
+3.5 Gerenciamento de Comunicação 
 
 <br> 
 
