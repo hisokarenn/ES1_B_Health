@@ -44,6 +44,9 @@
 
 ### BackLog do Sprint (TP1)
 - :ballot_box_with_check: [BackLog do Sprint](https://github.com/hisokarenn/ES1-TP1/blob/0b3146d585bfd504fdefc0dddedc8519fd822b6d/Ideacao_Especificacao/4_BackLog_do_Sprint/BackLog_do_Sprint.md)
+
+### Notion (TP1)
+- :open_file_folder: [Notion](https://github.com/hisokarenn/ES1-TP1/tree/339d2631a9194a11bca8fbef5c0bb64f896ee82a/Ideacao_Especificacao/5_Notion)
 <br>
 
 ## Arquitetura do Software
@@ -67,3 +70,6 @@
 
 ### BackLog do Sprint (TP2)
 - :ballot_box_with_check: [BackLog do Sprint]()
+
+### Notion (TP2)
+- :open_file_folder: [Notion]()
