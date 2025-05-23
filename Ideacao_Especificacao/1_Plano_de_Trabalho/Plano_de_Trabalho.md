@@ -69,7 +69,7 @@ O projeto busca o desenvolvimento de uma carteira de vacinação digital que per
 ### Limitações do Projeto
 - Adoção e Inclusão Digital: O sistema depende de acesso à internet e familiaridade com dispositivos digitais. Pode haver desafios de adoção por parte de usuários menos familiarizados com tecnologia, especialmente a população mais idosa.
 - Integração com Sistemas Locais de Saúde: A plataforma pode ter dificuldades em se integrar com todos os sistemas de saúde públicos ou privados existentes, especialmente se não houver uma padronização no gerenciamento de dados vacinais entre diferentes municípios ou estados.
-- Segurança e Privacidade: Garantir a segurança e privacidade das informações de saúde será um desafio contínuo, exigindo conformidade com regulamentações como a LGPD e implementação de medidas de segurança robustas.
+- Segurança e Privacidade: Garantir a segurança e privacidade das informações de saúde será um desafio contínuo, exigindo conformidade com regulamentações como a LGPD(Lei Geral de Proteção de Dados) e implementação de medidas de segurança robustas.
 - Atualizações de Dados: O sistema pode não ser capaz de atualizar os dados de vacinação de maneira instantânea em locais com infraestrutura de saúde menos avançada, impactando a precisão dos registros em tempo real.
 <br>
 
@@ -78,7 +78,7 @@ O grande diferencial do projeto é a carteira de vacina digital integrada a lemb
 <br>
 
 ### 2.1 Escopo Geral
-O projeto B Health tem como objetivo desenvolver um aplicativo digital multiplataforma (mobile e web) voltado à gestão de vacinação da população, proporcionando praticidade, segurança e acessibilidade para usuários e profissionais da saúde. O sistema substituirá a dependência da carteira física de vacinação, oferecendo funcionalidades como visualização de histórico vacinal, alertas de doses pendentes, campanhas de vacinação, mapa de unidades de saúde e recursos offline, promovendo a integração entre pacientes, agentes comunitários, enfermeiros e médicos.
+O projeto B Health tem como objetivo desenvolver um aplicativo digital móvel voltado à gestão de vacinação da população, proporcionando praticidade, segurança e acessibilidade para usuários e profissionais da saúde. O sistema substituirá a dependência da carteira física de vacinação, oferecendo funcionalidades como visualização de histórico vacinal, alertas de doses pendentes, campanhas de vacinação, mapa de unidades de saúde e recursos offline, promovendo a integração entre pacientes, agentes comunitários, enfermeiros e médicos.
 <br>
 
 ### 2.1.1 Escopo Específico
