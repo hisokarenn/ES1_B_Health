@@ -28,21 +28,22 @@ Obs.: Só há as histórias de usuários, não há especificação aqui.
 - H19 - Como assistente social, eu gostaria de acessar o perfil completo de um paciente, para visualizar seus dados pessoais antes de uma visita.
 
 ## Persona: Enfermeira
-- H20 - Como enfermeiro, quero registrar a aplicação de vacinas diretamente no aplicativo, para que eu possa atualizar o histórico do paciente.
-- H21 - Como enfermeiro, quero acessar um mapa com unidades de saúde, para que eu possa orientar pacientes sobre locais disponíveis para vacinação.
-- H22 - Como enfermeiro, eu quero cadastrar os detalhes de campanhas de vacinação no aplicativo, para informar a todos os pacientes.
-- H23 - Como enfermeiro, eu gostaria de registrar as vacinas que foram aplicadas no paciente para que atualize a carteira de vacina do paciente;
-- H24 - Como enfermeiro, quero gerar relatórios de cobertura vacinal por bairro ou UBS, para que eu possa identificar áreas com baixa adesão;
-- H25 - Como enfermeiro, quero acessar o sistema offline durante visitas de campanhas em áreas rurais ou em lugares específicos da cidade, para registrar vacinas mesmo sem internet.
+- H20 - Como enfermeiro, eu quero me cadastrar no aplicativo, para que eu possa acessar as funcionalidades.
+- H21 - Como enfermeiro, quero registrar a aplicação de vacinas diretamente no aplicativo, para que eu possa atualizar o histórico do paciente.
+- H22 - Como enfermeiro, quero acessar um mapa com unidades de saúde, para que eu possa orientar pacientes sobre locais disponíveis para vacinação.
+- H23 - Como enfermeiro, eu quero cadastrar os detalhes de campanhas de vacinação no aplicativo, para informar a todos os pacientes.
+- H24 - Como enfermeiro, eu gostaria de registrar as vacinas que foram aplicadas no paciente para que atualize a carteira de vacina do paciente;
+- H25 - Como enfermeiro, quero gerar relatórios de cobertura vacinal por bairro ou UBS, para que eu possa identificar áreas com baixa adesão;
+- H26 - Como enfermeiro, quero acessar o sistema offline durante visitas de campanhas em áreas rurais ou em lugares específicos da cidade, para registrar vacinas mesmo sem internet.
 
 ## Persona: Médico
-- H26 - Como médico, eu gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health;
-- H27 - Como médico, eu gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo;
-- H28 - Como médico, eu gostaria de acessar uma lista de pacientes, para que eu possa acessar o seu perfil e carteira de vacina;
-- H29 - Como médico, eu gostaria de acessar a carteira de vacinação dos pacientes, para verificar sua caderneta de vacinas e ver quais vacinas ele já tomou e quais estão pendentes;
-- H30 - Como médico, eu gostaria de registrar uma vacina que foi aplicada, para manter a carteira de vacinação do paciente atualizada;
-- H31 - Como usuário do aplicativo de Carteira de Vacina Digital, eu gostaria de visualizar avisos sobre campanhas de vacinação, para informar sobre elas ao paciente durante uma consulta.
-- H32 - Como médico, eu gostaria de saber os locais onde as campanhas de vacinação estão ocorrendo, para que eu possa orientar o paciente a ir até esse lugar se vacinar.
+- H27 - Como médico, eu gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health;
+- H28 - Como médico, eu gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo;
+- H29 - Como médico, eu gostaria de acessar uma lista de pacientes, para que eu possa acessar o seu perfil e carteira de vacina;
+- H30 - Como médico, eu gostaria de acessar a carteira de vacinação dos pacientes, para verificar sua caderneta de vacinas e ver quais vacinas ele já tomou e quais estão pendentes;
+- H31 - Como médico, eu gostaria de registrar uma vacina que foi aplicada, para manter a carteira de vacinação do paciente atualizada;
+- H32 - Como usuário do aplicativo de Carteira de Vacina Digital, eu gostaria de visualizar avisos sobre campanhas de vacinação, para informar sobre elas ao paciente durante uma consulta.
+- H33 - Como médico, eu gostaria de saber os locais onde as campanhas de vacinação estão ocorrendo, para que eu possa orientar o paciente a ir até esse lugar se vacinar.
 <br>
 
 ## Link para o BackLog do Produto Detalhado
