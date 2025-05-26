@@ -39,12 +39,12 @@
 - :bust_in_silhouette: [Personas](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/2_Design_Thinking/4_Personas.md)
   
 ### Backlog do Produto
-- :busts_in_silhouette: [BackLog do Produto](https://github.com/hisokarenn/ES1-TP1/blob/3c7cdc2df9208b37f6b2d58faed286d33cebb316/Ideacao_Especificacao/3_BackLog_do_Produto/BackLog_do_Produto.md)
+- :busts_in_silhouette: [BackLog do Produto](https://github.com/hisokarenn/ES1-TP1/blob/dddc3d265a1f04deea29acc2e71a4026eed3c345/Ideacao_Especificacao/3_BackLog_do_Produto/BackLog_do_Produto.md)
 
-- :books: [Histórias de Usuário Geral](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/3_BackLog_do_Produto/Hist%C3%B3rias_de_usu%C3%A1rio.md)
+- :books: [Histórias de Usuário Geral](https://github.com/hisokarenn/ES1-TP1/blob/dddc3d265a1f04deea29acc2e71a4026eed3c345/Ideacao_Especificacao/3_BackLog_do_Produto/Hist%C3%B3rias_de_usu%C3%A1rio.md)
 
 ### BackLog do Sprint (TP1)
-- :ballot_box_with_check: [BackLog do Sprint](https://github.com/hisokarenn/ES1-TP1/blob/0b3146d585bfd504fdefc0dddedc8519fd822b6d/Ideacao_Especificacao/4_BackLog_do_Sprint/BackLog_do_Sprint.md)
+- :ballot_box_with_check: [BackLog do Sprint](https://github.com/hisokarenn/ES1-TP1/blob/dddc3d265a1f04deea29acc2e71a4026eed3c345/Ideacao_Especificacao/4_BackLog_do_Sprint/BackLog_do_Sprint.md)
 
 ### Notion (TP1)
 - :open_file_folder: [Notion](https://github.com/hisokarenn/ES1-TP1/tree/339d2631a9194a11bca8fbef5c0bb64f896ee82a/Ideacao_Especificacao/5_Notion)
