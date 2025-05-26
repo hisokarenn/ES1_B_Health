@@ -27,16 +27,16 @@
 ## Ideação e Especificação
 
 ### Plano de Trabalho
-- :speech_balloon: [Plano de Trabalho](https://github.com/hisokarenn/ES1-TP1/blob/3024e4547f1b4d19a0e6e4d1fa4128f276cb2b77/Ideacao_Especificacao/1_Plano_de_Trabalho/Plano_de_Trabalho.md)
+- :speech_balloon: [Plano de Trabalho](https://github.com/hisokarenn/ES1-TP1/blob/859b5ccd4a17bda57965a308a1e962c64b0d5e9f/Ideacao_Especificacao/1_Plano_de_Trabalho/Plano_de_Trabalho.md)
 
 ### Design Thinking
 - :mag: [Golden Circle](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/2_Design_Thinking/1_Golden_Circle.md)
 
-- :chart_with_upwards_trend: [SWOT](https://github.com/hisokarenn/ES1-TP1/blob/0a060202032f5070a14d8f3f0acd199e28d37678/Ideacao_Especificacao/2_Design_Thinking/2_SWOT.md)
+- :chart_with_upwards_trend: [SWOT](https://github.com/hisokarenn/ES1-TP1/blob/859b5ccd4a17bda57965a308a1e962c64b0d5e9f/Ideacao_Especificacao/2_Design_Thinking/2_SWOT.md)
 
 - :twisted_rightwards_arrows: [Quadro Comparativo](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/2_Design_Thinking/3_Quadro_Comparativo.md)
 
-- :bust_in_silhouette: [Personas](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/2_Design_Thinking/4_Personas.md)
+- :bust_in_silhouette: [Personas](https://github.com/hisokarenn/ES1-TP1/blob/859b5ccd4a17bda57965a308a1e962c64b0d5e9f/Ideacao_Especificacao/2_Design_Thinking/4_Personas.md)
   
 ### Backlog do Produto
 - :busts_in_silhouette: [BackLog do Produto](https://github.com/hisokarenn/ES1-TP1/blob/dddc3d265a1f04deea29acc2e71a4026eed3c345/Ideacao_Especificacao/3_BackLog_do_Produto/BackLog_do_Produto.md)
