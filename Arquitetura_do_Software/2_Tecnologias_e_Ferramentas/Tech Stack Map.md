@@ -2,7 +2,7 @@
 
 <p align="justify"> Em desenvolvimento de software, uma "tech stack" ou "pilha tecnológica" refere-se ao conjunto de ferramentas e tecnologias utilizadas para construir, executar e manter um projeto de software, como um site, aplicativo ou serviço. Isso inclui linguagens de programação, frameworks, bancos de dados, servidores, e outras ferramentas e componentes.
 
-<p align="justify"> Foi elaborado um Mapa de Tecnologias (Tech Stack Map), e uma tabela que demonstram as tecnologias e ferramentas principais utilizadas para o desenvolvimento do aplicativo móvel.
+<p align="justify"> Foi elaborado um Mapa de Tecnologias (Tech Stack Map), e uma tabela que demonstram as tecnologias e ferramentas principais que seriam utilizadas para o desenvolvimento do aplicativo móvel.
 
 ## Tech Stack Map
 imagem do mapa
