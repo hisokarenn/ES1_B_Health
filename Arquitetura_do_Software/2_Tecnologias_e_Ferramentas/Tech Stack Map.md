@@ -1,4 +1,4 @@
-# Tabela de Tecnologiaa e Ferramentas (Tech Stack Map)
+# Tabela de Tecnologias e Ferramentas (Tech Stack Map)
 
 <p align="justify"> Em desenvolvimento de software, uma "tech stack" ou "pilha tecnológica" refere-se ao conjunto de ferramentas e tecnologias utilizadas para construir, executar e manter um projeto de software, como um site, aplicativo ou serviço. Isso inclui linguagens de programação, frameworks, bancos de dados, servidores, e outras ferramentas e componentes.
 
