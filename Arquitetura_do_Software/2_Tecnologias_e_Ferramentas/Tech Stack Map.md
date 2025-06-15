@@ -89,10 +89,11 @@ A seguir, estão todas as tecnologias que usamos no projeto, com uma explicaçã
 <br>
 
 ---
-<p align="justify"> Nesta tabela a seguir, estão listadas as tecnologias usadas em cada parte do sistema, com uma breve explicação do porquê de cada escolha. A ideia foi escolher ferramentas que deixassem o B Health rápido, fácil de usar e que atendessem bem às funções que ele precisa.
 
 ## Tabela de Tecnologia
-
+<p align="justify"> Na tabela a seguir, estão listadas as tecnologias usadas em cada parte do sistema, com uma breve explicação do porquê de cada escolha. A ideia foi escolher ferramentas que deixassem o B Health rápido, fácil de usar e que atendessem bem às funções que ele precisa.
+<br>
+  
 |Camada|Tecnologias|Justificativa|
 |-|-|-|
 |Front-end|Flutter|O Flutter é um framework (usa a linguagem de programação Dart) que é bem interessante de ser utilizado, pois este possui alto desempenho, fluido e é multiplataforma (IOS, Android, Web, MacOs, Windows e Linux). Além disso, é de fácil integração com Firebase.|
