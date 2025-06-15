@@ -30,3 +30,44 @@ Organiza o sistema em camadas, onde cada uma possui uma responsabilidade especí
 
 ## 2. MVC (Model-View-Controller)
 ### O que é?<br>
+Um padrão que separa o sistema em três partes principais:
+- Model: Dados e regras de negócio (ex.: Paciente, Vacina).
+- View: Interface com o usuário (Flutter).
+- Controller: Processamento das ações, orquestra o fluxo entre Model e View (Node.js + Express).
+### Por que foi escolhida?
+- Organização clara: Cada parte tem uma função bem definida, facilitando manutenções e atualizações.
+- Alinhamento tecnológico: Flutter como View, Node.js como Controller e PostgreSQL como Model se integram perfeitamente.
+- Eficiência: Evita sobrecarga no tráfego de dados, retornando apenas o necessário nas requisições.
+- Testabilidade: Controllers e Models podem ser testados separadamente, garantindo maior estabilidade e segurança.
+- Reutilização: Models podem ser compartilhados entre o backend e o frontend, otimizando o desenvolvimento.
+
+<br>
+
+|Componente|Responsabilidade|Exemplo no B Health|
+|-|-|-|
+|Model|Gerencia dados e regras de negócio.|Classe Vacina com atributos como nome, dose, data e lote.|
+|View|Interface que exibe informações e recebe ações do usuário|Telas Flutter, como o histórico vacinal e formulário de agendamento.|
+|Controller|Processa requisições, conecta Model e View, e executa as regras.|API em Node.js que valida e salva um agendamento no banco de dados.|
+
+<br>
+
+## 3. Publish-Subscribe (Pub/Sub)
+### O que é?
+Modelo de comunicação assíncrona baseado em eventos:
+- Publisher (Publicador): Emite eventos (ex.: nova vacina registrada).
+- Subscriber (Assinante): Recebe e reage aos eventos (ex.: app do paciente exibe notificação).
+- Broker (Intermediário): Gerencia o envio das mensagens (Socket.IO/FCM).
+### Por que foi escolhida?
+- Atualizações em tempo real: Notificações instantâneas quando, por exemplo, uma nova vacina é registrada.
+- Escalabilidade: Suporta muitos usuários simultaneamente, permitindo adicionar novos serviços sem alterar o núcleo.
+- Baixo acoplamento: O backend não precisa saber quantos clientes estão conectados, tornando o sistema mais flexível.
+- Resiliência: Mensagens são armazenadas e entregues quando o assinante estiver online novamente.
+- Eficiência: Socket.IO mantém conexão contínua (WebSocket), ideal para dados em tempo real; FCM garante notificações mesmo com o app fechado.
+
+<br>
+
+|Componente|Tecnologia|Função no B health|
+|-|-|-|
+|Publisher|Node.js|Publica eventos, como "nova vacina registrada" ou "agendamento criado".|
+|Broker|Socket.IO + Firebase Cloud|Gerencia a distribuição das mensagens e garante entrega em tempo real ou push.|
+|Subscriber|Flutter|Recebe eventos e exibe notificações no app, como alertas de dose pendente.|
