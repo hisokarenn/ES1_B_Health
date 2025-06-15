@@ -76,7 +76,8 @@ Modelo de comunicação assíncrona baseado em eventos:
 
 ## 4. Representação visual das arquiteturas selecionadas
 A representação visual das arquiteturas foi elaborada a partir da junção das três abordagens, visando um melhor entendimento da organização do aplicativo móvel B Health. Abaixo, segue a imagem correspondente: 
-<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/66e00f13902a78a712abfda3cf96905eff3891bd/Arquitetura_do_Software/Imagens/Arquitetura/arqCMP.jpg" alt="" width="500"
+<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/66e00f13902a78a712abfda3cf96905eff3891bd/Arquitetura_do_Software/Imagens/Arquitetura/arqCMP.jpg" alt="" width="500" <br>
+<p align="center">Figura das Arquiteturas produzidas no draw.io
 <br>
 
 
