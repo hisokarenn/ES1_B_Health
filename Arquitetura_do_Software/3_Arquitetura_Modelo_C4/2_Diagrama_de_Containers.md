@@ -45,7 +45,10 @@
 ---
 
 <br>
-<p align="justify">Esta parte do diagrama destaca dois serviços diretamente integrados ao aplicativo, devido ao uso da tecnologia Flutter. São eles: Firebase Authentication, responsável pelo controle de acesso, e Firebase Cloud Messaging (FCM), que gerencia o envio de notificações. Ambos se conectam de forma nativa ao aplicativo. Essa integração facilita a comunicação e a segurança dentro da plataforma.
+<p align="justify">Esta parte do diagrama destaca dois serviços diretamente integrados ao aplicativo, devido ao uso da tecnologia Flutter. São eles:
+1. Firebase Authentication: responsável pelo controle de acesso; <br>
+2. Firebase Cloud Messaging (FCM): gerencia o envio de notificações. <br>
+Ambos se conectam de forma nativa ao aplicativo. Essa integração facilita a comunicação e a segurança dentro da plataforma.
 <br>
 <br>
 
