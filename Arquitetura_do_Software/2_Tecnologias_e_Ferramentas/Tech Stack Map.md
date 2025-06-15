@@ -7,7 +7,7 @@
 <br>
   
 ## Tech Stack Map
-Mapa Geral de Tecnologias listadas, mostrando as camadas e ferramentas respectivas.
+<p align="justify"> Este mapa de tecnologia descreve a arquitetura e as tecnologias recomendadas para o desenvolvimento do sistema BHEALTH, uma aplicação de gestão de vacinação que possui funcionalidades como autenticação, notificações, geolocalização e histórico de vacinas. A seguir, explico detalhadamente cada parte do diagrama:
 <br>
 <br>
 
@@ -19,7 +19,30 @@ Mapa Geral de Tecnologias listadas, mostrando as camadas e ferramentas respectiv
 
 <br>
 
-Essa parte corresponde as cores e identificação das informações do mapa.
+## Estrutura Geral
+O sistema BHEALTH está no centro e é dividido em sete módulos principais, que representam os blocos funcionais do sistema:
+
+1. Front-end
+
+2. Back-end
+
+3. Banco de Dados
+
+4. Autenticação
+
+5. Notificações
+
+6. Geolocalização
+
+7. Deploy
+
+Cada módulo está ligado a uma tecnologia específica, com um balão descritivo explicando o que é a tecnologia e por que foi escolhida.
+
+<br>
+
+## Explicação sobre os ítens disponíveis na imagem
+
+<p align="justify"> A imagem a seguir é a legenda do mapa de tecnologia BHEALTH que utiliza cores e formas para representar o papel de cada elemento no sistema. Ela identifica o tipo de informação apresentada, como o nome do sistema, tecnologias recomendadas, alternativas disponíveis e descrições técnicas associadas às escolhas. Esses marcadores visuais facilitam a leitura e a compreensão rápida do diagrama: 
 <br>
 <br>
 
@@ -29,7 +52,8 @@ Essa parte corresponde as cores e identificação das informações do mapa.
 ---
 
 <br>
-Nessa imagem é mostrado o nome do aplicativo sua descrição juntamente com as camadas que representam as tecnologias.
+
+<p align="justify"> Nesta imagem são apresentados o nome do aplicativo, sua descrição e as camadas que compõem sua arquitetura tecnológica. Cada camada representa uma parte fundamental do sistema, destacando as tecnologias utilizadas para o desenvolvimento do front-end, back-end, banco de dados, autenticação, notificações, geolocalização e deploy, oferecendo uma visão clara e estruturada da solução proposta:
 <br>
 <br>
 
@@ -39,7 +63,7 @@ Nessa imagem é mostrado o nome do aplicativo sua descrição juntamente com as 
 ---
 
 <br>
-A seguir todas as tecnologias utilizadas:
+A seguir, estão todas as tecnologias que usamos no projeto, com uma explicação sobre o que cada uma é, para que serve e por que escolhemos ela.
 <br>
 <br>
 
@@ -65,6 +89,8 @@ A seguir todas as tecnologias utilizadas:
 <br>
 
 ---
+<p align="justify"> Nesta tabela a seguir, estão listadas as tecnologias usadas em cada parte do sistema, com uma breve explicação do porquê de cada escolha. A ideia foi escolher ferramentas que deixassem o B Health rápido, fácil de usar e que atendessem bem às funções que ele precisa.
+
 ## Tabela de Tecnologia
 
 |Camada|Tecnologias|Justificativa|
