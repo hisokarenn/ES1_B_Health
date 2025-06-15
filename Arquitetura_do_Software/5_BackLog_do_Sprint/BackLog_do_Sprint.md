@@ -9,7 +9,7 @@ A seguir as imagens do BackLog do Sprint:
 
 ## Quadro em Andamento
 <br>
-<p align="center"> <img src="" alt="" width="1000" /></p>
+<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/1769a7403055fed0007c64156e29bc98db222711/Arquitetura_do_Software/Imagens/BackLog_do_Sprint/backlog%20sprint%20andamento.png" alt="" width="1000" /></p>
 <br>
 
 ## Quadro Concluído
