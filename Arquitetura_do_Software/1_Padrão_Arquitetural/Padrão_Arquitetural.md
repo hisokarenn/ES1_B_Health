@@ -21,10 +21,10 @@ Organiza o sistema em camadas, onde cada uma possui uma responsabilidade especí
 
 |Camadas|Tecnologias|Papel no Sistema|
 |-|-|-|
-|Apresentação|Flutter|Interface do usuário para pacientes, profissionais de saúde e administradores.|
-|Negócio|Node.js + Express|APIs REST, regras de vacinação, agendamento, histórico e alertas.|
-|Persistência|PostgreSQL + PostGIS|Armazena dados estruturados (vacinas, usuários, locais) e dados geoespaciais.|
-|Integração|Firebase Auth, Google Maps SDK, FCM, Socket.IO|Autenticação, geolocalização, notificações push e comunicação em tempo real.|
+|<p align="center">Apresentação|<p align="center">Flutter|Interface do usuário para pacientes, profissionais de saúde e administradores.|
+|<p align="center">Negócio|<p align="center">Node.js + Express|APIs REST, regras de vacinação, agendamento, histórico e alertas.|
+|<p align="center">Persistência|<p align="center">PostgreSQL + PostGIS|Armazena dados estruturados (vacinas, usuários, locais) e dados geoespaciais.|
+|<p align="center">Integração|<p align="center">Firebase Auth, Google Maps SDK, FCM, Socket.IO|Autenticação, geolocalização, notificações push e comunicação em tempo real.|
 
 <br>
 
@@ -45,9 +45,9 @@ Um padrão que separa o sistema em três partes principais:
 
 |Componente|Responsabilidade|Exemplo no B Health|
 |-|-|-|
-|Model|Gerencia dados e regras de negócio.|Classe Vacina com atributos como nome, dose, data e lote.|
-|View|Interface que exibe informações e recebe ações do usuário|Telas Flutter, como o histórico vacinal e formulário de agendamento.|
-|Controller|Processa requisições, conecta Model e View, e executa as regras.|API em Node.js que valida e salva um agendamento no banco de dados.|
+|<p align="center">Model|<p align="center">Gerencia dados e regras de negócio.|Classe Vacina com atributos como nome, dose, data e lote.|
+|<p align="center">View|<p align="center">Interface que exibe informações e recebe ações do usuário|Telas Flutter, como o histórico vacinal e formulário de agendamento.|
+|<p align="center">Controller|<p align="center">Processa requisições, conecta Model e View, e executa as regras.|API em Node.js que valida e salva um agendamento no banco de dados.|
 
 <br>
 
@@ -68,9 +68,9 @@ Modelo de comunicação assíncrona baseado em eventos:
 
 |Componente|Tecnologia|Função no B health|
 |-|-|-|
-|Publisher|Node.js|Publica eventos, como "nova vacina registrada" ou "agendamento criado".|
-|Broker|Socket.IO + Firebase Cloud|Gerencia a distribuição das mensagens e garante entrega em tempo real ou push.|
-|Subscriber|Flutter|Recebe eventos e exibe notificações no app, como alertas de dose pendente.|
+|<p align="center">Publisher|<p align="center">Node.js|Publica eventos, como "nova vacina registrada" ou "agendamento criado".|
+|<p align="center">Broker|<p align="center">Socket.IO + Firebase Cloud|Gerencia a distribuição das mensagens e garante entrega em tempo real ou push.|
+|<p align="center">Subscriber|<p align="center">Flutter|Recebe eventos e exibe notificações no app, como alertas de dose pendente.|
 
 <br>
 
