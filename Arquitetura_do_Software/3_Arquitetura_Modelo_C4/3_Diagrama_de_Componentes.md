@@ -85,7 +85,7 @@
 ---
 
 <br>
-<p align="justify">Esta parte do diagrama reúne o banco de dados e as tecnologias externas utilizadas no sistema, como APIs e serviços do Firebase. Esses elementos são fundamentais para o armazenamento de dados, autenticação e envio de notificações, juntamente com suas realções no sistema.
+<p align="justify">Esta parte do diagrama reúne o banco de dados e as tecnologias externas utilizadas no sistema, como APIs e serviços do Firebase. Esses elementos são fundamentais para o armazenamento de dados, autenticação e envio de notificações, juntamente com suas relações no sistema.
 <br>
 <br>
 
