@@ -40,7 +40,7 @@ Cada módulo está ligado a uma tecnologia específica, com um balão descritivo
 
 <br>
 
-## Explicação sobre os ítens disponíveis na imagem
+## Explicação sobre os itens disponíveis na imagem
 
 <p align="justify"> A imagem a seguir é a legenda do mapa de tecnologia BHEALTH que utiliza cores e formas para representar o papel de cada elemento no sistema. Ela identifica o tipo de informação apresentada, como o nome do sistema, tecnologias recomendadas, alternativas disponíveis e descrições técnicas associadas às escolhas. Esses marcadores visuais facilitam a leitura e a compreensão rápida do diagrama: 
 <br>
