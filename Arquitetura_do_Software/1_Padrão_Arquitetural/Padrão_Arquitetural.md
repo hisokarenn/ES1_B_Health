@@ -73,6 +73,6 @@ Modelo de comunicação assíncrona baseado em eventos:
 |Subscriber|Flutter|Recebe eventos e exibe notificações no app, como alertas de dose pendente.|
 
 ## 4. Representação visual das arquiteturas selecionadas
-A representação visual das arquiteturas foi elaborada a partir da junção das três abordagens, visando a melhor entendimento da organização do aplicativo móvel B Health. Abaixo, segue a imagem correspondente: 
+A representação visual das arquiteturas foi elaborada a partir da junção das três abordagens, visando um melhor entendimento da organização do aplicativo móvel B Health. Abaixo, segue a imagem correspondente: 
 
 
