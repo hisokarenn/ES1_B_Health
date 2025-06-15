@@ -18,7 +18,7 @@
 
 <br>
 <br>
-<br>
+
 <p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/014b0d41055b31b7dd2350eac328c41d60bbe646/Arquitetura_do_Software/Imagens/Modelo_C4/1_Diagrama_de_Contexto/persona1.png" alt="" width="700"
 <br>
 
@@ -31,7 +31,7 @@
 <p align="justify">Este componente representa o aplicativo móvel B Health, principal interface de interação dos usuários com o sistema. Ele está posicionado na parte central do diagrama, evidenciando seu papel de conexão entre as personas e os demais módulos. Através do aplicativo móvel, os usuários acessam funcionalidades conforme seus perfis. Sua localização central destaca sua importância na arquitetura do sistema.
 <br>
 <br>
-<br>
+
 
 <p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/3f9c2dfe1b61b9d4ce7bdca9ff34af9734278830/Arquitetura_do_Software/Imagens/Modelo_C4/1_Diagrama_de_Contexto/appCentralContexto.png" alt="" width="700"
 <br>
@@ -42,7 +42,7 @@
 <p align="justify">A seguir, são apresentadas as principais tecnologias utilizadas no sistema, incluindo Firebase, APIs e banco de dados. Cada tecnologia é representada junto às suas funções específicas dentro da arquitetura. Também são exibidas as relações entre esses componentes e os demais elementos do sistema. Essa visualização facilita o entendimento da infraestrutura técnica adotada.
 <br>
 <br>
-<br>
+
 
 <p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/3f9c2dfe1b61b9d4ce7bdca9ff34af9734278830/Arquitetura_do_Software/Imagens/Modelo_C4/1_Diagrama_de_Contexto/tec1.png" alt="" width="500"
 <br>
