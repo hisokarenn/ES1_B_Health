@@ -15,7 +15,7 @@ Deve conter:
 
 |Histórias de Usuário|Componentes Envolvidos|Diagramas de Referência|
 |-|-|-|
-|<p align="justify">H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health.|<p align="justify">Tela Cadastro, Controlador de Senha, Firebase Auth, Classe Usuário, Classe Paciente|Contexto,Componentes, Containers,Classes|
+|<p align="justify">H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health.|<p align="justify">Tela Cadastro, Controlador de Senha, Firebase Auth, Classe Usuário, Classe Paciente|Contexto,Componentes, Containers, Classes|
 |<p align="justify">H2 - Como paciente, gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo.|<p align="justify">Tela Cadastro, Controlador Login, Componente de Segurança, Firebase Auth, Classe Usuário|Contexto, Componentes, Container, Classes|
 |<p align="justify">H3 - Como paciente cadastrado no aplicativo B Health, gostaria de ver o histórico de vacinas para que eu possa verificar quais vacinas já tomei.|<p align="justify">Tela Carteira de Vacina, Controlador de Vacinas e Histórico, Serviço de Vacinas, Banco de Dados, Classes Paciente, Classe CarteiraVacinacao|Contexto, Componentes Containers, Classes|
 |<p align="justify">H4 - Como paciente, gostaria de acessar o mapa de vacinação para saber em quais unidades de saúde estão fornecendo as vacinas que preciso.|<p align="justify">Tela Carteira de Vacina, Controlador de Mapas, Componente de Geolocalização, Google Maps SDK, Classe MapaDeVacinacao|Contexto, Componentes, Classes|
