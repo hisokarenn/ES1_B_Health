@@ -2,12 +2,12 @@
 
 <p align="justify"> Em desenvolvimento de software, uma "tech stack" ou "pilha tecnológica" refere-se ao conjunto de ferramentas e tecnologias utilizadas para construir, executar e manter um projeto de software, como um site, aplicativo ou serviço. Isso inclui linguagens de programação, frameworks, bancos de dados, servidores, e outras ferramentas e componentes.
 
-<p align="justify"> Foi elaborado um Mapa de Tecnologias (Tech Stack Map), e uma tabela que demonstram as tecnologias e ferramentas principais que seriam utilizadas para o desenvolvimento do aplicativo móvel.
+<p align="justify"> Foi elaborado um Mapa de Tecnologias (Tech Stack Map) e uma tabela que demonstram as tecnologias e ferramentas principais que seriam utilizadas para o desenvolvimento do aplicativo móvel.
 <br>
 <br>
   
 ## Tech Stack Map
-<p align="justify"> Este mapa de tecnologia descreve a arquitetura e as tecnologias recomendadas para o desenvolvimento do sistema BHEALTH, uma aplicação de gestão de vacinação que possui funcionalidades como autenticação, notificações, geolocalização e histórico de vacinas. A seguir, explico detalhadamente cada parte do diagrama:
+<p align="justify"> Este mapa de tecnologia descreve a arquitetura e as tecnologias recomendadas para o desenvolvimento do sistema B Health, uma aplicação de gestão de vacinação que possui funcionalidades como autenticação, notificações, geolocalização e histórico de vacinas. A seguir é explicado detalhadamente cada parte do diagrama:
 <br>
 <br>
 
@@ -22,19 +22,13 @@
 ## Estrutura Geral
 O sistema BHEALTH está no centro e é dividido em sete módulos principais, que representam os blocos funcionais do sistema:
 
-1. Front-end
-
-2. Back-end
-
-3. Banco de Dados
-
-4. Autenticação
-
-5. Notificações
-
-6. Geolocalização
-
-7. Deploy
+**1. Front-end**<br>
+**2. Back-end** <br>
+**3. Banco de Dados** <br>
+**4. Autenticação** <br>
+**5. Notificações**
+**6. Geolocalização** <br>
+**7. Deploy** <br>
 
 Cada módulo está ligado a uma tecnologia específica, com um balão descritivo explicando o que é a tecnologia e por que foi escolhida.
 
@@ -42,7 +36,7 @@ Cada módulo está ligado a uma tecnologia específica, com um balão descritivo
 
 ## Explicação sobre os itens disponíveis na imagem
 
-<p align="justify"> A imagem a seguir é a legenda do mapa de tecnologia BHEALTH que utiliza cores e formas para representar o papel de cada elemento no sistema. Ela identifica o tipo de informação apresentada, como o nome do sistema, tecnologias recomendadas, alternativas disponíveis e descrições técnicas associadas às escolhas. Esses marcadores visuais facilitam a leitura e a compreensão rápida do diagrama: 
+<p align="justify"> A imagem a seguir é a legenda do mapa de tecnologia do aplicativo B Health que utiliza cores e formas para representar o papel de cada elemento no sistema. O mapa identifica o tipo de informação apresentada, como o nome do sistema, tecnologias recomendadas, alternativas disponíveis e descrições técnicas associadas às escolhas. Esses marcadores visuais facilitam a leitura e a compreensão rápida do diagrama: 
 <br>
 <br>
 
@@ -91,15 +85,15 @@ A seguir, estão todas as tecnologias que usamos no projeto, com uma explicaçã
 ---
 
 ## Tabela de Tecnologias
-<p align="justify"> Na tabela a seguir, estão listadas as tecnologias usadas em cada parte do sistema, com uma breve explicação do porquê de cada escolha. A ideia foi escolher ferramentas que deixassem o B Health rápido, fácil de usar e que atendessem bem às funções que ele precisa.
+<p align="justify"> Na tabela a seguir, estão listadas as tecnologias usadas em cada parte do sistema, com uma breve explicação do motivo de cada escolha. A ideia foi escolher ferramentas que deixassem o B Health rápido, fácil de usar e que atendessem bem às funções que ele precisa.
 <br>
   
 |Camada|Tecnologias|Justificativa|
 |-|-|-|
-|Front-end|Flutter|O Flutter é um framework (usa a linguagem de programação Dart) que é bem interessante de ser utilizado, pois este possui alto desempenho, fluido e é multiplataforma (IOS, Android, Web, MacOs, Windows e Linux). Além disso, é de fácil integração com Firebase.|
-|Back-end|Node.js + Express|Para lidar com várias conexões simultâneas, o Node.js é interessante de ser utilizado. Já o Express fica responsável por organizar as APIs, pelo motivo de possuir uma estrutura flexível e fluída.|
-|Banco de Dados|PostgreSQL (PostGIS)|O PostgreSQL é um banco de dados relacional que é bom para armazenar dados mais complexos. O PostGIS é relevante porque ele gerencia dados geoespaciais de forma eficiente. Assim, o controle das funcionalidades de localização dos pacientes e de campanhas de vacinas se tornam mais eficazes. Este banco de dados também facilita a integração com o Mapbox.|
-|Autenticação|Firebase Authentication|O Firebase Authentication fornece a autenticação segura com suporte a múltiplos provedores (email/senha, OAuth, etc). Ademais, a gestão e controle de acesso dos usuários se tornam simplificadas.|
-|Notificações|Socket.IO + Firebase Cloud Messaging (FMC)|O Socket.IO possibilita comunicação bidirecional persistente, o qual permite atualizações instantâneas que são relevantes para os agendamentos no B Health. Já o FCM ajuda no envio confiável de notificações push, isso ocorre até quando o aplicativo está em segundo plano.|
-|Geolocalização|Google Maps SDK|O Google Map SDK possui uma grande cobertura mais completa e atualizações frequentes de localização.|
-|Deploy|Railway|Plataforma de deploy e infraestrutura moderna, usada para hospedar o backend Node.js e o banco de dados PostgreSQL. Para mais, ele fornece suporte integrado para múltiplas linguagens e bancos, com escalabilidade automática e monitoramento.|
+|<p align="center">Front-end|<p align="center">Flutter|<p align="justify">O Flutter é um framework (usa a linguagem de programação Dart) que é bem interessante de ser utilizado, pois este possui alto desempenho, fluido e é multiplataforma (IOS, Android, Web, MacOs, Windows e Linux). Além disso, é de fácil integração com Firebase.|
+|<p align="center">Back-end|<p align="center">Node.js + Express|<p align="justify">Para lidar com várias conexões simultâneas, o Node.js é interessante de ser utilizado. Já o Express fica responsável por organizar as APIs, pelo motivo de possuir uma estrutura flexível e fluída.|
+|<p align="center">Banco de Dados|<p align="center">PostgreSQL (PostGIS)|<p align="justify">O PostgreSQL é um banco de dados relacional que é bom para armazenar dados mais complexos. O PostGIS é relevante porque ele gerencia dados geoespaciais de forma eficiente. Assim, o controle das funcionalidades de localização dos pacientes e de campanhas de vacinas se tornam mais eficazes. Este banco de dados também facilita a integração com o Mapbox.|
+|<p align="center">Autenticação|<p align="center">Firebase Authentication|<p align="justify">O Firebase Authentication fornece a autenticação segura com suporte a múltiplos provedores (email/senha, OAuth, etc). Ademais, a gestão e controle de acesso dos usuários se tornam simplificadas.|
+|<p align="center">Notificações|<p align="center">Socket.IO + Firebase Cloud Messaging (FMC)|<p align="justify">O Socket.IO possibilita comunicação bidirecional persistente, o qual permite atualizações instantâneas que são relevantes para os agendamentos no B Health. Já o FCM ajuda no envio confiável de notificações push, isso ocorre até quando o aplicativo está em segundo plano.|
+|<p align="center">Geolocalização|<p align="center">Google Maps SDK|<p align="justify">O Google Map SDK possui uma grande cobertura mais completa e atualizações frequentes de localização.|
+|<p align="center">Deploy|<p align="center">Railway|<p align="justify">Plataforma de deploy e infraestrutura moderna, usada para hospedar o backend Node.js e o banco de dados PostgreSQL. Para mais, ele fornece suporte integrado para múltiplas linguagens e bancos, com escalabilidade automática e monitoramento.|
