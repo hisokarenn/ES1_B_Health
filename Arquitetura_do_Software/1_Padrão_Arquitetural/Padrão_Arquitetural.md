@@ -4,7 +4,7 @@
 
 ## 1. Arquitetura em Camadas
 ### O que é?<br>
-Organiza o sistema em camadas, onde cada uma possui uma responsabilidade específica e se comunica apenas com as camadas adjacentes. As principais são:
+Um padrão de arquitetura que organiza o sistema em camadas, onde cada uma possui uma responsabilidade específica e se comunica apenas com as camadas adjacentes. As principais são:
 - **Apresentação (Front-End):** Interface do usuário (Flutter).
 - **Negócio (Back-End):** Regras e lógica (Node.js + Express).
 - **Persistência (Banco de Dados):** Armazenamento dos dados (PostgreSQL + PostGIS).
