@@ -72,6 +72,8 @@ Modelo de comunicação assíncrona baseado em eventos:
 |Broker|Socket.IO + Firebase Cloud|Gerencia a distribuição das mensagens e garante entrega em tempo real ou push.|
 |Subscriber|Flutter|Recebe eventos e exibe notificações no app, como alertas de dose pendente.|
 
+<br>
+
 ## 4. Representação visual das arquiteturas selecionadas
 A representação visual das arquiteturas foi elaborada a partir da junção das três abordagens, visando um melhor entendimento da organização do aplicativo móvel B Health. Abaixo, segue a imagem correspondente: 
 
