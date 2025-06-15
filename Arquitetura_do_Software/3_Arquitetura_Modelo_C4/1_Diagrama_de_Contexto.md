@@ -28,7 +28,7 @@
 ---
 
 <br>
-Nesse componente está presenta a representação do aplicativo móvel B Heatlh, ele está localizado nem no meio do diagrama.
+<p align="justify">Este componente representa o aplicativo móvel B Health, principal interface de interação dos usuários com o sistema. Ele está posicionado na parte central do diagrama, evidenciando seu papel de conexão entre as personas e os demais módulos. Através do aplicativo móvel, os usuários acessam funcionalidades conforme seus perfis. Sua localização central destaca sua importância na arquitetura do sistema.
 <br>
 <br>
 <br>
@@ -39,7 +39,7 @@ Nesse componente está presenta a representação do aplicativo móvel B Heatlh,
 ---
 
 <br>
-A seguir é exibido as tecnologias usadas como Firebases, APIS, Banco de Dados e suas relações.
+<p align="justify">A seguir, são apresentadas as principais tecnologias utilizadas no sistema, incluindo Firebase, APIs e banco de dados. Cada tecnologia é representada junto às suas funções específicas dentro da arquitetura. Também são exibidas as relações entre esses componentes e os demais elementos do sistema. Essa visualização facilita o entendimento da infraestrutura técnica adotada.
 <br>
 <br>
 <br>
