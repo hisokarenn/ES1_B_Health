@@ -1,7 +1,7 @@
 # Diagrama de Contexto
 
 <br>
-<p align="justify">O Diagrama de Contexto do Modelo C4 é um tipo de diagrama que representa o contexto de um sistema de software, mostrando como ele se relaciona com outros sistemas e com os usuários. É o primeiro nível do Modelo C4, que é uma abordagem para modelar a arquitetura de software usando diferentes níveis de detalhe, cercado por usuários e outros sistemas com os quais ele interage. Ele serve como uma visão geral de alto nível, ajudando a alinhar as partes interessadas sobre o escopo e os objetivos do sistema. 
+<p align="justify">O Diagrama de Contexto do Modelo C4 é um tipo de diagrama que representa o contexto de um sistema de software, mostrando como ele se relaciona com outros sistemas e com os usuários. Este é o primeiro nível do Modelo C4, uma abordagem voltada à modelagem da arquitetura de software usando diferentes níveis de detalhe. O sistema é representado no centro, cercado por usuários e outros sistemas com os quais irá interagir. O Diagrama de Contexto oferece uma visão geral de alto nível, auxiliando no alinhamento das partes interessadas quanto ao escopo e aos objetivos do sistema.
 <br>
 <br>
 
@@ -14,7 +14,7 @@
 ## Explicação sobre os itens pertencentes ao Diagrama de Contexto
 
 <br>
-<p align="justify">Esta seção do diagrama apresenta as personas que interagem com o sistema, cada uma com objetivos e responsabilidades específicas. As personas representam os diferentes perfis de usuários, como pacientes, profissionais de saúde e assistentes sociais. Suas relações com o sistema são destacadas conforme suas funções e permissões. Essa representação auxilia na compreensão do uso e da finalidade do sistema por cada perfil.
+<p align="justify">Esta seção do diagrama apresenta as personas que interagem com o sistema, cada uma contendo objetivos e responsabilidades específicas. As personas representam os diferentes perfis de usuários, como pacientes, profissionais de saúde e assistentes sociais. Suas relações com o sistema são destacadas conforme suas funções e permissões. Essa representação auxilia na compreensão do uso e da finalidade do sistema por cada perfil.
 
 <br>
 <br>
