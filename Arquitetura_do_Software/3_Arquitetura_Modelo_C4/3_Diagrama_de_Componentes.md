@@ -42,7 +42,7 @@
 ---
 
 <br>
-<p align="justify">Esta seção do diagrama exibe as principais telas do aplicativo móvel, cada uma identificada por seu nome e acompanhada de uma breve descrição. As telas representam a interface que os usuários visualizam e interagem durante o uso do app. Essa representação facilita a compreensão da navegação e da estrutura do aplicativo.
+<p align="justify">Esta seção do diagrama exibe as principais telas do aplicativo móvel, cada uma identificada por seu nome e acompanhada de uma breve descrição. As telas representam a interface que os usuários visualizam e interagem durante o uso do aplicativo. Essa representação facilita a compreensão da navegação e da estrutura do aplicativo.
 <br>
 <br>
 
