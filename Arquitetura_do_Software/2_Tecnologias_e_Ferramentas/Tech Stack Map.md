@@ -26,7 +26,7 @@ O sistema BHEALTH está no centro e é dividido em sete módulos principais, que
 **2. Back-end** <br>
 **3. Banco de Dados** <br>
 **4. Autenticação** <br>
-**5. Notificações**
+**5. Notificações** <br>
 **6. Geolocalização** <br>
 **7. Deploy** <br>
 
