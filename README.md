@@ -55,25 +55,25 @@ Andrey Antonio de Oliveira Rodrigues
 
 ## Arquitetura do Software
 ### Padrão Arquitetrual
-- :triangular_ruler: [Padrão Arquitetural]()
+- :triangular_ruler: [Padrão Arquitetural](https://github.com/hisokarenn/ES1-TP1/blob/24125bd3bc103330c16087f5f7c40439a8646a6e/Arquitetura_do_Software/1_Padr%C3%A3o_Arquitetural/Padr%C3%A3o_Arquitetural.md)
 
 ### Tecnologias e Ferramentas
-- :hammer: [Tecnologias e Ferramentas]()
+- :hammer: [Tecnologias e Ferramentas](https://github.com/hisokarenn/ES1-TP1/blob/24125bd3bc103330c16087f5f7c40439a8646a6e/Arquitetura_do_Software/2_Tecnologias_e_Ferramentas/Tech%20Stack%20Map.md)
 
 ### Representação Arquitetural com o Modelo C4
-- :diamonds: [Diagrama de Contexto]()
+- :diamonds: [Diagrama de Contexto](https://github.com/hisokarenn/ES1-TP1/blob/24125bd3bc103330c16087f5f7c40439a8646a6e/Arquitetura_do_Software/3_Arquitetura_Modelo_C4/1_Diagrama_de_Contexto.md)
   
-- :clubs: [Diagrama de Conatiners]()
+- :clubs: [Diagrama de Containers](https://github.com/hisokarenn/ES1-TP1/blob/24125bd3bc103330c16087f5f7c40439a8646a6e/Arquitetura_do_Software/3_Arquitetura_Modelo_C4/2_Diagrama_de_Containers.md)
   
-- :hearts: [Diagrama de Componentes]()
+- :hearts: [Diagrama de Componentes](https://github.com/hisokarenn/ES1-TP1/blob/24125bd3bc103330c16087f5f7c40439a8646a6e/Arquitetura_do_Software/3_Arquitetura_Modelo_C4/3_Diagrama_de_Componentes.md)
   
-- :spades: [Diagrama de Código]()
+- :spades: [Diagrama de Código](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/3_Arquitetura_Modelo_C4/4_Diagrama_de_C%C3%B3digo_(Estrutural).md)
 
 ### Rastreabilidade com Histórias do Usuário
-- :pushpin: [Rastreabilidade com Histórias do Usuário]()
+- :pushpin: [Rastreabilidade com Histórias do Usuário](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/4_Rastreabilidade_com_Hist%C3%B3rias_de_Usu%C3%A1rio/Rastreabilidade_com_Hist%C3%B3rias_de_Usu%C3%A1rio.md)
 
 ### BackLog do Sprint (TP2)
-- :ballot_box_with_check: [BackLog do Sprint]()
+- :ballot_box_with_check: [BackLog do Sprint](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/5_BackLog_do_Sprint/BackLog_do_Sprint.md)
 
 ### Notion (TP2)
-- :open_file_folder: [Notion]()
+- :open_file_folder: [Notion](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/6_Notion/Dailys_Scrums.md)
