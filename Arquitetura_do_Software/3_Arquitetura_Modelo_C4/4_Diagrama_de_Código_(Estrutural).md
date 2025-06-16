@@ -1,7 +1,7 @@
 # Diagrama de Código
 
 <br>
-<p align="justify">Em Modelos C4, o diagrama de código, ou diagrama de componentes, representa a estrutura interna de um componente, mostrando as classes, interfaces e outros elementos de código que o compõem e suas interações. É o nível mais detalhado no modelo C4, focando na implementação do código de um componente específico. 
+<p align="justify">Em Modelos C4, o diagrama de código, representa a estrutura interna de um componente, mostrando as classes, interfaces e outros elementos de código que o compõem e suas interações. É o nível mais detalhado no modelo C4, focando na implementação do código de um componente específico. 
 <br>
 <br>
 
