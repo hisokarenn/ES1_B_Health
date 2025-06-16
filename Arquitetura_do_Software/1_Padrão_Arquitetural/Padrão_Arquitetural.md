@@ -70,7 +70,7 @@ Modelo de comunicação assíncrona baseado em eventos:
 |-|-|-|
 |<p align="center">Publisher|<p align="center">Node.js|Publica eventos, como "nova vacina registrada" ou "agendamento criado".|
 |<p align="center">Broker|<p align="center">Socket.IO + Firebase Cloud|Gerencia a distribuição das mensagens e garante entrega em tempo real ou push.|
-|<p align="center">Subscriber|<p align="center">Flutter|Recebe eventos e exibe notificações no app, como alertas de dose pendente.|
+|<p align="center">Subscriber|<p align="center">Flutter|Recebe eventos e exibe notificações no aplicativo, como alertas de dose pendente.|
 
 <br>
 
