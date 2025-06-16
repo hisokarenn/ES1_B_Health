@@ -1,7 +1,7 @@
 # Diagrama de Containers
 
 <br>
-<p align="justify">Um diagrama de containers, no contexto do modelo C4, é uma representação visual que detalha como um sistema de software é dividido em contêineres, que são unidades de implantação como aplicativos web, bancos de dados ou microserviços. Ele mostra a relação entre esses containers e como eles interagem entre si, fornecendo uma visão de alto nível da arquitetura do sistema focada em tecnologia.
+<p align="justify">Um diagrama de containers, no contexto do modelo C4, é uma representação visual que detalha como um sistema de software é dividido em containers, que são unidades de implantação como aplicativos web, bancos de dados ou microserviços. Ele mostra a relação entre esses containers e como eles interagem entre si, fornecendo uma visão de alto nível da arquitetura do sistema focada em tecnologia.
 <br>
 <br>
 
