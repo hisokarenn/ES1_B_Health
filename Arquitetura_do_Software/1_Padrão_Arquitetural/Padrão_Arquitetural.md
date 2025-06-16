@@ -1,6 +1,6 @@
 # Padrão Arquitetural
 
-<p align="justify"> A definição das arquiteturas no BHealth foi pensada para garantir escalabilidade, manutenibilidade, funcionamento offline e comunicação eficiente. Abaixo estão as descrições e os motivos pelos quais cada arquitetura foi adotada.
+<p align="justify"> A definição das arquiteturas no B Health foi pensada para garantir escalabilidade, manutenibilidade, funcionamento offline e comunicação eficiente. Abaixo estão as descrições e os motivos pelos quais cada arquitetura foi adotada.
 
 ## 1. Arquitetura em Camadas
 ### O que é?<br>
@@ -11,10 +11,10 @@ Um padrão de arquitetura que organiza o sistema em camadas, onde cada uma possu
 - **Integração (Serviços Externos):** Funcionalidades como autenticação (Firebase), mapas (Google Maps SDK) e notificações (FCM/Socket.IO).
 
 ### Por que foi escolhida?
-- **Organização:** Facilita a separação do frontend, backend e banco, melhorando a manutenção e o desenvolvimento em equipe.
+- **Organização:** Facilita a separação do front-end, back-end e banco, melhorando a manutenção e o desenvolvimento em equipe.
 - **Integração Eficiente:** Permite utilizar tecnologias especializadas como PostGIS para mapas e Firebase para login.
 - **Funcionamento Offline:** Suporte a dados locais (SQLite) com sincronização quando houver conexão.
-- **Escalabilidade:** Permite que cada camada cresça de forma independente (ex.: backend pode escalar sem afetar o aplicativo móvel).
+- **Escalabilidade:** Permite que cada camada cresça de forma independente (ex.: back-end pode escalar sem afetar o aplicativo móvel).
 - **Testabilidade:** Componentes isolados facilitam a execução de testes específicos em cada parte do sistema.
 
 <br>
@@ -39,7 +39,7 @@ Um padrão que separa o sistema em três partes principais:
 - **Alinhamento tecnológico:** Flutter como View, Node.js como Controller e PostgreSQL como Model se integram perfeitamente.
 - **Eficiência:** Evita sobrecarga no tráfego de dados, retornando apenas o necessário nas requisições.
 - **Testabilidade:** Controllers e Models podem ser testados separadamente, garantindo maior estabilidade e segurança.
-- **Reutilização:** Models podem ser compartilhados entre o backend e o frontend, otimizando o desenvolvimento.
+- **Reutilização:** Models podem ser compartilhados entre o back-end e o front-end, otimizando o desenvolvimento.
 
 <br>
 
@@ -60,7 +60,7 @@ Modelo de comunicação assíncrona baseado em eventos:
 ### Por que foi escolhida?
 - **Atualizações em tempo real:** Notificações instantâneas quando, por exemplo, uma nova vacina é registrada.
 - **Escalabilidade:** Suporta muitos usuários simultaneamente, permitindo adicionar novos serviços sem alterar o núcleo.
-- **Baixo acoplamento:** O backend não precisa saber quantos clientes estão conectados, tornando o sistema mais flexível.
+- **Baixo acoplamento:** O back-end não precisa saber quantos clientes estão conectados, tornando o sistema mais flexível.
 - **Resiliência:** Mensagens são armazenadas e entregues quando o assinante estiver online novamente.
 - **Eficiência:** Socket.IO mantém conexão contínua (WebSocket), ideal para dados em tempo real; FCM garante notificações mesmo com o aplicativo fechado.
 
