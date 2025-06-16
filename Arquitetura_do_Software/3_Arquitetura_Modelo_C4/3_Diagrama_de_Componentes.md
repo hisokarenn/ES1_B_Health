@@ -21,7 +21,7 @@
 ## Explicação sobre os itens pertencentes ao Diagrama de Componentes
 
 <br>
-<p align="justify">Esta parte do diagrama apresenta o aplicativo móvel, destacando sua função como principal meio de acesso ao sistema pelos usuários. Uma breve descrição acompanha o componente, explicando seu objetivo dentro da arquitetura. O app permite a interação dos diferentes perfis com as funcionalidades disponíveis.
+<p align="justify">Esta parte do diagrama apresenta o aplicativo móvel, destacando sua função como principal meio de acesso ao sistema pelos usuários. Uma breve descrição acompanha o componente, explicando seu objetivo dentro da arquitetura. O aplicativo permite a interação dos diferentes perfis com as funcionalidades disponíveis.
 
 <br>
 <br>
