@@ -58,7 +58,7 @@ Ambos se conectam de forma nativa ao aplicativo. Essa integração facilita a co
 ---
 
 <br>
-<p align="justify">Esta seção do diagrama apresenta as APIs gerenciadas pelo back-end, que são utilizadas pelo aplicativo. Essas APIs permitem a comunicação entre o app e os serviços internos, garantindo respostas eficientes às solicitações dos usuários. As conexões e dependências entre esses elementos também são representadas. Isso evidencia o papel central das APIs na integração da aplicação.
+<p align="justify">Esta seção do diagrama apresenta as APIs gerenciadas pelo back-end, que são utilizadas pelo aplicativo. Essas APIs permitem a comunicação entre o aplicativo e os serviços internos, garantindo respostas eficientes às solicitações dos usuários. As conexões e dependências entre esses elementos também são representadas. Isso evidencia o papel central das APIs na integração da aplicação.
 <br>
 <br>
 
