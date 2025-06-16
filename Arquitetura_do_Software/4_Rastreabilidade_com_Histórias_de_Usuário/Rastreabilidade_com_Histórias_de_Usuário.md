@@ -1,4 +1,4 @@
-# Rastreabiliade com Histórias de Usuário
+# Rastreabilidade com Histórias de Usuário
 
 <p align="justify">Possui o objetivo de apresentar o mapeamento entre as histórias de usuário desenvolvidas no Trabalho Prático 1 (TP1) e os componentes da arquitetura do sistema. A proposta é evidenciar como cada requisito identificado a partir das necessidades dos usuários foi incorporado à estrutura arquitetural do projeto. Para isso, será utilizada uma tabela/seção que relaciona diretamente as histórias aos elementos responsáveis por sua implementação. Esse mapeamento garante a rastreabilidade e a coerência entre a etapa de levantamento de requisitos e o desenho da solução técnica.
   
