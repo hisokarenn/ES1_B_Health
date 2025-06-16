@@ -62,7 +62,7 @@ Modelo de comunicação assíncrona baseado em eventos:
 - **Escalabilidade:** Suporta muitos usuários simultaneamente, permitindo adicionar novos serviços sem alterar o núcleo.
 - **Baixo acoplamento:** O backend não precisa saber quantos clientes estão conectados, tornando o sistema mais flexível.
 - **Resiliência:** Mensagens são armazenadas e entregues quando o assinante estiver online novamente.
-- **Eficiência:** Socket.IO mantém conexão contínua (WebSocket), ideal para dados em tempo real; FCM garante notificações mesmo com o app fechado.
+- **Eficiência:** Socket.IO mantém conexão contínua (WebSocket), ideal para dados em tempo real; FCM garante notificações mesmo com o aplicativo fechado.
 
 <br>
 
