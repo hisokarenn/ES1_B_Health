@@ -69,7 +69,7 @@ Andrey Antonio de Oliveira Rodrigues
   
 - :spades: [Diagrama de Código](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/3_Arquitetura_Modelo_C4/4_Diagrama_de_C%C3%B3digo_(Estrutural).md)
 
-### Rastreabilidade com Histórias do Usuário
+### Rastreabilidade com Histórias de Usuário
 - :pushpin: [Rastreabilidade com Histórias do Usuário](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/4_Rastreabilidade_com_Hist%C3%B3rias_de_Usu%C3%A1rio/Rastreabilidade_com_Hist%C3%B3rias_de_Usu%C3%A1rio.md)
 
 ### BackLog do Sprint (TP2)
