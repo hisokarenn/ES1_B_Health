@@ -57,7 +57,7 @@ Cada módulo está ligado a uma tecnologia específica, com um balão descritivo
 ---
 
 <br>
-A seguir, estão todas as tecnologias que usamos no projeto, com uma explicação sobre o que cada uma é, para que serve e por que escolhemos ela.
+A seguir, estão todas as tecnologias que foram utilizadas no projeto, com uma explicação sobre o que é cada uma, para que serve e por que ela foi escolhida.
 <br>
 <br>
 
