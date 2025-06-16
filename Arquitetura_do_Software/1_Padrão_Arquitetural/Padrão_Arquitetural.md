@@ -14,7 +14,7 @@ Um padrão de arquitetura que organiza o sistema em camadas, onde cada uma possu
 - **Organização:** Facilita a separação do frontend, backend e banco, melhorando a manutenção e o desenvolvimento em equipe.
 - **Integração Eficiente:** Permite utilizar tecnologias especializadas como PostGIS para mapas e Firebase para login.
 - **Funcionamento Offline:** Suporte a dados locais (SQLite) com sincronização quando houver conexão.
-- **Escalabilidade:** Permite que cada camada cresça de forma independente (ex.: backend pode escalar sem afetar o app).
+- **Escalabilidade:** Permite que cada camada cresça de forma independente (ex.: backend pode escalar sem afetar o aplicativo móvel).
 - **Testabilidade:** Componentes isolados facilitam a execução de testes específicos em cada parte do sistema.
 
 <br>
