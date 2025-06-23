@@ -10,7 +10,7 @@
 <br>
   
 ### PACIENTE
-- H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health.
+H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health.
 
 <br>
 
@@ -29,7 +29,7 @@
 <br>
 <br>
 
-- H2 - Como paciente, gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo.
+H2 - Como paciente, gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo.
 
 <br>
 
@@ -45,7 +45,7 @@
 <br>
 <br>
 
-- H3 - Como paciente cadastrado no aplicativo B Health, gostaria de ver o histórico de vacinas para que eu possa verificar quais vacinas já tomei.
+H3 - Como paciente cadastrado no aplicativo B Health, gostaria de ver o histórico de vacinas para que eu possa verificar quais vacinas já tomei.
 
 <br>
 
@@ -61,7 +61,7 @@
 <br>
 <br>
 
-- H4 - Como paciente, gostaria de acessar o mapa de vacinação para saber em quais unidades de saúde estão fornecendo as vacinas que preciso.
+H4 - Como paciente, gostaria de acessar o mapa de vacinação para saber em quais unidades de saúde estão fornecendo as vacinas que preciso.
 
 <br>
 
@@ -77,7 +77,7 @@
 <br>
 <br>
 
-- H5 - Como paciente, gostaria de receber lembretes do aplicativo de doses pendentes para que eu possa manter o controle das vacinas que eu devo tomar.
+H5 - Como paciente, gostaria de receber lembretes do aplicativo de doses pendentes para que eu possa manter o controle das vacinas que eu devo tomar.
 
 <br>
 
@@ -96,38 +96,73 @@
 ### ASSISTENTE SOCIAL
 H12 - Como assistente social, gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Formulário de cadastro identifica ocupação como “Assistente Social”|Campo “ocupação” fixo e visível como “Assistente Social” (1)|Campo de ocupação ausente, editável ou com outro valor (2)|
+|Número do CRESS validado quando ocupação é “Assistente Social”|Número CRESS válido e obrigatório (3)|CRESS ausente, inválido ou com caracteres incorretos (4)|
+|E-mail digitado segue padrão RFC 5322|E-mail com @, domínio e extensão correta, sem espaços ou caracteres inválidos (5)|E-mail com erro de formatação ou símbolos proibidos (6)|
+|E-mail não está cadastrado anteriormente|E-mail novo e único no sistema (7)|E-mail já utilizado por outro usuário (8)|
+|Senha tem no mínimo 8 caracteres|Senha com 8 ou mais caracteres (9)|Senha com menos de 8 caracteres (10)|
+|Senha contém letras maiúsculas, minúsculas e números|Composição aceita, por exemplo, Sabrina123 (11)|Senha composta apenas por letras ou números (12)|
+|Confirmação de senha igual à senha digitada|Ambas senhas coincidem (13)|Senhas diferentes (14)|
+|Cadastro finalizado com sucesso|Mensagem de “Cadastro realizado com sucesso” exibida (15)|Mensagem não exibida ou erro no cadastro (16)|
+<br>
+<br>
 
 H13 - Como assistente social, gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Campos de e-mail e senha preenchidos no login|Ambos os campos preenchidos corretamente (1)|Campo de e-mail ou senha em branco (2)|
+|E-mail e senha são válidos e cadastrados|Credenciais correspondem ao cadastro (3)|E-mail ou senha incorretos (4)|
+|Clique em “Esqueci minha senha” disponível|Link presente e funcional para recuperação por e-mail (5)|Link ausente ou não funcional (6)|
+|Após login, usuário é direcionado à interface de assistente social|Interface específica com funções de assistente exibida (7)|Redirecionamento errado ou para outra interface (8)|
+<br>
+<br>
 
 H14 - Como assistente social, quero agendar visitas no aplicativo, para que os pacientes sejam notificados.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Paciente existe e está ativo no banco PostgreSQL|Paciente cadastrado e ativo (1)|Paciente inexistente ou inativo (2)|
+|Data e hora da visita selecionadas|Data e hora escolhidas (3)|Campo de data/hora não selecionado ou em branco (4)|
+|Data e hora armazenadas corretamente no sistema|Registro salvo com sucesso no banco (5)|Falha ao armazenar no banco (6)|
+|Assistente social deseja editar ou cancelar visita agendada|Edita ou cancela agendamento com sucesso (7)|Sistema impede ou não realiza alteração (8)|
+|Nova visita não colide com outro agendamento|Data e hora disponíveis e não sobrepostas (9)|Data e hora já estão ocupadas por outro agendamento (10)|
+|Agendamento não está em data e hora passada|Data futura validada (11)|Data anterior ao momento atual (12)|
+|Validação feita tanto no cliente (Flutter) quanto no servidor (Node)|Ambas as camadas rejeitam datas inválidas (13)|Sistema aceita datas passadas por falha na interface ou backend (14)|
+|Paciente recebe lembrete com 12h de antecedência|Notificação push enviada com sucesso via Firebase (15)|Notificação não enviada ou enviada em horário incorreto (16)|
+<br>
+<br>
 
 H17 - Como assistente social, eu gostaria de visualizar uma lista de pacientes prioritários (idosos, gestantes, crianças), para planejar visitas de acordo com a prioridade.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Lista exibe apenas pacientes prioritários|Lista com idosos, gestantes, crianças com vacinação incompleta (1)|Lista contém pacientes fora dos grupos prioritários (2)|
+|Sistema identifica prioridade automaticamente|Identificação correta via data de nascimento, sexo ou campo "prioridade" (3)|Sistema não identifica corretamente o grupo de prioridade (4)|
+|Ordenação por tipo de prioridade disponível|Lista pode ser ordenada por idoso, gestante ou criança (5)|Sistema não permite ordenação (6)|
+|Lista atualizada automaticamente|Novo paciente com prioridade aparece na lista após cadastro (7)|Novo paciente com prioridade não aparece na lista (8)|
+|Sistema separa visualmente os tipos de prioridade|Uso correto de cores ou ícones (verde, amarelo, vermelho) conforme nível (9)|Ausência de distinção visual ou incorreta (10)|
+|Paciente com esquema vacinal incompleto exibido mesmo sem estar em grupo alvo|Inclusão de pacientes com vacinação pendente (11)|Exclusão de pacientes fora dos grupos-alvo mas com esquema vacinal incompleto (12)|
+<br>
+<br>
 
 H19 - Como assistente social, eu gostaria de acessar o perfil completo de um paciente, para visualizar seus dados pessoais antes de uma visita.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Paciente está cadastrado no sistema|Perfil acessível para paciente existente (1)|Perfil inexistente ou não localizado (2)|
+|Dados exibidos incluem nome, contato, endereço e carteira de vacinação|Todos os campos necessários visíveis (3)|Dados incompletos ou campos ausentes (4)|
+|Assistente social não pode editar dados pessoais|Campos como nome, endereço, CNS, CPF são apenas leitura (5)|Permissão indevida para editar ou excluir dados (6)|
+|Carteira de vacinação é exibida no mesmo scroll da página do perfil|Exibição contínua com rolagem vertical (7)|Exibição separada em abas, telas ou com navegação adicional (8)|
+|Assistente social não pode alterar a carteira de vacinação|Apenas visualização permitida (9)|Sistema permite editar e remover vacinas (10)|
+|Acesso ao perfil ocorre pelo botão "visualizar perfil" na lista de pacientes|Botão funcional e leva à página correta (11)|Botão ausente, não funcional ou com redirecionamento incorreto (12)|
 <br>
 
 ---
