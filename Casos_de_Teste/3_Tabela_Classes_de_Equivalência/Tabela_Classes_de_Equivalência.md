@@ -14,7 +14,16 @@ H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter
 <br>
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
+|Nome completo preenchido|Nome preenchido (1)|Nome em branco ou com caracteres especiais (2)|
+|Endereço preenchido|Endereço preenchido (3)|Endereço em branco (4)|
+|CNS possui 15 dígitos|CNS com exatamente 15 dígitos numéricos (5)|CNS com menos ou mais de 15 dígitos (6)|
+|E-mail possui formato válido|E-mail com “@” e domínio, por exemplo:  usuario@email.com (7)|E-mail sem “@” ou sem domínio (8)|
+|CPF possui 11 dígitos|CPF com 11 dígitos numéricos (9)|CPF com menos ou mais de 11 dígitos (10)|
+|CPF e CNS possuem apenas números|CPF e CNS compostos apenas por dígitos (11)|CPF ou CNS contendo letras ou caracteres especiais (12)|
+|E-mail não utilizado anteriormente|E-mail ainda não cadastrado (13)|E-mail já cadastrado (14)|
+|Todos os campos obrigatórios preenchidos|Formulário completo (15)|Um ou mais campos obrigatórios não preenchidos (16)|
+|Notificação de confirmação enviada com sucesso|Notificação enviada por e-mail (17)|Notificação não enviada por  erro no endereço de e-mail (18)|
+<br>
 
 H2 - Como paciente, gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo.
 <br>
