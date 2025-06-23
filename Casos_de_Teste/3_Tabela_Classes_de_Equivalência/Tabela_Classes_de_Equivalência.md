@@ -11,6 +11,7 @@
   
 ### PACIENTE
 H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health.
+
 <br>
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
@@ -26,32 +27,58 @@ H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter
 <br>
 
 H2 - Como paciente, gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo.
+
 <br>
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Identificação via CNS ou e-mail|CNS com 15 dígitos numéricos ou e-mail válido (1)|CNS com menos de 15 dígitos e e-mail inválido (2)|
+|Senha inserida corretamente|Senha corresponde à cadastrada (3)|Senha incorreta (4)|
+|Senha não está em branco|Campo de senha preenchido (5)|Campo de senha em branco (6)|
+|Clique em "Esqueci minha senha"|Redireciona para etapa de recuperação (7)|Nenhuma ação ocorre, pode ser erro ou botão que não está funcionando (8)|
+|E-mail informado na recuperação é válido e cadastrado|E-mail contém "@" e domínio e está registrado no sistema (9)|E-mail inválido ou não registrado (10)|
+|Código de verificação enviado|Código enviado com sucesso ao e-mail informado (11)|Código não enviado o que pode ocorrer por falha no sistema ou e-mail inválido (12)|
+|Código de verificação inserido corretamente|Código correto permite redefinir senha (13)|Código incorreto ou em branco (14)|
+<br>
 
 H3 - Como paciente cadastrado no aplicativo B Health, gostaria de ver o histórico de vacinas para que eu possa verificar quais vacinas já tomei.
+
 <br>
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Paciente autenticado|Paciente está logado no sistema (1)|Acesso sem login/autenticação (2)|
+|Paciente visualiza apenas seu próprio histórico|Histórico exibido pertence ao usuário autenticado (3)|Visualização de histórico de outro paciente (4)|
+|Histórico possui registros|Lista de vacinas exibida com nome e data em ordem crescente (5)|Histórico em branco sem registros (6)|
+|Clique sobre vacina exibida|Exibe local de aplicação e nome do profissional (7)|Não exibir informações adicionais ao clicar (8)|
+|Nome da vacina presente|Cada item do histórico possui o nome da vacina (9)|Campo "nome da vacina" está vazio ou ausente (10)|
+|Data de aplicação válida|Data no formato correto e cronologicamente organizada (11)|Data ausente ou fora de ordem cronológica (12)|
+|Histórico atualizado|Cada vacina aplicada será registrada no histórico (13)|Histórico desatualizado mesmo após aplicação de vacina (14)|
+<br>
 
 H4 - Como paciente, gostaria de acessar o mapa de vacinação para saber em quais unidades de saúde estão fornecendo as vacinas que preciso.
+
 <br>
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Paciente está com acesso à internet|Conexão ativa para exibição do mapa (1)|Sem internet ou conexão instável (2)|
+|Localização do usuário permitida no app|Permissão de localização concedida (3)|Permissão de localização negada (4)|
+|Mapa interativo é carregado corretamente|Mapa exibido com pontos geográficos (5)|Mapa não aparece ou carrega em branco (6)|
+|Paciente aplica filtro por vacina|Unidades exibidas com a vacina filtrada (7)|Nenhuma unidade corresponde ao filtro (mensagem exibida) (8)|
+|Clique sobre unidade de saúde no mapa|Exibe nome, endereço, vacinas disponíveis e horário de funcionamento (9)|Informações incompletas ou não exibidas ao clicar (10)|
+|Mapa mostra apenas unidades com vacina disponível e abertas|Unidades exibidas estão abertas e com a vacina procurada (11)|Mapa mostra unidades fechadas ou sem a vacina (12)|
+|Aplicativo mantém localização segura|Localização não compartilhada com terceiros (13)|Aplicativo vaza ou compartilha dados de localização (14)|
+<br>
 
 H5 - Como paciente, gostaria de receber lembretes do aplicativo de doses pendentes para que eu possa manter o controle das vacinas que eu devo tomar.
+
 <br>
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Vacina com próxima dose registrada no sistema|Vacina possui nome e data de próxima dose (1)|Nenhuma dose futura registrada (2)|
+|Sistema envia lembrete com antecedência mínima de 2 dias|Notificação enviada pelo menos 2 dias antes da aplicação (3)|Notificação enviada com menos de 2 dias ou não enviada (4)|
+|Formato da notificação é push|Notificação push recebida no celular (5)|Notificação não enviada ao paciente (6)|
+|Paciente clica na notificação|Redirecionamento correto para tela de detalhes da vacina (7)|Clique não direciona ou gera erro (8)|
+|Vacina é aplicada e registrada pelo enfermeiro|Lembretes futuros cancelados automaticamente (9)|Lembretes continuam mesmo após confirmação da dose (10)|
+|Paciente desativa notificações do app nas configurações do celular|Lembretes desativados  corretamente (11)|Lembretes continuam sendo enviados mesmo com notificações desativadas (12)|
 <br>
 
 ---
