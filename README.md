@@ -7,7 +7,7 @@ Desenvolver uma Carteira de Vacina Digital com funcionalidades pouco exploradas.
 ## Objetivo
 <br>
 
-Desenvolver um aplicativo de carteira de vacinação digital que atenda de forma integrada às necessidades de pacientes, médicos, enfermeiros e assistentes sociais, permitindo o acompanhamento completo, seguro e acessível do histórico vacinal. O sistema visa facilitar o acesso à informação, promover o cumprimento do calendário de vacinas, otimizar o trabalho dos profissionais de saúde e ampliar a cobertura vacinal, contribuindo diretamente para a melhoria da saúde pública.
+<p align="justify">Desenvolver um aplicativo de carteira de vacinação digital que atenda de forma integrada às necessidades de pacientes, médicos, enfermeiros e assistentes sociais, permitindo o acompanhamento completo, seguro e acessível do histórico vacinal. O sistema visa facilitar o acesso à informação, promover o cumprimento do calendário de vacinas, otimizar o trabalho dos profissionais de saúde e ampliar a cobertura vacinal, contribuindo diretamente para a melhoria da saúde pública.
 <br>
 <br>
 
@@ -27,6 +27,10 @@ Andrey Antonio de Oliveira Rodrigues
 <br>
 
 # Procedimentos Efetuados
+### Notion
+- :open_file_folder: [Notion (Daily Scrum)](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/6_Notion/Dailys_Scrums.md)
+<br>
+
 ## Ideação e Especificação
 
 ### Plano de Trabalho
@@ -48,9 +52,6 @@ Andrey Antonio de Oliveira Rodrigues
 
 ### BackLog do Sprint (TP1)
 - :ballot_box_with_check: [BackLog do Sprint](https://github.com/hisokarenn/ES1-TP1/blob/dddc3d265a1f04deea29acc2e71a4026eed3c345/Ideacao_Especificacao/4_BackLog_do_Sprint/BackLog_do_Sprint.md)
-
-### Notion (TP1)
-- :open_file_folder: [Notion](https://github.com/hisokarenn/ES1-TP1/tree/339d2631a9194a11bca8fbef5c0bb64f896ee82a/Ideacao_Especificacao/5_Notion)
 <br>
 
 ## Arquitetura do Software
@@ -74,6 +75,19 @@ Andrey Antonio de Oliveira Rodrigues
 
 ### BackLog do Sprint (TP2)
 - :ballot_box_with_check: [BackLog do Sprint](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/5_BackLog_do_Sprint/BackLog_do_Sprint.md)
+<br>
 
-### Notion (TP2)
-- :open_file_folder: [Notion](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/6_Notion/Dailys_Scrums.md)
+## Casos de Teste
+### Revisão Inspeção
+- :arrows_counterclockwise: [Revisão da Inspeção de Requisitos]()
+
+### Histórias Corrigidas
+- :bangbang: [Histórias de Usuário Corrigidas]()
+
+### Casos de Teste
+- :small_blue_diamond: [Tabela de Classes de Equivalência]()
+ 
+- :small_orange_diamond: [Tabela dos Casos de Teste]()
+
+### BackLog do Sprint (TP3)
+- :ballot_box_with_check: [BackLog do Sprint]()
