@@ -10,9 +10,10 @@
 <br>
   
 ### PACIENTE
-H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health.
+- H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health.
 
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
 |Nome completo preenchido|Nome preenchido (1)|Nome em branco ou com caracteres especiais (2)|
@@ -26,10 +27,12 @@ H1 - Como paciente, gostaria de me cadastrar no aplicativo para que eu possa ter
 |Notificação de confirmação enviada com sucesso|Notificação enviada por e-mail (17)|Notificação não enviada por  erro no endereço de e-mail (18)|
 
 <br>
+<br>
 
-H2 - Como paciente, gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo.
+- H2 - Como paciente, gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo.
 
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
 |Identificação via CNS ou e-mail|CNS com 15 dígitos numéricos ou e-mail válido (1)|CNS com menos de 15 dígitos e e-mail inválido (2)|
@@ -40,10 +43,12 @@ H2 - Como paciente, gostaria de realizar o login no aplicativo para que eu tenha
 |Código de verificação enviado|Código enviado com sucesso ao e-mail informado (11)|Código não enviado o que pode ocorrer por falha no sistema ou e-mail inválido (12)|
 |Código de verificação inserido corretamente|Código correto permite redefinir senha (13)|Código incorreto ou em branco (14)|
 <br>
+<br>
 
-H3 - Como paciente cadastrado no aplicativo B Health, gostaria de ver o histórico de vacinas para que eu possa verificar quais vacinas já tomei.
+- H3 - Como paciente cadastrado no aplicativo B Health, gostaria de ver o histórico de vacinas para que eu possa verificar quais vacinas já tomei.
 
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
 |Paciente autenticado|Paciente está logado no sistema (1)|Acesso sem login/autenticação (2)|
@@ -54,10 +59,12 @@ H3 - Como paciente cadastrado no aplicativo B Health, gostaria de ver o históri
 |Data de aplicação válida|Data no formato correto e cronologicamente organizada (11)|Data ausente ou fora de ordem cronológica (12)|
 |Histórico atualizado|Cada vacina aplicada será registrada no histórico (13)|Histórico desatualizado mesmo após aplicação de vacina (14)|
 <br>
+<br>
 
-H4 - Como paciente, gostaria de acessar o mapa de vacinação para saber em quais unidades de saúde estão fornecendo as vacinas que preciso.
+- H4 - Como paciente, gostaria de acessar o mapa de vacinação para saber em quais unidades de saúde estão fornecendo as vacinas que preciso.
 
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
 |Paciente está com acesso à internet|Conexão ativa para exibição do mapa (1)|Sem internet ou conexão instável (2)|
@@ -68,10 +75,12 @@ H4 - Como paciente, gostaria de acessar o mapa de vacinação para saber em quai
 |Mapa mostra apenas unidades com vacina disponível e abertas|Unidades exibidas estão abertas e com a vacina procurada (11)|Mapa mostra unidades fechadas ou sem a vacina (12)|
 |Aplicativo mantém localização segura|Localização não compartilhada com terceiros (13)|Aplicativo vaza ou compartilha dados de localização (14)|
 <br>
+<br>
 
-H5 - Como paciente, gostaria de receber lembretes do aplicativo de doses pendentes para que eu possa manter o controle das vacinas que eu devo tomar.
+- H5 - Como paciente, gostaria de receber lembretes do aplicativo de doses pendentes para que eu possa manter o controle das vacinas que eu devo tomar.
 
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
 |Vacina com próxima dose registrada no sistema|Vacina possui nome e data de próxima dose (1)|Nenhuma dose futura registrada (2)|
