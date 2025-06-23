@@ -28,7 +28,7 @@ Andrey Antonio de Oliveira Rodrigues
 
 # Procedimentos Efetuados
 ### Notion
-- :open_file_folder: [Notion (Daily Scrum)](https://github.com/hisokarenn/ES1-TP1/blob/ea28685b30978f5be9cd8f2f8872ce3c051f03c6/Arquitetura_do_Software/6_Notion/Dailys_Scrums.md)
+- :open_file_folder: [Notion (Daily Scrum)](https://www.notion.so/Daily-Scrum-Relat-rios-1e64615ebb3180238b5fcefbf5ceecc5)
 <br>
 
 ## Ideação e Especificação
