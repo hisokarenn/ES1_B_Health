@@ -35,7 +35,7 @@
 
 <p align="justify"> Ao acessar cada Issue, é possível visualizar informações organizadas de forma clara, incluindo o local onde o possível defeito foi identificado, uma descrição detalhada do problema e a explicação sobre como ele foi resolvido.
 <p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/d35cba3fb16e1d2a734484b4bacc4dcc36677aad/Casos_de_Teste/Imagens/Issues/Captura%20de%20tela%202025-06-23%20125855.png" alt="" width="1000" /></p>
-<p align="center"> Imagem da organização das infomrações das Issues
+<p align="center"> Imagem da organização das informações das Issues
 <br>
 <br>
   
