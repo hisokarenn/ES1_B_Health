@@ -170,39 +170,75 @@ H19 - Como assistente social, eu gostaria de acessar o perfil completo de um pac
 ### Enfermeira
 H33 - Como enfermeiro, eu quero me cadastrar no aplicativo, para que eu possa acessar as funcionalidades.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|COREN válido e ativo|COREN reconhecido pelo sistema e com status ativo (1)|COREN inválido, expirado ou ausente (2)|
+|Senha contém ao menos 8 caracteres, com letra maiúscula, número e símbolo (@, # etc.)|Senha no formato exigido (ex: Saude@2025) (3)|Senha com menos de 8 caracteres ou faltando tipos exigidos (4)|
+|Campos obrigatórios preenchidos: Nome, COREN, e-mail institucional, unidade de saúde|Todos os dados inseridos corretamente (5)|Campos obrigatórios ausentes, inválidos ou e-mail sem domínio institucional (6)|
+|Perfil “Enfermeiro-Chefe” atribuído apenas por gestor da UBS|Gestor atribui corretamente o perfil durante validação (7)|Perfil atribuído automaticamente ou por pessoa sem permissão (8)|
+|COREN inativo bloqueia conta após verificação manual em até 24h|Conta bloqueada corretamente com registro do motivo (9)|COREN inativo continua com acesso ou sem justificativa no sistema (10)|
+|Três tentativas de login incorretas bloqueiam a conta por 1h|Bloqueio realizado corretamente após terceira tentativa (11)|Tentativas ilimitadas ou sem bloqueio (12)|
+|E-mail de bloqueio enviado com motivo e link para redefinir senha|E-mail com mensagem e link enviado após bloqueio (13)|Nenhuma notificação enviada ou link ausente (14)|
+|Sessão expirada após inatividade exige novo login|Sessão finalizada automaticamente e acesso bloqueado (15)|Sessão permanece ativa indefinidamente ou exige recarregamento manual (16)|
+|Dados não sensíveis mantidos por até 1h após sessão expirar|Informações públicas como nome e cargo mantidas temporariamente (17)|Dados sensíveis como senha ou COREN expostos ou mantidos após expiração (18)|
+<br>
+<br>
 
 H20 - Como enfermeiro, quero registrar a aplicação de vacinas diretamente no aplicativo, para que eu possa atualizar o histórico do paciente.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Busca de paciente por CPF ou número do SUS|CPF com 11 dígitos ou CNS com 15 dígitos válidos (1)|CPF e CNS inválidos, incorretos ou não cadastrados (2)|
+|Vacinas disponíveis na lista estática oficial do SUS/ANVISA|Lista correta com vacinas do calendário atualizado (3)|Lista desatualizada ou com itens ausentes (4)|
+|Sistema aceita registrar até 50 vacinas por sessão|Registros aceitos até o limite de 50 por sessão (5)|Excede o limite sem nova autenticação (6)|
+|Sistema permite registros tanto online quanto offline|Registro salvo localmente e sincronizado quando online (7)|Falha na sincronização ou bloqueio por falta de conexão (8)|
+|Enfermeiro possui COREN ativo e está vinculado a uma UBS|COREN validado e vínculo confirmado (9)|COREN inativo ou enfermeiro sem vínculo com UBS (10)|
+|Validação de cadastro por e-mail institucional e conferência manual|Cadastro aprovado pelo administrador (11)|Cadastro não validado ou pendente de conferência (12)|
+|Registro de lote de vacina completo com os dados obrigatórios|Lote registrado com nº do lote, validade, fabricante, CPF, COREN, data/hora (13)|Registro incompleto ou campos obrigatórios ausentes (14)|
+|Backups criptografados garantem rastreabilidade|Registros armazenados com criptografia e retenção por 10 anos (15)|Falha no backup, dados não rastreáveis ou sem proteção adequada (16)|
+<br>
+<br>
 
 H21 - Como enfermeiro, quero acessar um mapa com unidades de saúde, para que eu possa orientar pacientes sobre locais disponíveis para vacinação.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Indicador de lotação exibido corretamente por cor|Verde (≤50%), Amarelo (51–80%), Vermelho (>80%), atualizado a cada 15 min (1)|Cores erradas, atualização incorreta ou ausência de indicador de lotação (2)|
+|Mapa mostra unidades num raio inicial de 500m e expande automaticamente|Raio de busca aumenta para 1km, 3km e 5km caso não haja unidades (3)|Raio não expande ou não encontra unidades mesmo que existam (4)|
+|Raio ajustável manualmente pelo usuário|Interface permite alterar manualmente a distância de busca (5)|Usuário não consegue ajustar o raio ou recurso ausente (6)|
+|Endereços das unidades validados automaticamente|Endereço com CEP, número e cidade validados e marcados como verificados (7)|Endereços inválidos ou marcados como “não verificados” por erro de validação (8)|
+|Sistema marca como “não verificado” em caso de falha de validação de endereço|Sistema identifica corretamente falhas e marca visualmente (9)|Endereços incorretos são exibidos como válidos (10)|
+<br>
+<br>
 
 H22 - Como enfermeiro, eu quero cadastrar os detalhes de campanhas de vacinação no aplicativo, para informar a todos os pacientes.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Campanha submetida por enfermeiro com COREN|Enfermeiro-chefe com COREN ativo aprova a campanha (1)|Campanha enviada por usuário sem COREN ou sem validação (2)|
+|Aprovação da campanha ocorre em até 2 horas|Campanha validada dentro do prazo e publicada (3)
+Aprovação não ocorre em 2 horas (4)|
+|Campanha reprovada pode ser reenviada após revisão|Sistema permite correção e reenvio para nova tentativa de aprovação (5)|Sistema bloqueia reenvio ou não informa reprovação automática (6)|
+|Notificações são enviadas a todos os perfis com formato padrão|Push enviado com mensagem no formato: ‘Campanha [x] em [Posto] até [Data]’ (7)|Notificação não enviada ou enviada com formato errado ou incompleto (8)|
+<br>
+<br>
 
 H23 - Como enfermeiro, eu gostaria de registrar as vacinas que foram aplicadas no paciente para que atualize a carteira de vacina do paciente.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
-
+|Registro segue intervalo mínimo do PNI ou é reforço autorizado|Sistema aceita vacina dentro do prazo ou com dose de reforço válida (1)|Sistema bloqueia registro duplicado fora do prazo sem justificativa (2)|
+|Vacinas/doses pendentes geram alertas automáticos|Notificações visuais e push informam vacina, dose e prazo conforme PNI (3)|Nenhum alerta é exibido ou exibe informações incompletas ou incorretas (4)|
+|Paciente visualiza histórico atualizado em até 1 minuto após o registro|Atualização imediata ou dentro do tempo limite (5)|Histórico não atualizado ou demora excessiva (6)|
+|Histórico pode ser exportado em PDF conforme modelo do Ministério da Saúde|PDF gerado com QR Code e dados oficiais disponíveis ao paciente e profissionais (7)|PDF ausente, sem QR Code ou fora do padrão do MS (8)|
+|Vacina reaplicada fora do prazo com justificativa médica|Cadastro autorizado com CRM, token, justificativa e prontuário (9)|Reaplicação fora do intervalo sem justificativa e documentação médica (10)|
+|Registro feito offline é sincronizado e verificado na reconexão|Sincronização verifica duplicidade (CPF + lote + data + tipo) e permite resolução (11)|Sincronização falha ou conflitos não resolvidos corretamente (12)|
+|Conflito em duplicatas resolvido pelo enfermeiro com justificativa|Enfermeiro pode justificar o registro e resolver manualmente (13)|Sistema não permite justificar ou não escalona casos complexos ao enfermeiro-chefe (14)|
 <br>
 
 ---
