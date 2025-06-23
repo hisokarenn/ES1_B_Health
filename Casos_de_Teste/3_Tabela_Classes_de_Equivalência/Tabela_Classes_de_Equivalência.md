@@ -167,7 +167,7 @@ H19 - Como assistente social, eu gostaria de acessar o perfil completo de um pac
 
 ---
 
-### Enfermeira
+### Enfermeiro
 H33 - Como enfermeiro, eu quero me cadastrar no aplicativo, para que eu possa acessar as funcionalidades.
 <br>
 
@@ -246,37 +246,79 @@ H23 - Como enfermeiro, eu gostaria de registrar as vacinas que foram aplicadas n
 ### MÉDICO
 H26 - Como médico, eu gostaria de me cadastrar no aplicativo para que eu possa ter acesso ao aplicativo B Health.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Campo de ocupação é fixo como “Médico”|Campo “Médico” pré-definido e não editável (1)|Campo permite editar ocupação (2)|
+|CRM é obrigatório e validado|CRM inserido corretamente e validado (3)|CRM inválido ou duplicado (4)|
+|E-mail válido é exigido|E-mail com formato válido é aceito (5)|E-mail em formato inválido ou duplicado (6)|
+|Senha com no mínimo 8 caracteres|Senha com 8 ou mais caracteres (7)|Senha com menos de 8 caracteres e sem validação (8)|
+|Senha contém letras e números|Senha com letras maiúsculas, minúsculas e números (9)|Senha com apenas números ou apenas letras (10)|
+|Validação de senha duplicada|Senhas iguai e válidas (11)|Senhas diferentes (12)|
+|Acesso ao perfil do médico|Acesso liberado com funcionalidades médicas (13)|Acesso liberado com funcionalidades erradas (14)|
+<br>
+<br>
 
 H27 - Como médico, eu gostaria de realizar o login no aplicativo para que eu tenha acesso aos serviços do aplicativo.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|CRM ou e-mail cadastrado|CRM ou E-mail previamente cadastrado (1)|Login aceito com dados não cadastrados e inexistentes (2)|
+|Senha incorreta|Senha corresponde ao cadastro (3)|Senha incorreta ou campo de senha em branco (4)|
+|Cadastro validado oficialmente|Cadastro válido via integração ou manual (5)|Validação pendente e login permitido (6)|
+|Link de recuperação de senha disponível|Link “Esqueci minha senha” funcional (7)|Link ausente na interface (8)|
+|Acesso ao painel exclusivo do médico|Direcionado para painel correto após o login (9)|Acesso negado após login correto (10)|
+<br>
+<br>
 
 H28 - Como médico, eu gostaria de acessar uma lista de pacientes, para que eu possa acessar o seu perfil e carteira de vacina.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Lista de pacientes apresentada em scroll contínuo e ordenada alfabeticamente|Lista carrega automaticamente e está organizada por nome (1)|Lista incompleta, não ordenada ou sem carregamento automático (2)|
+|Pesquisa por nome completo, CPF ou CNS funciona com filtragem em tempo real|Resultados são filtrados corretamente conforme entrada do médico (3)|Pesquisa lenta, falha ou sem retorno esperado (4)|
+|Acesso limitado a um paciente por vez|Médico acessa apenas um perfil de cada vez (5)|Acesso simultâneo a múltiplos perfis ou dados de pacientes incorretos (6)|
+|Perfil exibe nome completo, CNS e carteira de vacinação|Informações corretas e completas são exibidas (7)|Dados faltando, incompletos ou inconsistentes com o cadastro (8)|
+|Médico não pode alterar dados pessoais do paciente (nome, endereço, CNS, e-mail)|Campos protegidos contra edição (9)|Sistema permite alterações indevidas em dados sensíveis (10)|
+|Dados e carteira de vacinação são exibidos na mesma tela (scroll vertical contínuo)|Exibição única e fluida em tela única com rolagem (11)|Interface dividida em abas ou múltiplas telas (12)|
+|Médico pode editar a carteira de vacinação|Alterações autorizadas e salvas corretamente (13)|Edição não permitida ou funcionalidade ausente mesmo com permissão (14)|
+<br>
+<br>
 
 H31 - Como usuário (médico) do aplicativo B Health, eu gostaria de visualizar avisos sobre campanhas de vacinação, para informar sobre elas ao paciente durante uma consulta.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
-
+|Visualizar apenas campanhas ativas|Campanhas ativas são exibidas no mapa (1)|Campanhas inativas são exibidas (2)|
+|Médico não pode publicar campanhas|Médico apenas visualiza campanhas (3)|Médico consegue publicar campanhas (4)|
+|Campanhas contém datas visíveis|Sistema exibe data de início e fim (5)|Datas não são exibidas (6)|
+|Campanha emergencial notifica médicos|Notificação push é enviada via Firebase (7)|Notificação não é enviada (8)|
+<br>
+<br>
 
 H32 - Como médico, eu gostaria de saber os locais onde as campanhas de vacinação estão ocorrendo, através de um mapa de vacinação interativo, para que eu possa orientar o paciente a ir até esse lugar se vacinar.
 <br>
+
 |CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS|CLASSES INVÁLIDAS|
 |-|-|-|
-||||
+|Notificação exibe locais das campanhas|Locais exibidos na notificação push (1)|Locais ausentes na notificação (2)|
+|Endereço completo visível|Endereço completo exibido no mapa (3)|Endereço incompleto ou ausente (4)|
+|Período da campanha visível|Médico vê o intervalo da campanha (5)|Período não é informado (6)|
+|Dados são atualizados pela enfermagem|Alterações feitas pela enfermagem aparecem no sistema (7)|Sistema não reflete alterações (8)|
+|Médico vê apenas sua jurisdição|Apenas locais do município do médico são exibidos (9)|Locais de outros municípios são exibidos (10)|
+
+
+
+
+
+
+
+
+
+
 
 
 <br>
