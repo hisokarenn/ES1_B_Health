@@ -1,4 +1,4 @@
-# Classes de Equivalência
+# Tabela de Classes de Equivalência
 <br>
 <p align="justify">Tabelas de classe de equivalência, em contexto de testes de software, são ferramentas usadas para particionar um conjunto de entradas possíveis em grupos menores, onde cada grupo contém entradas que são consideradas equivalentes em termos de comportamento esperado do sistema. 
 <br>
