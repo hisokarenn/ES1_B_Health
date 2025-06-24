@@ -10,22 +10,25 @@
 
 <br>
 <p align="justify"> As Issues foram estruturadas com base nos apontamentos realizados durante a inspeção. Após serem devidamente registradas, cada uma delas foi analisada e desenvolvida conforme a sua prioridade. Esse processo garantiu um melhor acompanhamento das correções e melhorias necessárias no backlog.
+  <br>
+  <br>
+  
 <p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/d35cba3fb16e1d2a734484b4bacc4dcc36677aad/Casos_de_Teste/Imagens/Issues/ex%20issue.png" alt="" width="1000" /></p>
 <p align="center"> Imagem das Issues Abertas
 <br>
 <br>
 
 <br>
-<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/d35cba3fb16e1d2a734484b4bacc4dcc36677aad/Casos_de_Teste/Imagens/Issues/ex%20issue%200.png" alt="" width="1000" /></p>
-<p align="center"> Imagem das Issues Abertas
+<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/ef355ed100b02bf9f498ca1f5342d86edc91c3f9/Casos_de_Teste/Imagens/Issues/Captura%20de%20tela%202025-06-24%20194303.png" alt="" width="1000" /></p>
+<p align="center"> Imagem das Issues Fechadas
 
 ---
 
 <br>
 <br>
 
-<p align="justify"> Essas Issues estão localizadas no Backlog do Produto, dentro da coluna intitulada "Inspeção", criada especificamente para concentrar e organizar os pontos identificados como possíveis falhas. Essa separação facilita o acompanhamento e o tratamento de cada item analisado.
-<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/d35cba3fb16e1d2a734484b4bacc4dcc36677aad/Casos_de_Teste/Imagens/Issues/Captura%20de%20tela%202025-06-23%20125547.png" alt="" width="300" /></p>
+<p align="justify"> Essas issues estão localizadas no Backlog do Produto, nas colunas "Revisão" e "Revisadas", pois durante a inspeção foram identificados problemas que, após análise, não foram classificados como defeitos reais. Cada issue permanece nessas colunas acompanhada de sua devida justificativa, explicando por que não foram tratadas como falhas. Isso garante transparência no processo e rastreabilidade das decisões tomadas.
+<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/ef355ed100b02bf9f498ca1f5342d86edc91c3f9/Casos_de_Teste/Imagens/Issues/Captura%20de%20tela%202025-06-24%20194427.png" alt="" width="600" /></p>
 <p align="center"> Imagem das Issues no Projeto BackLog do Produto
 
 ---
@@ -46,7 +49,6 @@ Histórias que foram inspecionadas, corrigidas e justificadas.<br>
 
 Histórias que foram inspecionadas, não foram consideradas defeitos reais e com justificativa. Não há o porquê de serem fechadas pois não são problemas.<br>
 [Issues Abertas](https://github.com/hisokarenn/ES1-TP1/issues?page=1)
-
 <br>
 
 ## Link para o BackLog do Produto
