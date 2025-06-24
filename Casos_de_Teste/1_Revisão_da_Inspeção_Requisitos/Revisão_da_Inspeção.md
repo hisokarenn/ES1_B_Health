@@ -40,11 +40,17 @@
 <br>
   
 ## Link direto para as Issues
-[Issues](https://github.com/hisokarenn/ES1-TP1/issues?page=1)
+Histórias que foram inspecionadas, corrigidas e justificadas.<br>
+[Issues Fechadas](https://github.com/hisokarenn/ES1-TP1/issues?q=is%3Aissue%20state%3Aclosed).
+<br>
+
+Histórias que foram inspecionadas, não foram consideradas defeitos reais e com justificativa. Não há o porquê de serem fechadas pois não são problemas.<br>
+[Issues Abertas](https://github.com/hisokarenn/ES1-TP1/issues?page=1)
+
 <br>
 
 ## Link para o BackLog do Produto
-No quadro do BackLog do Produto, as Issues podem ser encontradas na coluna "Inspeção".
+No quadro do BackLog do Produto, as Issues podem ser encontradas nas colunas "Revisão" e "Revisadas".
 <br>
 
 [BackLog do Produto](https://github.com/users/hisokarenn/projects/4)
