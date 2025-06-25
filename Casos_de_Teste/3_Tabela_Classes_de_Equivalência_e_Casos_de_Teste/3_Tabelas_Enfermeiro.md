@@ -92,9 +92,22 @@
 <br>
 
 ### <p align="center">Tabela de Equivalência
+| CONDIÇÃO DE ENTRADA                              | CLASSES VÁLIDAS                          | CLASSES INVÁLIDAS                   |
+| ---------------------------------------------------- | -------------------------------------------- | ---------------------------------------- |
+| Validação feita por enfermeiro-chefe com COREN ativo | Enfermeiro-chefe com COREN ativo aprovou (1) | Enfermeiro-chefe sem COREN ativo (2)     |
+| Aprovação dentro do prazo de 2 horas                 | Campanha aprovada em até 2 horas (3)         | Campanha não aprovada em até 2 horas (4) |
+| Reenvio da campanha após reprovação                  | Campanha reenviada para aprovação (5)        | Campanha não reenviada (6)               |
+| Notificação enviada no formato padrão                | Notificação no formato correto via push (7)  | Notificação no formato incorreto (8)     |
 <br>
 
 ### <p align="center">Tabela de Casos de Teste
+| CASOS DE TESTE| CLASSES DE EQUIVALÊNCIA | ENTRADAS                                                                                     | RESULTADOS ESPERADOS                            |
+| ------------------ | --------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------- |
+| Caso 1             | 1, 3, 5, 7                  | Enfermeiro-chefe com COREN ativo aprova campanha dentro do prazo; notificação no formato correto | Campanha aprovada, publicada e notificação enviada  |
+| Caso 2             | 2, 4, 8                     | Enfermeiro-chefe sem COREN ativo; campanha não aprovada em até 2 horas; notificação ausente      | Campanha reprovada automaticamente, sem notificação |
+| Caso 3             | 2, 4, 6                     | Campanha não aprovada em 2h, reprovada; enfermeiro responsável reenvia campanha para aprovação   | Campanha reenviada para nova aprovação              |
+| Caso 4             | 1, 3, 5, 8                  | Campanha aprovada; notificação com formato incorreto ou não enviada                              | Campanha publicada; falha na notificação            |
+
 <br>
 
 ---
@@ -104,7 +117,24 @@
 <br>
 
 ### <p align="center">Tabela de Equivalência
+| CONDIÇÃO DE ENTRADA                                         | CLASSES VÁLIDAS                                   | CLASSES INVÁLIDAS                                     |
+| --------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------- |
+| Registro duplicado bloqueado conforme intervalo PNI             | Registro bloqueado se duplicado fora das exceções (1) | Registro duplicado permitido indevidamente (2)            |
+| Doses de reforço autorizadas permitidas                         | Registro permitido para doses de reforço (3)          | Registro bloqueado indevidamente para dose de reforço (4) |
+| Alertas automáticos exibidos para vacinas pendentes             | Alertas visuais e push exibidos corretamente (5)      | Alertas ausentes de push (6)                              |
+| Histórico atualizado no app em até 1 minuto                     | Atualização visível em até 1 minuto (7)               | Atualização demora mais que 1 minuto e não atualiza (8)   |
+| Histórico exportável em PDF com modelo MS e QR Code             | PDF gerado conforme padrão MS com QR Code (9)         | PDF gerado em formato incorreto e sem QR Code (10)        |
+| Acesso ao histórico é disponível para pacientes e profissionais | Acesso permitido conforme perfil (11)                 | Acesso negado indevidamente (12)                          |
+
 <br>
 
 ### <p align="center">Tabela de Casos de Teste
+| CASOS DE TESTE| CLASSES DE EQUIVALÊNCIA| ENTRADAS                                                                                                                   | RESULTADOS ESPERADOS                                                                |
+| ------------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Caso 1             | 1, 3, 5, 7, 9, 11           | Registro de vacina completo, dose não duplicada, alerta exibido, atualização do histórico rápida, acesso ao histórico permitido | Registro salvo, alerta mostrado, histórico atualizado e disponível em PDF com QR Code    |
+| Caso 2             | 2, 3, 5, 7, 9, 11           | Registro duplicado indevido, alerta exibido, histórico atualizado, PDF gerado corretamente                                      | Registro bloqueado, alerta mostrado, histórico atualizado e PDF disponível               |
+| Caso 3             | 1, 4, 6, 7, 9, 11           | Registro de dose de reforço autorizado, alerta exibido, histórico atualizado, PDF gerado                                        | Registro permitido, alerta mostrado, histórico atualizado e PDF disponível               |
+| Caso 4             | 1, 3, 5, 8, 9, 11           | Registro de vacina sem alerta exibido, atualização do histórico demora mais de 1 minuto                                         | Registro salvo, alerta não exibido, atraso na atualização do histórico                   |
+| Caso 5             | 1, 3, 5, 7, 10, 12          | Registro completo, alerta exibido, histórico atualizado, PDF gerado com formato incorreto ou acesso negado                      | Registro salvo, alerta mostrado, histórico atualizado, falha na geração ou acesso ao PDF |
+
 <br>
