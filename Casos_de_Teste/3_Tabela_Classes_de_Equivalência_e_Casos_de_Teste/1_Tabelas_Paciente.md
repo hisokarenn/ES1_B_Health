@@ -28,7 +28,7 @@
 |Endereço preenchido|Endereço preenchido (3)|Endereço em branco (4)|
 |CNS possui 15 dígitos|CNS com exatamente 15 dígitos numéricos (5)|CNS com mais de 15 dígitos (6)|
 |E-mail possui formato válido|E-mail com “@” e domínio(7)|E-mail sem “@” e sem domínio (8)|
-|CPF possui 11 dígitos|CPF com 11 dígitos nuéricos (9)|CPF com mais de 11 dígitos (10)|
+|CPF possui 11 dígitos|CPF com 11 dígitos numéricos (9)|CPF com mais de 11 dígitos (10)|
 |E-mail não utilizado anteriormente|E-mail ainda não cadastrado (11)|E-mail já cadastrado (12)|
 |Todos os campos obrigatórios preenchidos|Formulário completo (13)|Campos obrigatórios não preenchidos (14)|
 |Notificação de confirmação enviada com sucesso|Notificação enviada por e-mail (15)|Notificação não enviada por  erro no endereço de e-mail (16)|
