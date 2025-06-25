@@ -27,7 +27,7 @@
 <br>
 <br>
 
-<p align="justify"> Essas Issues estão localizadas no Backlog do Produto, nas colunas "Revisão" e "Revisadas", pois durante a inspeção foram identificados problemas que, após análise, não foram classificados como defeitos reais. Cada issue permanece nessas colunas acompanhada de sua devida justificativa, explicando por que não foram tratadas como falhas. Isso garante transparência no processo e rastreabilidade das decisões tomadas.
+<p align="justify"> Essas Issues estão localizadas no Backlog do Produto, nas colunas "Revisão" e "Revisadas", pois durante a inspeção foram identificados problemas que, após análise, não foram classificados como defeitos reais. Cada Issue permanece nessas colunas acompanhada de sua devida justificativa, explicando por que não foram tratadas como falhas. Isso garante transparência no processo e rastreabilidade das decisões tomadas.
 <p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/ef355ed100b02bf9f498ca1f5342d86edc91c3f9/Casos_de_Teste/Imagens/Issues/Captura%20de%20tela%202025-06-24%20194427.png" alt="" width="600" /></p>
 <p align="center"> Imagem das Issues no Projeto BackLog do Produto
 
