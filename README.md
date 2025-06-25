@@ -85,9 +85,13 @@ Andrey Antonio de Oliveira Rodrigues
 - :bangbang: [Histórias de Usuário Corrigidas]()
 
 ### Casos de Teste
-- :small_blue_diamond: [Tabela de Classes de Equivalência]()
+- :small_blue_diamond: [Tabelas Paciente]()
  
-- :small_orange_diamond: [Tabela dos Casos de Teste]()
+- :small_orange_diamond: [Tabelas Assistente Social]()
 
+- :small_blue_diamond: [Tabelas Enfermeiro]()
+ 
+- :small_blue_diamond: [Tabelas Médico]()
+ 
 ### BackLog do Sprint (TP3)
 - :ballot_box_with_check: [BackLog do Sprint]()
