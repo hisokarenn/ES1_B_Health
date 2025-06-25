@@ -8,9 +8,15 @@
 ---
 
 <p align="justify">Essas novas Histórias corrigidas juntamente com as outras podem ser encontradas no BackLog do Produto na coluna "Especificações corrigidas", criada para destacar as alterações feitas em seus critérios de aceitação e regras de negócio.
-<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/1e9c6aaa18b8ee334642e90084291e120531f654/Casos_de_Teste/Imagens/Issues/Captura%20de%20tela%202025-06-24%20194453.png" alt="" width="300" /></p>
+<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/23752d4bdc5c53bb22bafa4ea957a40b9e49c6e3/Casos_de_Teste/Imagens/Issues/Captura%20de%20tela%202025-06-24%20205818.png" alt="" width="300" /></p>
 <p align="center"> Imagem da coluna onde mostra todas a histórias corrigidas e especificadas
+<br>
+<br>
 
+---
+
+<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/23752d4bdc5c53bb22bafa4ea957a40b9e49c6e3/Casos_de_Teste/Imagens/Issues/Captura%20de%20tela%202025-06-24%20205839.png" alt="" width="300" /></p>
+<p align="center"> Imagem da coluna onde mostra todas a histórias corrigidas e especificadas
 <br>
 <br>
   
