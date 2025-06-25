@@ -154,7 +154,7 @@
 | Sistema envia lembrete com antecedência mínima de 2 dias | Notificação enviada pelo menos 2 dias antes da aplicação (3) | Notificação enviada com menos de 2 dias (4)                                |
 | Formato da notificação é push                            | Notificação push recebida no celular (5)                     | Notificação não enviada ao paciente (6)                                    |
 | Vacina é aplicada e registrada pelo enfermeiro           | Lembretes futuros cancelados automaticamente (7)             | Lembretes continuam mesmo após confirmação da dose (8)                     |
-| Paciente desativa notificações do app no celular         | Lembretes desativados corretamente (9)                       | Lembretes continuam sendo enviados mesmo com notificações desativadas (10) |
+| Paciente desativa notificações do aplicativo no celular         | Lembretes desativados corretamente (9)                       | Lembretes continuam sendo enviados mesmo com notificações desativadas (10) |
 <br>
 
 ### <p align="center">Tabela de Casos de Teste
