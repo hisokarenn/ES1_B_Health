@@ -15,7 +15,7 @@ A seguir as imagens do BackLog do Sprint:
   
 ## Quadro Concluído
 <br>
-<p align="center"> <img src="" alt= "Exemplo da img" alt="" width="1000" /></p>
+<p align="center"> <img src="https://github.com/hisokarenn/ES1-TP1/blob/47683dc2af48cf2cf870e24cf9586e94cf7e6417/Casos_de_Teste/Imagens/BackLog_do_Sprint/Captura%20de%20tela%202025-06-24%20203817.png" alt= "Exemplo da img" alt="" width="1000" /></p>
 <p align="center"> Imagem do BackLog do Sprint parte III (parte 2) CONCLUÍDO
 <br>
   
