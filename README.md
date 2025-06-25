@@ -79,19 +79,19 @@ Andrey Antonio de Oliveira Rodrigues
 
 ## Casos de Teste
 ### Revisão Inspeção
-- :arrows_counterclockwise: [Revisão da Inspeção de Requisitos]()
+- :arrows_counterclockwise: [Revisão da Inspeção de Requisitos](https://github.com/hisokarenn/ES1-TP1/blob/08fb619a3d3cead62463796557baba4da1351471/Casos_de_Teste/1_Revis%C3%A3o_da_Inspe%C3%A7%C3%A3o_Requisitos/Revis%C3%A3o_da_Inspe%C3%A7%C3%A3o.md)
 
 ### Histórias Corrigidas
-- :bangbang: [Histórias de Usuário Corrigidas]()
+- :bangbang: [Histórias de Usuário Corrigidas](https://github.com/hisokarenn/ES1-TP1/blob/08fb619a3d3cead62463796557baba4da1351471/Casos_de_Teste/2_Hist%C3%B3rias_de_Usu%C3%A1rio_Corrigidas/Hist%C3%B3rias_de_Usu%C3%A1rio_Corrigidas.md)
 
 ### Casos de Teste
-- :small_blue_diamond: [Tabelas Paciente]()
+- :small_blue_diamond: [Tabelas Paciente](https://github.com/hisokarenn/ES1-TP1/blob/08fb619a3d3cead62463796557baba4da1351471/Casos_de_Teste/3_Tabela_Classes_de_Equival%C3%AAncia_e_Casos_de_Teste/1_Tabelas_Paciente.md)
  
-- :small_orange_diamond: [Tabelas Assistente Social]()
+- :small_orange_diamond: [Tabelas Assistente Social](https://github.com/hisokarenn/ES1-TP1/blob/08fb619a3d3cead62463796557baba4da1351471/Casos_de_Teste/3_Tabela_Classes_de_Equival%C3%AAncia_e_Casos_de_Teste/2_Tabelas_Assistente_Social.md)
 
-- :small_blue_diamond: [Tabelas Enfermeiro]()
+- :small_blue_diamond: [Tabelas Enfermeiro](https://github.com/hisokarenn/ES1-TP1/blob/08fb619a3d3cead62463796557baba4da1351471/Casos_de_Teste/3_Tabela_Classes_de_Equival%C3%AAncia_e_Casos_de_Teste/3_Tabelas_Enfermeiro.md)
  
-- :small_blue_diamond: [Tabelas Médico]()
+- :small_blue_diamond: [Tabelas Médico](https://github.com/hisokarenn/ES1-TP1/blob/08fb619a3d3cead62463796557baba4da1351471/Casos_de_Teste/3_Tabela_Classes_de_Equival%C3%AAncia_e_Casos_de_Teste/4_Tabelas_M%C3%A9dico.md)
  
 ### BackLog do Sprint (TP3)
-- :ballot_box_with_check: [BackLog do Sprint]()
+- :ballot_box_with_check: [BackLog do Sprint](https://github.com/hisokarenn/ES1-TP1/blob/08fb619a3d3cead62463796557baba4da1351471/Casos_de_Teste/4_BackLog_do_Sprint/BackLog_do_Sprint.md)
