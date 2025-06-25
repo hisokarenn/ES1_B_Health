@@ -16,11 +16,11 @@
 <br>
 
 ## ENFERMEIRO
-### H33 - Como enfermeiro, eu quero me cadastrar no aplicativo, para que eu possa acessar as funcionalidades
+### H33 - Como enfermeiro, eu quero me cadastrar no aplicativo, para que eu possa acessar as funcionalidades.
 <br>
 
 ### <p align="center">Tabela de Equivalência
-|CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS| CLASSES INVÁLIDAS**  |
+|CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS| CLASSES INVÁLIDAS  |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
 | COREN válido e ativo                                                                  | COREN reconhecido pelo sistema e com status ativo (1)        | COREN inválido (2)                          |
 | Senha contém ao menos 8 caracteres, com letra maiúscula, número e símbolo (@, # etc.) | Senha no formato exigido (3)                                 | Senha com menos de 8 caracteres (4)         |
@@ -59,7 +59,7 @@
 | Lista de vacinas exibida atualizada                  | Lista conforme calendário SUS/ANVISA (5)           | Lista desatualizada (6)                                |
 | Enfermeiro possui COREN ativo vinculado à UBS        | COREN válido e vinculado (7)                       | COREN inativo e sem vínculo (8)                        |
 | E-mail institucional validado                        | E-mail com domínio institucional (9)               | E-mail pessoal não verificado (10)                     |
-| Modo de operação (online funcional)                  | Sistema online com cache ativo (11)                | Sistema online sem suporte a cache (12)                |
+| Modo de operação (online funcional)                  | Sistema online com cache ativo (11)                | Sistema offline sem cache (12)                |
 | Vacinas registradas na sessão estão dentro do limite | Até 50 registros por sessão (13)                   | Mais de 50 registros (14)                              |
 | Dados da aplicação preenchidos corretamente          | Lote, validade, fabricante, data, CPF e COREN (15) | Um e diversos outros campos obrigatórios ausentes (16) |
 | Backup dos dados feito conforme exigência legal      | Backup semanal criptografado (17)                  | Backup ausente e sem criptografia (18)                 |
@@ -69,12 +69,12 @@
 ### <p align="center">Tabela de Casos de Teste
 | CASOS DE TESTE| CLASSES DE EQUIVALÊNCIA        | ENTRADAS                                                                                            | RESULTADOS ESPERADOS                                             |
 |--------------------|------------------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| Caso 1             | 1, 3, 5, 7, 9, 11, 13, 15, 17      | CPF e SUS válidos, lista atualizada, COREN ativo, e-mail institucional, sistema online com cache, até 50 registros, dados completos, backup seguro | Registro realizado com sucesso, histórico atualizado e seguro         |
+| Caso 1             | 1, 3, 5, 7, 9, 11, 13, 15, 17      | CPF e SUS válidos respectivamente, lista atualizada, COREN ativo, e-mail institucional, sistema online com cache, até 50 registros, dados completos, backup seguro | Registro realizado com sucesso, histórico atualizado e seguro         |
 | Caso 2             | 2, 3, 5, 7, 9, 11, 13, 15, 17      | CPF incompleto, SUS válido, demais entradas corretas                                                     | Registro bloqueado por CPF inválido                                   |
 | Caso 3             | 1, 4, 5, 7, 9, 11, 13, 15, 17      | CPF válido, SUS com menos de 15 dígitos, demais entradas corretas                                        | Registro bloqueado por SUS inválido                                   |
 | Caso 4             | 1, 3, 6, 7, 9, 11, 13, 15, 17      | Lista de vacinas desatualizada, demais entradas válidas                                                 | Registro permitido, mas com risco de inconsistência no histórico      |
 | Caso 5             | 1, 3, 5, 8, 9, 11, 13, 15, 17      | COREN inativo e sem vínculo, demais entradas corretas                                                   | Registro impedido por falta de autorização do profissional            |
-| Caso 6             | 1, 3, 5, 7, 10, 11, 13, 15, 17     | E-mail pessoal e não verificado, demais entradas válidas                                                | Registro permitido, mas alerta de validação pendente                  |
+| Caso 6             | 1, 3, 5, 7, 10, 11, 13, 15, 17     | E-mail pessoal e não verificado, demais entradas válidas                                                | Registro bloqueado: e-mail institucional obrigatório não validado     |
 | Caso 7             | 1, 3, 5, 7, 9, 12, 13, 15, 17      | Sistema online sem cache, demais entradas corretas                                                      | Registro não armazenado corretamente offline                          |
 | Caso 8             | 1, 3, 5, 7, 9, 11, 14, 15, 17      | Mais de 50 registros na sessão                                                                          | Registro excedente bloqueado                                          |
 | Caso 9             | 1, 3, 5, 7, 9, 11, 13, 16, 17      | Dados da aplicação incompletos (ex: lote ausente)                                                      | Registro rejeitado por dados obrigatórios ausentes                    |
