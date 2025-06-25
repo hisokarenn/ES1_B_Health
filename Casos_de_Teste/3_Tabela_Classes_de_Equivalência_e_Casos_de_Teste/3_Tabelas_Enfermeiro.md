@@ -20,7 +20,7 @@
 <br>
 
 ### <p align="center">Tabela de Equivalência
-| **CONDIÇÃO DE ENTRADA**                                                               | **CLASSES VÁLIDAS**                                          | **CLASSES INVÁLIDAS**                       |
+|CONDIÇÃO DE ENTRADA|CLASSES VÁLIDAS| CLASSES INVÁLIDAS**  |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
 | COREN válido e ativo                                                                  | COREN reconhecido pelo sistema e com status ativo (1)        | COREN inválido (2)                          |
 | Senha contém ao menos 8 caracteres, com letra maiúscula, número e símbolo (@, # etc.) | Senha no formato exigido (3)                                 | Senha com menos de 8 caracteres (4)         |
@@ -33,7 +33,7 @@
 <br>
 
 ### <p align="center">Tabela de Casos de Teste
-| **CASOS DE TESTE** | **CLASSES DE EQUIVALÊNCIA** | **ENTRADAS**                                                                                                                                         | **RESULTADOS ESPERADOS**                       |
+| CASOS DE TESTE| CLASSES DE EQUIVALÊNCIA | ENTRADAS                                                                                                                                        | RESULTADOS ESPERADOS                      |
 | ------------------ | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
 | Caso 1             | 1, 3, 5, 7, 11, 13, 15      | COREN válido e ativo, senha forte, todos os dados preenchidos, COREN inativo bloqueado, 3 falhas de login, e-mail de bloqueio enviado, sessão expira | Acesso controlado corretamente                 |
 | Caso 2             | 2, 3, 5, 7, 11, 13, 15      | COREN inválido, senha forte, dados completos, verificação manual ativa, login incorreto 3x, e-mail enviado, sessão expira                            | Cadastro rejeitado (COREN inválido)            |
@@ -48,44 +48,22 @@
 
 ---
 
-### H20 - Como enfermeiro, quero registrar a aplicação de vacinas diretamente no aplicativo, para que eu possa atualizar o histórico do paciente.
+### H20 - Como enfermeiro, quero registrar a aplicação de vacinas diretamente no aplicativo, para atualizar o histórico do paciente imediatamente quando online ou quando a conexão for restabelecida se estiver offline.
 <br>
 
 ### <p align="center">Tabela de Equivalência
-| **CONDIÇÃO DE ENTRADA**                                       | **CLASSES VÁLIDAS**                                                              | **CLASSES INVÁLIDAS**                     |
-| ------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------- |
-| Busca de paciente por CPF ou número do SUS                    | CPF com 11 dígitos e CNS com 15 dígitos válidos (1)                              | CPF e CNS inválidos (2)                   |
-| Vacinas disponíveis na lista estática oficial do SUS/ANVISA   | Lista correta com vacinas do calendário atualizado (3)                           | Lista desatualizada (4)                   |
-| Sistema aceita registrar até 50 vacinas por sessão            | Registros aceitos até o limite de 50 por sessão (5)                              | Excede o limite sem nova autenticação (6) |
-| Sistema permite registros tanto online quanto offline         | Registro salvo localmente e sincronizado quando online (7)                       | Falha na sincronização (8)                |
-| Enfermeiro possui COREN ativo e está vinculado a uma UBS      | COREN validado e vínculo confirmado (9)                                          | COREN inativo (10)                        |
-| Registro de lote de vacina completo com os dados obrigatórios | Lote registrado com nº do lote, validade, fabricante, CPF, COREN, data/hora (11) | Registro incompleto (12)                  |
-| Backups criptografados garantem rastreabilidade               | Registros armazenados com criptografia e retenção por 10 anos (13)               | Falha no backup (14)                      |
-
 <br>
 
 ### <p align="center">Tabela de Casos de Teste
-| **CASOS DE TESTE** | **CLASSES DE EQUIVALÊNCIA** | **ENTRADAS**                                                                                                                                                     | **RESULTADOS ESPERADOS**                     |
-| ------------------ | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| Caso 1             | 1, 3, 5, 7, 9, 11, 13       | CPF e CNS válidos, lista oficial do SUS, até 50 vacinas registradas, registro offline sincronizado, COREN ativo e vinculado, lote completo, backup criptografado | Registro concluído com sucesso e seguro      |
-| Caso 2             | 2, 3, 5, 7, 9, 11, 13       | CPF/CNS inválidos, lista oficial, até 50 vacinas, sincronização OK, COREN válido, lote completo, backup ok                                                       | Busca inválida (CPF/CNS incorretos)          |
-| Caso 3             | 1, 4, 5, 7, 9, 11, 13       | CPF/CNS válidos, lista desatualizada, até 50 vacinas, sincronização OK, COREN válido, lote completo, backup ok                                                   | Lista de vacinas incorreta                   |
-| Caso 4             | 1, 3, 6, 7, 9, 11, 13       | CPF/CNS válidos, lista oficial, mais de 50 vacinas sem nova autenticação, sincronização OK, COREN válido, lote completo, backup ok                               | Erro: excedeu limite de registros            |
-| Caso 5             | 1, 3, 5, 8, 9, 11, 13       | CPF/CNS válidos, lista oficial, até 50 vacinas, falha na sincronização offline, COREN válido, lote completo, backup ok                                           | Registros não sincronizados corretamente     |
-| Caso 6             | 1, 3, 5, 7, 10, 11, 13      | CPF/CNS válidos, lista oficial, até 50 vacinas, sincronização ok, COREN inativo, lote completo, backup ok                                                        | Acesso negado ao enfermeiro (COREN inválido) |
-| Caso 7             | 1, 3, 5, 7, 9, 12, 13       | CPF/CNS válidos, lista oficial, até 50 vacinas, sincronização ok, COREN válido, lote incompleto, backup ok                                                       | Registro de vacina incompleto                |
-| Caso 8             | 1, 3, 5, 7, 9, 11, 14       | CPF/CNS válidos, lista oficial, até 50 vacinas, sincronização ok, COREN válido, lote completo, backup com falha                                                  | Falha na rastreabilidade dos registros       |
-
 <br>
 
 ---
-
 
 ### H21 - Como enfermeiro, quero acessar um mapa com unidades de saúde, para que eu possa orientar pacientes sobre locais disponíveis para vacinação.
 <br>
 
 ### <p align="center">Tabela de Equivalência
-| **CONDIÇÃO DE ENTRADA**                                                       | **CLASSES VÁLIDAS**                                                           | **CLASSES INVÁLIDAS**                               |
+| CONDIÇÃO DE ENTRADA                                                     | CLASSES VÁLIDAS                                                           | CLASSES INVÁLIDAS                              |
 | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------- |
 | Indicador de lotação exibido corretamente por cor                             | Verde (≤50%), Amarelo (51–80%), Vermelho (>80%), atualizado a cada 15 min (1) | Cores erradas (2)                                   |
 | Mapa mostra unidades num raio inicial de 500m e expande automaticamente       | Raio de busca aumenta para 1km, 3km e 5km caso não haja unidades (3)          | Raio não expande (4)                                |
@@ -96,7 +74,7 @@
 <br>
 
 ### <p align="center">Tabela de Casos de Teste
-| **CASOS DE TESTE** | **CLASSES DE EQUIVALÊNCIA** | **ENTRADAS**                                                                                                                                                                  | **RESULTADOS ESPERADOS**                      |
+| CASOS DE TESTE| CLASSES DE EQUIVALÊNCIA | ENTRADAS                                                                                                                                                                  | RESULTADOS ESPERADOS                     |
 | ------------------ | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | Caso 1             | 1, 3, 5, 7, 9               | Indicador de lotação com cores corretas, raio expandido automaticamente, raio ajustável pelo usuário, endereços válidos e verificados, falhas marcadas como "não verificadas" | Comportamento ideal do sistema                |
 | Caso 2             | 2, 3, 5, 7, 9               | Cores de lotação erradas (ex: vermelho com 40%), raio expandido corretamente, ajuste manual disponível, endereços válidos, falhas marcadas                                    | Exibição incorreta das cores de lotação       |
@@ -110,57 +88,23 @@
 ---
 
 
-### H22 - Como enfermeiro, eu quero cadastrar os detalhes de campanhas de vacinação no aplicativo, para informar a todos os pacientes.
+### H22 - Como enfermeiro, quero cadastrar campanhas de vacinação no aplicativo, para que os pacientes sejam informados com precisão e rapidez sobre oportunidades de vacinação em sua região.
 <br>
 
 ### <p align="center">Tabela de Equivalência
-| **CONDIÇÃO DE ENTRADA**                                        | **CLASSES VÁLIDAS**                                                               | **CLASSES INVÁLIDAS**                      |
-| -------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
-| Campanha submetida por enfermeiro com COREN                    | Enfermeiro-chefe com COREN ativo aprova a campanha (1)                            | Campanha enviada por usuário sem COREN (2) |
-| Aprovação da campanha ocorre em até 2 horas                    | Campanha validada dentro do prazo e publicada (3)                                 | Aprovação não ocorre em 2 horas (4)        |
-| Campanha reprovada pode ser reenviada após revisão             | Sistema permite correção e reenvio para nova tentativa de aprovação (5)           | Sistema bloqueia reenvio (6)               |
-| Notificações são enviadas a todos os perfis com formato padrão | Push enviado com mensagem no formato: ‘Campanha \[x] em \[Posto] até \[Data]’ (7) | Notificação não enviada (8)                |
-
 <br>
 
 ### <p align="center">Tabela de Casos de Teste
-| **CASOS DE TESTE** | **CLASSES DE EQUIVALÊNCIA** | **ENTRADAS**                                                                                                                          | **RESULTADOS ESPERADOS**                           |
-| ------------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| Caso 1             | 1, 3, 5, 7                  | Campanha submetida por enfermeiro com COREN, aprovada em até 2h, reprovada anteriormente e reenviada com sucesso, notificação enviada | Fluxo completo e esperado                          |
-| Caso 2             | 2, 3, 5, 7                  | Campanha enviada por usuário sem COREN, aprovada em até 2h, reenvio habilitado, notificação enviada                                   | Erro de submissão (sem COREN)                      |
-| Caso 3             | 1, 4, 5, 7                  | Enfermeiro com COREN envia campanha, aprovação demorada (após 2h), reenvio permitido, notificação enviada                             | Atraso no fluxo de publicação                      |
-| Caso 4             | 1, 3, 6, 7                  | Enfermeiro com COREN envia, aprovada em até 2h, reprovação sem permitir reenvio, notificação enviada                                  | Falha de usabilidade (sistema não permite reenvio) |
-| Caso 5             | 1, 3, 5, 8                  | Enfermeiro com COREN envia campanha, aprovada em até 2h, reenvio possível, notificação não enviada                                    | Comunicação falhou (push ausente)                  |
-
 <br>
 
 ---
 
 
-### H23 - Como enfermeiro, eu gostaria de registrar as vacinas que foram aplicadas no paciente para que atualize a carteira de vacina do paciente.
+### H23 - Como enfermeiro, quero registrar no aplicativo todos os dados da aplicação de vacinas, para que o histórico vacinal seja atualizado com informações completas e rastreáveis conforme exigências do PNI.
 <br>
 
 ### <p align="center">Tabela de Equivalência
-| **CONDIÇÃO DE ENTRADA**                                                    | **CLASSES VÁLIDAS**                                                                    | **CLASSES INVÁLIDAS**                                                      |
-| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Registro segue intervalo mínimo do PNI ou é reforço autorizado             | Sistema aceita vacina dentro do prazo e com dose de reforço válida (1)                 | Sistema bloqueia registro duplicado fora do prazo sem justificativa (2)    |
-| Vacinas/doses pendentes geram alertas automáticos                          | Notificações visuais e push informam vacina, dose e prazo conforme PNI (3)             | Nenhum alerta é exibido (4)                                                |
-| Paciente visualiza histórico atualizado em até 1 minuto após o registro    | Atualização dentro do tempo limite (5)                                                 | Histórico não atualizado (6)                                               |
-| Histórico pode ser exportado em PDF conforme modelo do Ministério da Saúde | PDF gerado com QR Code e dados oficiais disponíveis ao paciente e profissionais (7)    | PDF ausente (8)                                                            |
-| Vacina reaplicada fora do prazo com justificativa médica                   | Cadastro autorizado com CRM, token, justificativa e prontuário (9)                     | Reaplicação fora do intervalo sem justificativa e documentação médica (10) |
-| Registro feito offline é sincronizado e verificado na reconexão            | Sincronização verifica duplicidade (CPF + lote + data + tipo) e permite resolução (11) | Sincronização falha (12)                                                   |
-
 <br>
 
 ### <p align="center">Tabela de Casos de Teste
-| **CASOS DE TESTE** | **CLASSES DE EQUIVALÊNCIA** | **ENTRADAS**                                                                                                                                                                                                     | **RESULTADOS ESPERADOS**                               |
-| ------------------ | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Caso 1             | 1, 3, 5, 7, 9, 11           | Vacina registrada dentro do intervalo mínimo, alerta exibido corretamente, histórico atualizado em até 1 minuto, PDF gerado com QR Code, reaplicação com justificativa médica, sincronização resolve duplicidade | Registro válido e completo                             |
-| Caso 2             | 2, 3, 5, 7, 9, 11           | Registro duplicado fora do prazo e sem justificativa, alerta gerado, histórico atualizado, PDF gerado, reaplicação com justificativa médica, sincronização resolve duplicidade                                   | Registro bloqueado por duplicidade fora do prazo       |
-| Caso 3             | 1, 4, 5, 7, 9, 11           | Registro válido, nenhum alerta é exibido, histórico atualizado, PDF gerado, reaplicação com justificativa, sincronização ok                                                                                      | Falha na geração de alerta automático                  |
-| Caso 4             | 1, 3, 6, 7, 9, 11           | Registro válido, alerta ok, histórico não é atualizado, PDF gerado, reaplicação com justificativa, sincronização ok                                                                                              | Histórico do paciente inconsistente                    |
-| Caso 5             | 1, 3, 5, 8, 9, 11           | Registro válido, alerta ok, histórico atualizado, PDF não é gerado, reaplicação com justificativa, sincronização ok                                                                                              | Falha na exportação do histórico em PDF                |
-| Caso 6             | 1, 3, 5, 7, 10, 11          | Registro válido, alerta ok, histórico atualizado, PDF gerado, reaplicação sem justificativa médica, sincronização ok                                                                                             | Registro rejeitado por falta de justificativa médica   |
-| Caso 7             | 1, 3, 5, 7, 9, 12           | Registro válido, alerta ok, histórico atualizado, PDF gerado, reaplicação justificada, sincronização falha                                                                                                       | Risco de dados não integrados (falha de sincronização) |
-
 <br>
