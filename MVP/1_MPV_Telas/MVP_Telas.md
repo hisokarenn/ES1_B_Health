@@ -95,20 +95,21 @@
 ## Interações Adicionais
 <br>
 
-<p align="justify"> Algumas funcionalidades que estariam presentes no aplivativo na área do "Paciente" não foram especificadas, porém fazem parte do layout da aplicação. Tais interações receberam pop ups com a mensagem "Em desenvolvimento".
+<p align="justify"> Algumas funcionalidades que estariam presentes no aplicativo na área do "Paciente" não foram especificadas, porém fazem parte do layout da aplicação. Tais interações receberam pop-ups com a mensagem "Em desenvolvimento".
 <br>
   <br>
   
 <p align="center">
   <img src="https://github.com/hisokarenn/ES1_B_Health/blob/d92b0df4462597154fd6ecbd25a2b0a842e4d248/MVP/Imagens/Telas/EM%20DESENVOLVIMENTO%20GIF.gif" alt="Imagem 1" width="320"/>
    <img src="https://github.com/hisokarenn/ES1_B_Health/blob/d92b0df4462597154fd6ecbd25a2b0a842e4d248/MVP/Imagens/Telas/EM%20DESENVOLVIMENTO.png" alt="Imagem 2" width="260"/>
-  <p align="center">Pop Up "Em Desenvolvimento"
+  <p align="center">Pop-up "Em Desenvolvimento"
 </p>
 <br>
 
 ---
 
-<p align="justify"> Aqui mostra o pop up "Importância da Vacina" que apresentas as informações ao clicar no botão respectivo na página Home.
+<br>
+<p align="justify"> Aqui mostra o pop-up "Importância da Vacina" que apresenta as informações ao clicar no botão respectivo na página Home.
 <br>
   <br>
   
@@ -116,13 +117,14 @@
 <p align="center">
   <img src="https://github.com/hisokarenn/ES1_B_Health/blob/d92b0df4462597154fd6ecbd25a2b0a842e4d248/MVP/Imagens/Telas/IMPOTANCIAvacina%20GIF.gif" alt="Imagem 1" width="320"/>
    <img src="https://github.com/hisokarenn/ES1_B_Health/blob/d92b0df4462597154fd6ecbd25a2b0a842e4d248/MVP/Imagens/Telas/IMPORT%C3%82NCIA%20VACINA.png" alt="Imagem 2" width="260"/>
-  <p align="center">Pop Up "Importância Vacina"
+  <p align="center">Pop-up "Importância Vacina"
 </p>
 <br>
 
 ---
 
-<p align="justify">
+<br>
+<p align="justify">  Aqui mostra o pop-up "Fale Conosco" que apresenta as informações ao clicar no botão respectivo na página Home.
 <br>
   <br>
   
@@ -130,13 +132,14 @@
 <p align="center">
   <img src="https://github.com/hisokarenn/ES1_B_Health/blob/d92b0df4462597154fd6ecbd25a2b0a842e4d248/MVP/Imagens/Telas/FALE%20CONOSCO%20GIF.gif" alt="Imagem 1" width="320"/>
    <img src="https://github.com/hisokarenn/ES1_B_Health/blob/d92b0df4462597154fd6ecbd25a2b0a842e4d248/MVP/Imagens/Telas/FALE%20CONOSCO.png" alt="Imagem 2" width="260"/>
-  <p align="center">Pop Up "Fale Conosco"
+  <p align="center">Pop-up "Fale Conosco"
 </p>
 <br>
 
 ---
 
-<p align="justify">
+<br>
+<p align="justify"> Aqui mostra o pop-up "Sobre Nós" que apresenta as informações ao clicar no botão respectivo na página Home.
 <br>
   <br>
   
@@ -144,6 +147,6 @@
 <p align="center">
   <img src="https://github.com/hisokarenn/ES1_B_Health/blob/d92b0df4462597154fd6ecbd25a2b0a842e4d248/MVP/Imagens/Telas/SOBRE%20N%C3%93S%20GIF.gif" alt="Imagem 1" width="320"/>
    <img src="https://github.com/hisokarenn/ES1_B_Health/blob/d92b0df4462597154fd6ecbd25a2b0a842e4d248/MVP/Imagens/Telas/SOBRE%20N%C3%93S.png" alt="Imagem 2" width="260"/>
-  <p align="center">Pop Up "Sobre Nós"
+  <p align="center">Pop-up "Sobre Nós"
 </p>
 <br>
