@@ -5,7 +5,7 @@
 <br>
 <br>
   
-# Sequência de Rastreabilidade
+# Tabelas de Rastreabilidade
 <br> 
 
 <p align="justify">A seguir, serão apresentadas as principais funcionalidades do sistema, detalhadas com suas respectivas relações nos diagramas de classes e nas diferentes camadas da arquitetura C4. Para cada funcionalidade, é descrito o contexto geral, os containers envolvidos e os componentes que fazem parte do seu funcionamento, proporcionando uma visão clara e organizada da estrutura do sistema.
@@ -13,6 +13,15 @@
 <br> 
 
 ## 1. Funcionalidade: Cadastro de Usuário
+<br>
+
+| Diagrama | Contexto |
+|-|-|
+|**Diagrama de Classes**| Utiliza as classes Usuário e Autenticação. |
+|**Diagrama C4 (Contexto)**| A funcionalidade envolve o Aplicativo Móvel (Flutter Flow), o Serviço Back-end (Firebase) e o Banco de Dados (Firestore). |
+| **Diagrama C4 (Container)** | A funcionalidade faz parte do container "Aplicativo Móvel", que se comunica com o "Serviço Back-end" e o "Firestore". |
+|**Diagrama C4 (Componente)** | Conecta a Tela de Cadastro, o Controlador de Usuário, o Serviço de Autenticação e o Firestore para criar o registro do usuário. |
+<br>
 
 - **Diagrama de Classes:** Utiliza as classes Usuário e Autenticação.
 
