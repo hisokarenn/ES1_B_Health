@@ -104,7 +104,7 @@ Andrey Antonio de Oliveira Rodrigues
 - :movie_camera: [Vídeo Demonstração](https://github.com/hisokarenn/ES1_B_Health/blob/83f2cc296cc68939940142cc0d33b13ace975cd0/MVP/1_MPV_Telas/V%C3%ADdeo_Demonstra%C3%A7%C3%A3o_B_HEALTH.md)
 
 ### Rastreabilidade
-- :busts_in_silhouette: [Rastreabilidade co Histórias de Usuário](https://github.com/hisokarenn/ES1_B_Health/blob/b7a41cb9a3427d82865b987d7099d3d9388a44a2/MVP/2_Rastreabilidade_Hist%C3%B3rias_Usu%C3%A1rio/Rastreabilidade_Hist%C3%B3rias_Usu%C3%A1rio.md)
+- :busts_in_silhouette: [Rastreabilidade com Histórias de Usuário](https://github.com/hisokarenn/ES1_B_Health/blob/b7a41cb9a3427d82865b987d7099d3d9388a44a2/MVP/2_Rastreabilidade_Hist%C3%B3rias_Usu%C3%A1rio/Rastreabilidade_Hist%C3%B3rias_Usu%C3%A1rio.md)
 
 - :pencil: [Rastreabilidade com Diagramas_Modelo C4](https://github.com/hisokarenn/ES1_B_Health/blob/b7a41cb9a3427d82865b987d7099d3d9388a44a2/MVP/3_Rastreabilidade_ModeloC4/Rastreabilidade_ModeloC4.md)
 
