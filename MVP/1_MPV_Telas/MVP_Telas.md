@@ -5,17 +5,16 @@
 <br>
 <br>
 
-## Tela Inicial + Logo
+## Tela Inicial com o Logo
 <br>
 
-<p align="justify">Esta é a Tela Inicial exibida ao abrir o aplicativo, acompanhada ao lado pelo logo desenvolvido especialmente para o projeto.
+<p align="justify">Esta é a Tela Inicial exibida ao abrir o aplicativo, acompanhada pelo logo desenvolvido especialmente para o projeto.
   <br>
   <br>
   
 <p align="center">
   <img src="https://github.com/hisokarenn/ES1_B_Health/blob/b65dad71dbe035b12bf44134a94ef3e270706ae9/MVP/Imagens/Telas/TELAinicial.png" alt="Imagem 1" width="260"/>
-  <img src="https://github.com/hisokarenn/ES1_B_Health/blob/b65dad71dbe035b12bf44134a94ef3e270706ae9/MVP/Imagens/Logo/LOGOpng%20(2).png" alt="Imagem 2" width="260"/>
-  <p align="center">Tela Inicial + Logo
+  <p align="center">Tela Inicial
 </p>
 <br>
 
