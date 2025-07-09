@@ -23,8 +23,6 @@
 |**Diagrama C4 (Componente)** | Conecta a Tela de Cadastro, o Controlador de Usuário, o Serviço de Autenticação e o Firestore para criar o registro do usuário. |
 <br>
 
----
-
 ## 2. Funcionalidade: Login de Usuário
 <br>
 
@@ -35,8 +33,6 @@
 | Diagrama C4 (Container) | A funcionalidade faz parte do container "Aplicativo Móvel", que se comunica com o "Serviço Back-end" e o "Firestore". |
 | Diagrama C4 (Componente) | Conecta a Tela de Login, o Controlador de Autenticação, o Serviço de Autenticação e o Firestore/Firebase Authentication para validar e recuperar os dados do usuário. |
 <br>
-
----
 
 ## 3. Funcionalidade: Consulta da Carteira de Vacinação
 <br>
@@ -49,8 +45,6 @@
 | Diagrama C4 (Componente) | Conecta a Tela Carteira de Vacina, o Controlador de Vacinas, o Serviço de Histórico de Vacinas e o Firestore para exibir as doses aplicadas. |
 <br>
 
----
-
 ## 4. Funcionalidade: Mapa de Vacinação
 <br>
 
@@ -62,8 +56,6 @@
 | Diagrama C4 (Componente) | Conecta a Tela de Mapa de Vacinação, o Controlador de Mapas, o Serviço de Geolocalização, o Google Maps SDK e o Firestore para buscar e mostrar os locais no mapa. |
 <br>
 
----
-
 ## 5. Funcionalidade: Mapa de Campanhas de Vacinação
 <br>
 
@@ -74,5 +66,3 @@
 | Diagrama C4 (Container) | A funcionalidade faz parte do container "Aplicativo Móvel", que se comunica com o "Serviço Back-end", o "Firestore" e o "Google Maps SDK". |
 | Diagrama C4 (Componente) | Conecta a Tela de Mapa de Campanhas, o Controlador de Campanhas, o Controlador de Mapas, o Serviço de Geolocalização, o Google Maps SDK e o Firestore para exibir as campanhas no mapa. |
 <br>
-
----
