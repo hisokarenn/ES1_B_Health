@@ -103,6 +103,10 @@ Andrey Antonio de Oliveira Rodrigues
 - :iphone: [B Health Telas e Interações]()
 
 ### Rastreabilidade
-- :busts_in_silhouette: [Rastreabilidade co Histórias de Usuário]()
+- :busts_in_silhouette: [Rastreabilidade co Histórias de Usuário](https://github.com/hisokarenn/ES1_B_Health/blob/b7a41cb9a3427d82865b987d7099d3d9388a44a2/MVP/2_Rastreabilidade_Hist%C3%B3rias_Usu%C3%A1rio/Rastreabilidade_Hist%C3%B3rias_Usu%C3%A1rio.md)
 
-- :pencil: [Rastreabilidade com Diagramas_Modelo C4]()
+- :pencil: [Rastreabilidade com Diagramas_Modelo C4](https://github.com/hisokarenn/ES1_B_Health/blob/b7a41cb9a3427d82865b987d7099d3d9388a44a2/MVP/3_Rastreabilidade_ModeloC4/Rastreabilidade_ModeloC4.md)
+
+### BackLog do Sprint (TP4)
+- :ballot_box_with_check: [BackLog do Sprint](https://github.com/hisokarenn/ES1_B_Health/blob/b7a41cb9a3427d82865b987d7099d3d9388a44a2/MVP/4_BackLog_do_Sprint/BackLog_do_Sprint.md)
+<br>
