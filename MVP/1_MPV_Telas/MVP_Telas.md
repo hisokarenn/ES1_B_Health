@@ -8,6 +8,15 @@
 ## Tela Cadastro
 <br>
 
+<p align="center">
+  <img src="https://github.com/hisokarenn/ES1_B_Health/blob/8c7bf7c3e2416c7cffd17907b76c0a4a9d58a929/MVP/Imagens/Telas/Cadastro%20%E2%80%90%20Feito%20com%20o%20Clipchamp.gif" alt="Imagem 1" width="220"/>
+  <img src="https://github.com/hisokarenn/ES1_B_Health/blob/8c7bf7c3e2416c7cffd17907b76c0a4a9d58a929/MVP/Imagens/Telas/CADASTRO%201.png" alt="Imagem 2" width="200"/>
+  <img src="https://github.com/hisokarenn/ES1_B_Health/blob/8c7bf7c3e2416c7cffd17907b76c0a4a9d58a929/MVP/Imagens/Telas/CADSTRO%202.png" alt="Imagem 3" width="194"/>
+  <img src="https://github.com/hisokarenn/ES1_B_Health/blob/8c7bf7c3e2416c7cffd17907b76c0a4a9d58a929/MVP/Imagens/Telas/CADASTRO%203.png" alt="Imagem 4" width="190"/>
+  <p align="center">Cadastro
+</p>
+
+
 ## Tela Login
 <br>
 
