@@ -18,6 +18,7 @@
 |1.0|Elaboração do Plano de Trabalho|Aila Karoline, Gustavo Pena, Luciano Hugo, Karen Vitória, Sabrina Martins|14/04/2025|
 |1.1|Alteração da estrutura do Plano de Trabalho|Karen Vitória e Sabrina Martins|09/05/2025|
 |1.2|Correção de alguns tópicos no Plano de Trabalho|Karen Vitória|23/05/2025|
+|1.2|Correção nas tecnologias utilizadas|Karen Vitória|23/07/2025|
 <br>
 
 ## Sumário
@@ -138,7 +139,7 @@ O projeto não contempla:
 |Repositório de Código|GitHub|
 |Ferramenta de Design|Canva|
 |Modelagem de Software|Draw.io|
-|Desenvolvimento do MVP|Thunkable|
+|Desenvolvimento do MVP|FlutterFlow|
 <br>
 
 ### 2.3 Características Inovadoras do Projeto
