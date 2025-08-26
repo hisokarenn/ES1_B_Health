@@ -34,7 +34,7 @@ Andrey Antonio de Oliveira Rodrigues
 ## Ideação e Especificação
 
 ### Plano de Trabalho
-- :speech_balloon: [Plano de Trabalho](https://github.com/hisokarenn/ES1-TP1/blob/859b5ccd4a17bda57965a308a1e962c64b0d5e9f/Ideacao_Especificacao/1_Plano_de_Trabalho/Plano_de_Trabalho.md)
+- :speech_balloon: [Plano de Trabalho](https://github.com/hisokarenn/ES1_B_Health/blob/859b5ccd4a17bda57965a308a1e962c64b0d5e9f/Ideacao_Especificacao/1_Plano_de_Trabalho/Plano_de_Trabalho.md)
 
 ### Design Thinking
 - :mag: [Golden Circle](https://github.com/hisokarenn/ES1-TP1/blob/d64d984eea579a135c9c3db8bac4e7259134389f/Ideacao_Especificacao/2_Design_Thinking/1_Golden_Circle.md)
